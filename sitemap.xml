@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+
+  <!-- the title -->
+
+  <url>
+    <loc>https://ryan.eunkwangchoi.com/</loc>
+    <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- the title ends -->
+
+  <!-- the main links -->
+
+  <url>
+    <loc>https://ryan.eunkwangchoi.com/2024</loc>
+    <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://eunkwangchoi.artstation.com/</loc>
+    <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://ryan.eunkwangchoi.com/contact</loc>
+    <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+      <loc>https://ryan.eunkwangchoi.com/</loc>
+      <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+      <changefreq>always</changefreq>
+      <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://scrivener.eunkwangchoi.com/contact</loc>
+    <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.yes24.com/Product/Goods/116259098</loc>
+    <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- the main links end -->
+
+  <!-- the social links -->
+
+  <url>
+    <loc>https://www.behance.net/0477d466</loc>
+    <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>http://instagram.com/eunkwang.ryan.choi</loc>
+    <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://eunkwangchoi.medium.com/</loc>
+    <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+      <loc>https://www.pinterest.co.kr/EunkwangChoi/</loc>
+      <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/eunkwangchoi</loc>
+    <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://patreon.com/onion_ring</loc>
+    <lastmod>2024-01-12T02:39:11+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- the social links end -->
+
+</urlset>
