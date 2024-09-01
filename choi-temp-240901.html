@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eunkwang Choi -- Under Construction</title>
+	<style>
+		html, body {
+		overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+    <video id="tempVideo" width=100% height=100% autoplay loop>
+	    <source src="videos/choi-temp-240901.webm" type="video/webm">
+		<source src="videos/choi-temp-240901.mp4" type="video/mp4">
+		<source src="videos/choi-temp-240901.ogv" type="video/ogg">
+		Your browser does not support the video tag.
+
+		Eunkwang Choi's Home is on Renovating Now.
+		It will soon be finished.		
+	</video>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+		   var video = document.getElementById('tempVideo');
+		   video.muted = true;
+		   video.play().catch(function(error) {
+		      console.log('Autoplay was prevented:', error);
+		   });
+		 });
+	</script>
+</body>
+</html>
