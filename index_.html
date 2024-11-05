@@ -29,34 +29,30 @@
 </style>
  
 <body>
-	<img src="images/loading.gif">
+	<img src="images/choi-temp-241105.gif">
 </body>
 
 <script>
 	// Detect the user's browser language
 	const userLang = navigator.language || navigator.userLanguage;
 
-	// Redirect based on language
-	switch (userLang) {
-	case "en":
-	case "en-US":
-		window.location.href = "page_en.html"; // Redirect to English page
-		break;
-	case "ko":
-	case "ko-KR":
-		window.location.href = "page_ko.html"; // Redirect to Korean page
-		break;
-	// Add more languages and pages as needed
-	default:
-		window.location.href = "page_default.html"; // Redirect to default page
-	}
-</script>
-
-	
-<script>
+	// Redirect pages on load
 	window.onload = function() {
-        window.location.reload(true);
-    }
+		// Redirect based on language
+		switch (userLang) {
+		case "en":
+		case "en-US":
+			window.location.href = "https://arteuro.net"; // Redirect to English page
+			break;
+		case "ko":
+		case "ko-KR":
+			window.location.href = "https://naver.com"; // Redirect to Korean page
+			break;
+		// Add more languages and pages as needed
+		default:
+			window.location.href = "https://naver.com"; // Redirect to default page
+		}
+	}
 </script>
   
 </html>
