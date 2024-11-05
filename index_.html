@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="Generator" content="EditPlus 5.7, Visual Script Code 1.85">
+	<meta name="Generator" content="EditPlus 6.0, Visual Script Code 1.85">
 	<meta name="Author" content="Eunkwang Ryan Choi">
 	<meta name="Description" content="Eunkwang Ryan Choi -- Visual Artist, Writer, and CEO of Art &amp; Technology startup Atelier Euro. Explore my academic works in Philosophy &amp; Aesthetics, publications, and innovative art-tech projects. Based in Seoul.">
 	<meta name="Keywords" content="Eunkwang Ryan Choi, Eunkwang Choi, Ryan Choi, Visual Artist Seoul, Art &amp; Technology, Atelier Euro, Philosophy, Aesthetics, Academic Writer, Writer, Essayist, Book Author, Scrivener, Fulbright Scholar, Seoul National University Alumni, Kyungnam University Professor, Graphic Design, Digital Art, Technology Integration in Art, Artistic Entrepreneurship, Quote">
@@ -13,24 +13,29 @@
 	<meta http-equiv="refresh" content="0; url=https://ryan.eunkwangchoi.com">
 	
 	<title>최은광 -- Eunkwang Ryan Choi</title>
+	
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
 
-	// 구글 광고
+	<!-- Google AdSense -->
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2618164900782657" crossorigin="anonymous"></script>
 </head>
  
 <style>
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgb(252,253,252);
+		height: 100vh;
+		margin: 0;
+	}
+
 	img {
-	width: 15%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+		max-width: 60%;
+		max-height: 60%;
 	}
 </style>
- 
-<body>
-	<img src="images/choi-temp-241105.gif">
-</body>
 
 <script>
 	// Detect the user's browser language
@@ -38,21 +43,25 @@
 
 	// Redirect pages on load
 	window.onload = function() {
+
 		// Redirect based on language
 		switch (userLang) {
 		case "en":
 		case "en-US":
-			window.location.href = "https://arteuro.net"; // Redirect to English page
+			window.location.href = "https://en.eunkwangchoi.com"; 
 			break;
 		case "ko":
 		case "ko-KR":
-			window.location.href = "https://naver.com"; // Redirect to Korean page
+			window.location.href = "https://kr.eunkwangchoi.com"; 
 			break;
-		// Add more languages and pages as needed
 		default:
-			window.location.href = "https://naver.com"; // Redirect to default page
+			window.location.href = "https://en.eunkwangchoi.com"; 
 		}
 	}
 </script>
+
+<body>
+	<img src="images/choi-temp-241105.gif" alt="Under Construction">
+</body>
   
 </html>
