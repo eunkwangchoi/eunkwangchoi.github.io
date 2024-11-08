@@ -3,28 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Generator" content="EditPlus®">
-  <meta name="Author" content="Author Name">
-  <meta name="Keywords" content="Adobe webpage, HTML, iframe example">
-  <meta name="Description" content="An example of embedding an Adobe webpage using an iframe with sandbox attributes">
-  <title>Embedded Adobe Webpage</title>
+  <title>Fullscreen Embedded Adobe Webpage</title>
   <style>
-    iframe:focus {
-      outline: none;
+    /* Make the iframe cover the entire screen */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
     }
 
-    iframe[seamless] {
-      display: block;
+    iframe {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none; /* Remove iframe border */
     }
   </style>
 </head>
 <body>
   <iframe 
     src="https://new.express.adobe.com/webpage/6WOIwPin9YqQX?/embed.html" 
-    width="1920" 
-    height="1000" 
     sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms" 
-    aria-label="Embedded Adobe Webpage" 
+    aria-label="Embedded Adobe Webpage in Fullscreen" 
     title="Embedded Adobe Webpage">
   </iframe>
 </body>
