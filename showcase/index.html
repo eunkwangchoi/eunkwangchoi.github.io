@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Generator" content="EditPlus®">
-  <meta name="Author" content="">
-  <meta name="Keywords" content="">
-  <meta name="Description" content="">
-  <title>Document</title>
- <style>
-  iframe:focus {
-  outline: none;
-}
+  <meta name="Author" content="Author Name">
+  <meta name="Keywords" content="Adobe webpage, HTML, iframe example">
+  <meta name="Description" content="An example of embedding an Adobe webpage using an iframe with sandbox attributes">
+  <title>Embedded Adobe Webpage</title>
+  <style>
+    iframe:focus {
+      outline: none;
+    }
 
-iframe[seamless] {
-  display: block;
-}
- </style>
- </head>
- <body>
-  <iframe src="https://new.express.adobe.com/webpage/6WOIwPin9YqQX?/embed.html" width="1920" height="1200" sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms"></iframe>
- </body>
+    iframe[seamless] {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <iframe 
+    src="https://new.express.adobe.com/webpage/6WOIwPin9YqQX?/embed.html" 
+    width="1920" 
+    height="1200" 
+    sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms" 
+    aria-label="Embedded Adobe Webpage" 
+    title="Embedded Adobe Webpage">
+  </iframe>
+</body>
 </html>
