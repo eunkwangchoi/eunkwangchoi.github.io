@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <title>Embedded Text Display Line by Line</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+        }
+        #display {
+            font-size: 1.0em;
+            color: #FFFFFF;
+            white-space: pre-wrap; 
+            border: no;
+            padding: 10px;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div id="display">Loading content...</div>
+
+<!-- Embed text file contents directly in a script tag -->
+<script id="text-content" type="text/plain">더불어민주당 전원 총살감
+속보) 차기 여가부 장관에 '성인지 감수성' 전주혜 변호사 유력
+19) 여자 BJ 방송할때 특징
+탕후루 좋아하는 스시녀.mp4
+일게이 차 샀다
+여중생들이 동덕여대에 보낸 손편지
+윤두창 사법시험 합격한거 맞냐??
+동덕여대 졸업생 대한항공 승무원 언니 한마디함
+전기차 베터리 만드는 기업 대표들 전기차 안탄다 ㅋㅋㅋㅋㅋㅋㅋ
+삼성 망하는거 예측하신분 ㄷㄷㄷㄷㄷ
+동덕여대 폭동 덕분에 식비 굳은 경희대생
+윤석열 골프 완전 심각한 거였네 ㅋㅋㅋㅋㅋ
+518 당시 트럭에 얼굴 깔렸던 유공자
+속보) 산업스파이 간첩죄 처벌한다. 형법개정안 통과됨
+내무부장관 거리는 퐁퐁이 새끼들 보아라
+[속보] '김건희 친분' 명예훼손 소송 배우 이영애, 법원 화해 권고 거부
+간첩 유툽버. ㄷㄷㄷㄷㄷㄷㄷㄷㄷ
+동아시아가 살기 빡센 건 중국,러시아 때문임
+막나가는 동덕년대 학생.jpg
+역시 영화는 글레이디에이터지
+</script>
+
+<script>
+    // Get the embedded text content from the script tag
+    const textContent = document.getElementById('text-content').textContent.trim();
+    const lines = textContent.split('\n'); // Split the text by new lines
+
+    // Reference to the display div
+    const displayElement = document.getElementById('display');
+    const interval = 1000; // Display interval in milliseconds (1 second)
+
+    // Function to display each line with a delay
+    let lineIndex = 0;
+    displayElement.textContent = ""; // Clear initial loading text
+
+    const intervalId = setInterval(() => {
+        if (lineIndex < lines.length) {
+            displayElement.textContent += lines[lineIndex].trim() + '\n'; // Display each line
+            lineIndex++;
+        } else {
+            clearInterval(intervalId); // Stop when all lines are displayed
+        }
+    }, interval);
+</script>
+
+</body>
+</html>
