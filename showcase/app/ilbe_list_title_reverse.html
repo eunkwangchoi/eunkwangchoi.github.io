@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="30">
-    <title>Embedded Text Display Line by Line</title>
+    <title>Embedded Text Display</title>
     <style>
         body {
             margin: 0;
@@ -19,14 +19,32 @@
             max-height: 500px;
             overflow-y: auto;
         }
+        #datetime {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        color: #333;
+        }
     </style>
 </head>
 <body>
 
-<div id="display">Loading content...</div>
+<div id="datetime"></div>
+<div id="display"></div>
 
 <!-- Embed text file contents directly in a script tag -->
-<script id="text-content" type="text/plain">인생을 너무 협소하게 살았다
+<script id="text-content" type="text/plain">윤석열의 중립 광해군 외교가 빛을 발하고 있다
+살면서 키작은새끼는 무조건 피해야됨
+이재명 이새끼 정신 헤까닥 한 듯
+노인 성욕
+소원을 이루어주는 부적이다
+김가네 회장 성폭행 사건, 고발장은 아내가 제출. jpg
+미친 윤석열정부의 친중정책
+국대 야구 근황 ㅋㅋㅋㅋ
+이재명잡고 킹석열 지지율 다시20%대로 오르기시작
+옆집 아줌마랑 떡을 쳐라
+19)여자들은 키작남 무조건 피해야한다
+19) 정체가 탄로난 갓본 지하 아이돌 스시녀
+인생을 너무 협소하게 살았다
 놀이터 아이 공격하는핏불
 공포주의, 19) 노가다 갤러리 여장 레전드. JPG
 19) 대구 경상  대학교 순위
@@ -34,41 +52,43 @@
 이재명 금투세폐지로 갑질하며 국민 쪼으면서 괴롭히더니
 제이슨폴 vs 타이슨 경기요약 ㄹㅇ ㅋㅋ
 mbc 동덕여대 뉴스 근황ㅋㅋㅋㅋㅋ
-이재명 근황
-정준하 횟집 광어+우럭 4.5만원 세트
-대구 여자들이 이쁜건 맞음.jpg
-현대 기아차 해외인식
-웃참주의] 조국 근황
-댕댕이 근황 공개한다? 한잔 빤다.JPG
-전북 정읍시 노인복지센터에 불났는데
-여자항문빠는 패티쉬 있는 게이들은 러시아오피 가라!!
-러닝크루 싹 사라진거 존나 웃기네
-여장보추가된 아들을 본 대구아빠 반응
-민주당 안귀령, 늙었으면 집에만 있어라 ㄷㄷㄷㄷㄷ
-혐) 딸배 화형
 </script>
 
 <script>
+    // Display the date and time when the document is loaded
+    window.onload = function () {
+        const now = new Date();
+        
+        // Format for Korean date and time
+        const year = now.getFullYear();
+        const month = now.getMonth() + 1; // Months are 0-based
+        const date = now.getDate();
+        const weekdayNames = ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'];
+        const weekday = weekdayNames[now.getDay()];
+        
+        // Time formatting for Korean
+        let hour = now.getHours();
+        const minute = now.getMinutes();
+        const isPM = hour >= 12;
+        const period = isPM ? '오후' : '오전';
+        hour = hour % 12 || 12; // Convert to 12-hour format
+        
+        // Construct the final display string
+        const formattedTime = `${period} ${hour}시 ${minute}분`;
+        const formattedDate = `${year}년 ${month}월 ${date}일 ${weekday}`;
+        const koreanDateTime = `${formattedDate} ${formattedTime}`;
+        
+        document.getElementById('datetime').textContent = `${koreanDateTime} 업데이트`;
+    };
+	
     // Get the embedded text content from the script tag
     const textContent = document.getElementById('text-content').textContent.trim();
-    const lines = textContent.split('\n'); // Split the text by new lines
 
     // Reference to the display div
     const displayElement = document.getElementById('display');
-    const interval = 1000; // Display interval in milliseconds (1 second)
 
-    // Function to display each line with a delay
-    let lineIndex = 0;
-    displayElement.textContent = ""; // Clear initial loading text
-
-    const intervalId = setInterval(() => {
-        if (lineIndex < lines.length) {
-            displayElement.textContent += lines[lineIndex].trim() + '\n'; // Display each line
-            lineIndex++;
-        } else {
-            clearInterval(intervalId); // Stop when all lines are displayed
-        }
-    }, interval);
+    // Display all the text content at once
+    displayElement.textContent = textContent;
 </script>
 
 </body>
