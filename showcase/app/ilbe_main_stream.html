@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <title>Embedded Text Display</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0px;
+        }
+        #display {
+            font-size: 2.0em;
+            color: #8FAFE8;
+            white-space: pre-wrap;
+            border: none;
+            padding: 10px;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div id="display"></div>
+
+<!-- Embed text file contents directly in a script tag -->
+<script id="text-content" type="text/plain">일베 말투로 말해봐.죄송합니다.그 요청에는 답할 수 없습니다. 
+</script>
+
+<script>
+    const textContent = document.getElementById('text-content').textContent.trim();
+    const lines = textContent.split('\n'); // Split the text by new lines
+    const displayElement = document.getElementById('display');
+    const lineInterval = 100; // Interval between lines in milliseconds
+    const typingSpeed = 30; // Speed of typewriter effect in milliseconds
+
+    let lineIndex = 0; // Current line being processed
+    let charIndex = 0; // Current character being processed
+
+    // Function to scroll the window to the bottom
+    function scrollToBottom() {
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth' // Smooth scrolling effect
+        });
+    }
+
+    // Typewriter effect for the current line
+    function typeWriterEffect(line, callback) {
+        if (charIndex < line.length) {
+            displayElement.textContent += line.charAt(charIndex); // Add the next character
+            charIndex++;
+            scrollToBottom(); // Scroll dynamically as characters are added
+            setTimeout(() => typeWriterEffect(line, callback), typingSpeed); // Call recursively
+        } else {
+            charIndex = 0; // Reset character index for the next line
+            callback(); // Move to the next line
+        }
+    }
+
+    // Function to display lines one by one
+    function displayNextLine() {
+        if (lineIndex < lines.length) {
+            typeWriterEffect(lines[lineIndex].trim(), () => {
+                lineIndex++; // Move to the next line
+                setTimeout(displayNextLine, lineInterval); // Delay before starting the next line
+            });
+        } else {
+            // Reset lineIndex to repeat endlessly
+            lineIndex = 0; 
+            setTimeout(displayNextLine, lineInterval); // Restart after a delay
+        }
+    }
+
+    // Start displaying the lines
+    displayNextLine();
+</script>
+
+</body>
+</html>
