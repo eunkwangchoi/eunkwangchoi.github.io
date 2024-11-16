@@ -13,7 +13,7 @@
         #display {
             font-size: 0.8em;
             color: #FFFFFF;
-            white-space: pre-wrap; 
+            white-space: pre-wrap;
             border: no;
             padding: 10px;
             max-height: 500px;
@@ -32,7 +32,8 @@
 <div id="datetime" style="text-align: center;"></div>
 
 <!-- Embed text file contents directly in a script tag -->
-<script id="text-content" type="text/plain">[속보] 동덕여대 형량.추가 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+<script id="text-content" type="text/plain">내년 초에 돈 많이 들어온다 ㅎㅎ
+[속보] 동덕여대 형량.추가 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
 오리랑 염소 잡았다 이기
 이재명 징역 1년 뜻밖의 1패자 ㅋㅋㅋ
 19) 최근 SNS 인기 폭발 중인 한남
@@ -51,36 +52,35 @@
 4년 동안 잘 만나고 있는 한일커플 훼방 놓는 아줌마
 속보 )  이재명 징역 1년 ㅋㅋㅋㅋㅋㅋㅋ
 찢재명 ㄹㅇ 끝난 이유 feat 중정갤
-(속보) 이재명 관련 자살자들 재조사 각 나왔다 ㄷㄷ
 </script>
 
 <script>
     // Display the date and time when the document is loaded
     window.onload = function () {
         const now = new Date();
-        
+
         // Format for Korean date and time
         const year = now.getFullYear();
         const month = now.getMonth() + 1; // Months are 0-based
         const date = now.getDate();
         const weekdayNames = ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'];
         const weekday = weekdayNames[now.getDay()];
-        
+
         // Time formatting for Korean
         let hour = now.getHours();
         const minute = now.getMinutes();
         const isPM = hour >= 12;
         const period = isPM ? '오후' : '오전';
         hour = hour % 12 || 12; // Convert to 12-hour format
-        
+
         // Construct the final display string
         const formattedTime = `${period} ${hour}시 ${minute}분`;
         const formattedDate = `${year}년 ${month}월 ${date}일 ${weekday}`;
         const koreanDateTime = `${formattedDate} ${formattedTime}`;
-        
+
         document.getElementById('datetime').textContent = `${koreanDateTime} 업데이트`;
     };
-	
+
     // Get the embedded text content from the script tag
     const textContent = document.getElementById('text-content').textContent.trim();
 
