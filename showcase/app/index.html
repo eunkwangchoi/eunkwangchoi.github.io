@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,8 @@
 </head>
 <body>
     <div style="display: flex; flex-direction: column; height: 100vh; margin: 0;">
+        
+        <!-- 제1행 : 제목 -->
         <div style="display: flex; color: #C8E4F4; font-weight: bold;">
             <pre>
        .----------------.  .----------------.  .----------------.  .----------------.  .-----------------. .----------------. 
@@ -50,18 +52,35 @@
        '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
             </pre>                                                                                                  
         </div>
-        <div style="flex: 3; border: 1px solid black;"></div>
+
+        <!-- 제2행 -->
         <div style="flex: 3; display: flex; flex-direction: row;">
-            <div style="flex: 1; border: 1px solid black;">
-                <iframe src="ilbe_list_title_reverse.html" style="width: 100%; height: 100%; border: none; padding: 0; overflow: hidden;" scrolling="no"></iframe>
-            </div>
-            <div style="flex: 2; border: 1px solid black;"></div>
+            <div style="width: 20px;"></div>
+            <div style="flex: 1; border: 1px solid black;"></div>
+            <div style="width: 20px;"></div>
         </div>
+        
+        <!-- 행간 -->
+        <div style="height: 20px;"></div>
+
+        <!-- 제3행 -->
+        <div style="flex: 3; display: flex; flex-direction: row;">
+            <div style="width: 20px;"></div>
+            <div style="flex: 1; border: 1px solid #8fAfE8;">
+                <iframe src="ilbe_list_title_reverse.html" style="width: 100%; height: 100%; border: 0; padding: 0; overflow: hidden;" scrolling="no"></iframe>
+            </div>
+            <div style="width: 20px;"></div>
+            <div style="flex: 2; border: 1px solid black;"></div>
+            <div style="width: 20px;"></div>
+        </div>
+
+        <!-- 행간 -->
+        <div style="height: 20px;"></div>
+
+        <!-- 제4행 : 바닥글-->
         <div style="height: 115px; display: flex; flex-direction: row;">
             <div style="width: 20px;"></div>
-            <div style="width: 130px; display: flex; align-items: flex-end; justify-content: flex-start;">
-                <img src="images/qr-manual.png">
-            </div>    
+            <div style="width: 130px; display: flex; align-items: flex-end; justify-content: flex-start;"><img src="images/qr-manual.png"></div>    
             <div style="flex: 1; display: flex; flex-direction: column;">
                 <div style="flex: 2; display: flex; flex-direction: row;">
                     <div style="flex: 1;display: flex; color: #8fAfE8; font-weight: bold; align-items: center; justify-content: flex-start;">◀◀ 도움말</div>
@@ -85,18 +104,19 @@
                             </div>
                         </div>
                     </div>
-                    <div style="flex: 1; display: flex; color: #8fAfE8; font-weight: bold; align-items: center; justify-content: flex-end;">채팅방 ▶▶</div>     
+                    <div style="flex: 1; display: flex; color: #8FAFE8; font-weight: bold; align-items: center; justify-content: flex-end;">채팅방 ▶▶</div>     
                 </div>
                 <div style="flex: 1; color: #C8E4F4; font-size: 0.8em; display: flex; align-items: center; justify-content: center;">
                     <b>F1</b>으로 도움말을 볼 수 없음 -&nbsp; <b>F2</b>로 채팅을 시작할 수 없음 -&nbsp; <b>F10</b>으로 메뉴가 열리지 않음 -&nbsp; <b>ESC</b>를 아무리 눌러도 사태를 돌이킬 수 없음
                 </div>
             </div>         
-            <div style="width: 130px; display: flex; align-items: flex-end; justify-content: flex-end;"> 
-                <img src="images/qr-talkroom.png">
-            </div>
+            <div style="width: 130px; display: flex; align-items: flex-end; justify-content: flex-end;"><img src="images/qr-talkroom.png"></div>
             <div style="width: 20px;"></div>            
         </div>
+
+        <!-- 행간 -->
         <div style="height: 10px;"></div>
+
     </div>
 </body>
 </html>
