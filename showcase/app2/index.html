@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Player with Playlist and Dynamic Iframe</title>
+    <style>
+        body {
+            background-color: #000000;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 1em;
+            color: #f0f0f0;
+            margin: 20px;
+        }
+        .player {
+            margin-bottom: 20px;
+        }
+        .playlist {
+            list-style: none;
+            padding: 0;
+        }
+        .playlist li {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #ccc;
+        }
+        .playlist li:hover {
+            background-color: cornflowerblue;
+        }
+        .active {
+            background-color: darkcyan;
+        }
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border: 1px solid #000000;
+        }
+        .iframes {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="display: flex; flex-direction: row; height: 100vh;">
+        <div style="width: 320px;">
+            <div class="player">
+                <audio id="audio-player" controls autoplay>
+                    <source id="audio-source" src="" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <ul class="playlist" id="playlist">
+                <li data-src="audio/suno/Deus Adest Nobiscum Part 1.mp3" data-iframe1="video/video-script-01.html" data-iframe2="verse/suno/Deus Adest Nobiscum Part 1.html">Deus Adest Nobiscum Part 1</li>
+                <li data-src="audio/suno/Exaltatione Vitae Part 2.mp3" data-iframe1="video/video-script-02.html" data-iframe2="verse/suno/Exaltatione Vitae Part 2.html">Exaltatione Vitae Part 2</li>
+                <li data-src="audio/suno/In the Glow of Dawn Part 1.mp3" data-iframe1="video/video-script-03.html" data-iframe2="verse/suno/In the Glow of Dawn Part 1.html">In the Glow of Dawn Part 1</li>
+            </ul>
+        </div>
+        <div style="flex: 1;">
+            <iframe id="content-frame1" src="" title="Dynamic Content 1"></iframe>
+        </div>
+        <div style="width: 320px;">
+            <iframe id="content-frame2" src="" title="Dynamic Content 2"></iframe>
+        </div>
+    </div>
+
+    <script>
+        const audioPlayer = document.getElementById('audio-player');
+        const playlist = document.getElementById('playlist');
+        const playlistItems = Array.from(playlist.querySelectorAll('li'));
+        const iframe1 = document.getElementById('content-frame1');
+        const iframe2 = document.getElementById('content-frame2');
+
+        let currentIndex = 0; // Track the current song index
+
+        // Function to play a song by index and update iframes
+        function playSongByIndex(index) {
+            if (index >= 0 && index < playlistItems.length) {
+                const song = playlistItems[index];
+                const audioSource = document.getElementById('audio-source');
+                const iframeSrc1 = song.getAttribute('data-iframe1');
+                const iframeSrc2 = song.getAttribute('data-iframe2');
+
+                // Update the audio source and play
+                audioSource.src = song.getAttribute('data-src');
+                audioPlayer.load();
+                audioPlayer.play();
+
+                // Update iframe contents
+                iframe1.src = iframeSrc1;
+                iframe2.src = iframeSrc2;
+
+                // Highlight the active song
+                playlistItems.forEach(item => item.classList.remove('active'));
+                song.classList.add('active');
+
+                currentIndex = index; // Update current index
+            }
+        }
+
+        // Automatically play the next song, looping back to the first song if necessary
+        audioPlayer.addEventListener('ended', () => {
+            const nextIndex = (currentIndex + 1) % playlistItems.length; // Loop back to the start
+            playSongByIndex(nextIndex);
+        });
+
+        // Add click event for manual song selection
+        playlistItems.forEach((item, index) => {
+            item.addEventListener('click', () => playSongByIndex(index));
+        });
+
+        // Automatically start playing the first song when the page loads
+        playSongByIndex(currentIndex);
+    </script>
+</body>
+</html>
