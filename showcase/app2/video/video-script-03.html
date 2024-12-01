@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix Effect</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden; /* Hide scrollbars */
+      background: black; /* Set background color */
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    let fontSize = 30;      // Font size for the characters
+    let columns;            // Number of columns
+    let yPositions = [];    // Y positions of each column
+
+    function setup() {
+      createCanvas(windowWidth, windowHeight); // Fullscreen canvas
+      columns = floor(width / fontSize);       // Calculate number of columns
+      textSize(fontSize);                      // Set font size
+      textFont('Courier');                     // Use monospaced font
+
+      // Initialize Y positions for each column
+      for (let i = 0; i < columns; i++) {
+        yPositions[i] = random(-100, 0);
+      }
+    }
+
+    function draw() {
+      background(0, 50); // Semi-transparent background for trail effect
+      fill(57, 255, 20); // Neon green color for text
+
+      for (let i = 0; i < columns; i++) {
+        // Randomly choose '0' or '1'
+        let char = random() < 0.5 ? '0' : '1';
+
+        // Draw the character at the current column and Y position
+        text(char, i * fontSize, yPositions[i]);
+
+        // Move the character down
+        yPositions[i] += fontSize;
+
+        // Reset to top when it goes off the bottom of the canvas
+        if (yPositions[i] > height) {
+          yPositions[i] = random(-200, 0);
+        }
+      }
+    }
+
+    function windowResized() {
+      resizeCanvas(windowWidth, windowHeight); // Adjust canvas size when the window is resized
+      columns = floor(width / fontSize);       // Recalculate columns
+      yPositions = Array(columns).fill(random(-100, 0)); // Reinitialize positions
+    }
+  </script>
+</body>
+</html>

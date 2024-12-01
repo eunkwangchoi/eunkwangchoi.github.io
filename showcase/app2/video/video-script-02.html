@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accumulating Tumbling Dots</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden; /* Hide scrollbars */
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    let numDots = 100; // Number of tumbling dots
+    let dots = [];     // Array to hold the dots
+
+    function setup() {
+      createCanvas(windowWidth, windowHeight); // Full window canvas
+      for (let i = 0; i < numDots; i++) {
+        dots.push(new Dot(random(width), random(height), random(-3, 3), random(-3, 3)));
+      }
+      noStroke(); // Remove stroke from shapes
+      background(0); // Black background
+    }
+
+    function draw() {
+      fill(0, 10); // Transparent black overlay for subtle fading
+      rect(0, 0, width, height); // Apply the overlay
+
+      for (let dot of dots) {
+        dot.update(); // Update each dot's position
+        dot.display(); // Draw each dot
+      }
+    }
+
+    class Dot {
+      constructor(x, y, xSpeed, ySpeed) {
+        this.x = x;
+        this.y = y;
+        this.xSpeed = xSpeed;
+        this.ySpeed = ySpeed;
+        this.size = random(8, 20); // Random size
+        // Assign random red, green, or blue color
+        let colors = [
+          color(255, 0, 0), // Red
+          color(0, 255, 0), // Green
+          color(0, 0, 255)  // Blue
+        ];
+        this.col = random(colors);
+      }
+
+      update() {
+        this.x += this.xSpeed;
+        this.y += this.ySpeed;
+
+        // Bounce off edges
+        if (this.x < 0 || this.x > width) this.xSpeed *= -1;
+        if (this.y < 0 || this.y > height) this.ySpeed *= -1;
+      }
+
+      display() {
+        fill(this.col); // Set dot color
+        ellipse(this.x, this.y, this.size, this.size);
+      }
+    }
+
+    // Adjust canvas size when window is resized
+    function windowResized() {
+      resizeCanvas(windowWidth, windowHeight);
+      background(0); // Clear the background
+    }
+  </script>
+</body>
+</html>
