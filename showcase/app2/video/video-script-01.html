@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Words</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden; /* Hide scrollbars */
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    let positiveWords = [
+      "Dream", "Sky", "Love", "Freedom", "Hope", "Light", "Art", "Life", "Music",
+      "Energy", "Joy", "Peace", "Wonder", "Stars", "Passion", "Journey", "Vision",
+      "Inspire", "Bloom", "Serenity", "Harmony", "Balance", "Create", "Spirit",
+      "Strength", "Adventure", "Euphoria", "Radiance", "Wisdom", "Gratitude", "Bliss",
+      "Kindness", "Compassion", "Warmth", "Smile", "Laughter", "Unity", "Trust", "Faith"
+    ];
+
+    let negativeWords = [
+      "Fear", "Darkness", "Hate", "Chaos", "Anger", "Loneliness", "Pain", "Loss",
+      "Despair", "Frustration", "Sorrow", "Regret", "Guilt", "Tears", "Grief", "Failure",
+      "Disaster", "Envy", "Bitterness", "Weakness", "Doubt", "Shame", "Stress", "Confusion",
+      "Misery", "Jealousy", "Heartache", "Destruction", "Trauma", "Anxiety", "Injustice",
+      "Rejection", "Isolation", "Neglect", "Conflict", "Oppression", "War", "Struggle"
+    ];
+
+    function setup() {
+      createCanvas(windowWidth, windowHeight); // Make the canvas fit the browser window
+      background(0); // Black background
+      textAlign(CENTER, CENTER); // Center-align the text
+      frameRate(30); // Limit frame rate for smooth rendering
+    }
+
+    function draw() {
+      let x = random(width);
+      let y = random(height);
+
+      // Randomly decide if it's a positive or negative word
+      let isNegative = random(1) < 0.5;
+
+      // Select a word from the appropriate array
+      let randomWord = isNegative
+        ? random(negativeWords)
+        : random(positiveWords);
+
+      // Set a random size for the word
+      let randomSize = random(12, 92);
+      textSize(randomSize);
+
+      // Assign colors based on the word type
+      if (isNegative) {
+        // Vivid colors for negative words
+        fill(random(150, 256), random(0, 150), random(0, 150), random(200, 256));
+      } else {
+        // Dull colors for positive words
+        fill(random(100, 200), random(100, 200), random(100, 200), random(100, 200));
+      }
+
+      // Draw the word
+      text(randomWord, x, y);
+    }
+
+    // Adjust canvas size when window is resized
+    function windowResized() {
+      resizeCanvas(windowWidth, windowHeight);
+      background(0); // Clear the background
+    }
+  </script>
+</body>
+</html>
