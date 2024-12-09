@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="280">
+    <title>Embedded Text Display</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0px;
+        }
+        #display {
+            font-size: 1.0em;
+            color: #000000;
+            white-space: pre-wrap;
+            border: none;
+            padding: 10px;
+            max-height: 100%;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div id="display"></div>
+
+<!-- Embed text file contents directly in a script tag -->
+<script id="text-content" type="text/plain">열심히 뒤지러 다니자  
+그 노처녀 앱충 쉐키들 조심해  
+노처녀랑  
+한 살이라도 젊을 때  
+국제결혼 나이 많은 건 힘들어  
+앞으로 제발 국제결혼 하는 남자들 많아질 거고  
+매력 있는 여자들 널린다  
+잘 찾아보면 백마탄 왕자랑은 다름  
+중동도 복권이지  
+투르크메니스탄 비자 받기 개빡세지만 다른 스탄들보단 양호함  
+뭐가 예뻐서 올린 거냐?  
+안 그럼 결혼 자체가 힘들어  
+결혼 하려면 너희도 무슬림으로 신앙 바꿔야 해  
+어 맞아 이슬람이지  
+에휴 쟤네 나라망신시키지 말자  
+막 딸 준다냐? 저기가면? 장모님 나라?  
+왜 중앙아시아 국가는 이름이 탄으로 끝나는 거야?  
+결혼생활은 만만치 않음  
+술 안 마셔야 된다는 소리야  
+돼지고기 금지  
+하루에 5번 메카 쪽에 기도해야 해  
+반대로 결혼하려면 너도 이슬람으로 개종해야 해  
+학력 떠나서 비호감임  
+오히려 여자가 더 대우받는 경우도 있음  
+근데 지금은 모든 조건이 공평해졌어  
+남자는 하늘이다 시절도 있었으니까  
+예전에는 분명 필요했지  
+근데 좀 가난한가 봐  
+결혼해주세요 평생 밥 청소 빨래 다 해줄게  
+차려놓은 밥상 엎고 밥숟가락으로 머리 때려도 힝.. 잘 참을 수 있어!!!  
+인물 떠나서 저 쪽같은 억양 나오면 바로 ㅁㅈㅎ  
+내 조카부터 누나 포함 여자가 저 억양 쓰니까 듣는 거 자체가 짜증나  
+왜 한국 여자들은 저 코막힌 소리 내는 거야  
+그래 뭐... 그래야 조회수 올라가겠지 ㅇㅋㅇㅋ  
+서울대 로스쿨생이라는 거 강조하려는 거 같네 ㅋㅋ  
+"꺅~~~꺅~~~~나가~~~~" 이러고 있었을 듯  
+만약 저 여자 앞에 똥떡여대 애가 있으면!!  
+역시 똥떡 여대랑 차원이 다르구먼...   
+수준봐 ㅋ  
+와우  
+이딴 게 가득인가 봐 (토도도도도독 토독)  
+또 그럴싸한 척하네ㅋㅋ  
+조선인 엘리트라는 걸 보니  
+와우  
+이딴 게 가득해  
+와 조선인 엘리트라니  
+닉값하려면 좀 살아보라고 병신아</script>
+
+<script>
+    const textContent = document.getElementById('text-content').textContent.trim();
+    const lines = textContent.split('\n'); // Split the text by new lines
+    const displayElement = document.getElementById('display');
+    const lineInterval = 3000; // Interval between lines in milliseconds
+    const typingSpeed = 50; // Speed of typewriter effect in milliseconds
+
+    let lineIndex = 0; // Current line being processed
+    let charIndex = 0; // Current character being processed
+
+    // Function to scroll the window to the bottom
+    function scrollToBottom() {
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth' // Smooth scrolling effect
+        });
+    }
+
+    // Typewriter effect for the current line
+    function typeWriterEffect(line, callback) {
+        if (charIndex < line.length) {
+            displayElement.textContent += line.charAt(charIndex); // Add the next character
+            charIndex++;
+            scrollToBottom(); // Scroll dynamically as characters are added
+            setTimeout(() => typeWriterEffect(line, callback), typingSpeed); // Call recursively
+        } else {
+            displayElement.textContent += '\n'; // Add a newline after finishing the line
+            charIndex = 0; // Reset character index for the next line
+            callback(); // Move to the next line
+        }
+    }
+
+    // Function to display lines one by one
+    function displayNextLine() {
+        if (lineIndex < lines.length) {
+            typeWriterEffect(lines[lineIndex].trim(), () => {
+                lineIndex++; // Move to the next line
+                setTimeout(displayNextLine, lineInterval); // Delay before starting the next line
+            });
+        }
+    }
+
+    // Start displaying the lines
+    displayNextLine();
+</script>
+
+</body>
+</html>
