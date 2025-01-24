@@ -1,25 +1,17 @@
-baseURL = "https://cshugo.mansoorbarri.com"
+baseURL = "https://eunkwangchoi.github.io"
 languageCode = 'en-us'
 theme = "coming-soon"
 
 [params]
-    title = "Coming Soon Hugo" 
-    description = "A simple countdown"
+    title = "Ryan Choi - Coming Soon" 
+    description = "It's Under Construction..."
     favicon = ""
-    message = "COMING SOON!" 
-    release = "January 1, 2026"
+    message = "COMING SOON !" 
+    release = "March 1, 2025"
     background = "" 
 
 socialIcons = [
-    {name = "email", url = "example@example.com"},      
-    {name = "twitter", url = "https://twitter.com/"},    
-    {name = "facebook", url = "https://facebook.com/"},    
-    {name = "github", url = "https://github.com/"},    
-    {name = "instagram", url = "https://instagram.com/"},    
-    {name = "tiktok", url = "https://tiktok.com/"},    
-    {name = "linkedin", url = "https://linkedin.com/"},    
+    {name = "email", url = "ryan.choi@arteuro.net"},      
+    {name = "instagram", url = "https://instagram.com/eunkwang.ryan.choi"},    
 ] 
 
-[params.twitter]
-	enable = false 
-	username = "mansoorbarri"
