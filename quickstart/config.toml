@@ -1,4 +1,4 @@
-baseURL = 'https://eunkwangchoi.github.io/'
+baseURL = 'https://eunkwangchoi.github.io/quickstart/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
