@@ -1,0 +1,16 @@
+baseURL = "https://eunkwangchoi.github.io"
+languageCode = 'en-us'
+theme = "coming-soon"
+
+[params]
+    title = "Coming Soon -- Ryan Choi" 
+    description = "It's Under Construction..."
+    favicon = ""
+    message = "COMING SOON !" 
+    release = "March 1, 2025"
+    background = "" 
+
+socialIcons = [
+    {name = "email", url = "ryan.choi@arteuro.net"},      
+    {name = "instagram", url = "https://instagram.com/eunkwang.ryan.choi"},    
+] 
