@@ -1,8 +1,4 @@
 baseURL = 'https://eunkwangchoi.github.io/'
 languageCode = 'en-us'
 title = 'Ryan Choi -- Under Construction'
-<<<<<<< HEAD
 theme = 'coming-soon'
-=======
-theme = 'ananke'
->>>>>>> baf00d9b12d16d3e3d443acb6033f0b5f408fe18
