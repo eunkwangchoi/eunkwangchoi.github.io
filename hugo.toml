@@ -1,4 +1,120 @@
-baseURL = 'https://eunkwangchoi.github.io/'
-languageCode = 'en-us'
-title = 'Ryan Choi -- Under Construction'
+baseURL = 'https://eunkwangchoi.com'
+title = 'the texts'
 theme = 'coming-soon'
+copyright = 'Copyright 2025 Eunkwang Ryan Choi. All Rights Reserved.'
+summaryLength = 20
+defaultContentLanguage = 'en'
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[params]
+  author = 'Eunkwang Ryan Choi'
+  description = 'Ryan Choi -- Artist, Writer, and Researcher'
+  location = ["Seoul", "South Korea"]
+  contact = ["ryan.choi@arteuro.net"]
+  images = ["images/hero-image.png"]
+  logo = "arrow-up.png"
+  math = true
+    [params.favicons]
+      themeColor = "#FFFFFF"
+      backgroundColor = "#FFFFFF"
+      faviconColor = "#000000"
+    [params.social]
+      instagram = "https://instagram.com/eunkwang.ryan.choi"
+      facebook = "#"
+
+[services]
+  [services.googleAnalytics]
+  id = 'G-SGXH2E8Q74'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.cjk]
+        eastAsianLineBreaks = true
+        eastAsianLineBreaksStyle = 'simple'
+        enable = true
+        escapedSpace = true
+      [markup.goldmark.extensions.extras]
+        [markup.goldmark.extensions.extras.delete]
+          enable = true
+        [markup.goldmark.extensions.extras.insert]
+          enable = true
+        [markup.goldmark.extensions.extras.mark]
+          enable = true
+        [markup.goldmark.extensions.extras.subscript]
+          enable = true
+        [markup.goldmark.extensions.extras.superscript]
+          enable = true
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['\(', '\)']]
+
+[menus]
+  [[menus.main]]
+    name = "Posts"
+    url = "/posts"
+    weight = 10
+  [[menus.main]]
+    name = "Docs"
+    url = "/docs"
+    weight = 20
+  [[menus.main]]
+    name = "Repos"
+    url = "/repos"
+    weight = 30
+  [[menus.main]]
+    name = "About"
+    url = "/about"
+    weight = 40
+  [[menus.buttons]]
+    name = "Button"
+    url = "/#"
+    weight = 10
+    pre = "btn btn-primary text-dark"
+  [[menus.footer]]
+    name = "Cats"
+    url = "/categories"
+    weight = 10
+  [[menus.footer]]
+    name = "Langs"
+    url = "/languages"
+    weight = 20
+  [[menus.footer]]
+    name = "Tags"
+    url = "/tags"
+    weight = 30
+
+[taxonomies]
+  category = 'categories'
+  language = 'languages'
+  tag = 'tags'
+  doc = 'docs'
+
+[languages]
+  [languages.en]
+    disabled = false
+    languageCode = 'en-US'
+    languageName = 'English'
+    weight = 1
+  [languages.ko]
+    disabled = false
+    languageCode = 'ko-KR'
+    languageName = '한국어'
+    weight = 2
+    [languages.ko.params]
+      author = '최은광'
+      description = '최은광 -- 아티스트, 작가, 연구자'
+      location = ["서울", "대한민국"]
+  [languages.ja]
+    disabled = false
+    languageCode = 'ja-JP'
+    languageName = '日本語'
+    weight = 3
+    [languages.ja.params]
+      author = '崔恩光'
+      description = '崔恩光 -- アーティスト, 作家, 研究者'
+      location = ["ソウル", "大韓民国"]
