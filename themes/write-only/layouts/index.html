@@ -8,9 +8,11 @@
         {{ partial "shared/post-item.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div class="row">
-    {{ template "_internal/pagination.html" . }}
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center py-5">
+        {{ template "_internal/pagination.html" . }}
+      </div>
+    </div>
   </div>
 </main>
 {{ end }}

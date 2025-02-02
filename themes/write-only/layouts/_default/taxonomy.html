@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<main class="container py-5 flex-grow-1">
+
+  <div class="row justify-content-center">
+    <div class="col-12 mh-100">
+
+      <div>
+        <h1 class="display-1 text-center text-uppercase fw-bold text-primary py-4">
+          {{ .Title }}
+        </h1>
+      </div>
+      <div class="text-center mb-5">
+        {{ .Params.description }}
+      </div>
+
+      {{ .Content }}
+      {{ range .Data.Terms.Alphabetical }}
+        <article class="py-4">
+          <div class="py-2">
+            <h2 class="display-6 text-center text-uppercase fw-bold text-primary">
+              <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>
+                <span class="text-secondary small">({{ .Count }})</span>
+            </h2>
+          </div>
+        </article>  
+      {{ end }}
+
+    </div>
+  </div>
+</main>
+{{ end }}

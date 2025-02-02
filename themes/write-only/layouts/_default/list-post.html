@@ -1,0 +1,77 @@
+{{ define "main" }}
+
+<main class="container py-5 flex-grow-1">
+  <div class="row justify-content-center">
+    <div class="col-12 mh-100">
+
+      <div>
+        <h1 class="display-1 text-center text-uppercase fw-bold text-primary py-3">
+          {{ .CurrentSection.Title }}
+        </h1>
+      </div>
+      <div class="text-center mb-5">
+        {{ .CurrentSection.Params.description }}
+      </div>
+
+      <!-- Get Only "posts" Type Pages -->
+      {{ $allPages := where site.RegularPages "Type" "posts" }}
+
+      <!-- Paginate Combined Pages -->
+      {{ $paginator := .Paginate ($allPages.ByDate.Reverse) 10 }}
+
+      {{ $currentYear := "" }}
+      {{ $currentMonth := "" }}
+
+      {{ range $paginator.Pages }}
+        {{ $year := .Date.Format "2006" }}
+        {{ $month := .Date.Format "January" }}
+
+        <!-- Display Year Header If Changed -->
+        {{ if ne $year $currentYear }}
+          {{ if ne $currentYear "" }}</ul> <!-- Close Previous Month List -->
+          {{ end }}
+          <h2 class="display-5 text-center text-uppercase fw-bold text-muted py-4">{{ $year }}</h2>
+          {{ $currentYear = $year }}
+          {{ $currentMonth = "" }} <!-- Reset Month Tracker -->
+        {{ end }}
+
+        <!-- Display Month Header If Changed -->
+        {{ if ne $month $currentMonth }}
+          {{ if ne $currentMonth "" }}</ul> <!-- Close Previous Month List -->
+          {{ end }}
+          <h3 class="display-7 text-center text-uppercase fw-bold text-secondary py-4">{{ $month }}</h3>
+          <ul class="list-unstyled text-center">
+          {{ $currentMonth = $month }}
+        {{ end }}
+
+        <!-- Display Posts -->
+        <article class="py-4">
+            <div class="py-2">
+                <h2 class="display-6 text-center text-uppercase fw-bold text-primary">
+                    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                </h2>
+            {{ partial "shared/post-meta" . }}
+            {{ partial "shared/post-categories" . }}
+                <div class="text-center py-2">
+                    {{ .Description }}
+                </div>
+            </div>
+        </article>
+
+      {{ end }}
+
+      <!-- Close Any Open Lists -->
+      {{ if ne $currentMonth "" }}</ul>{{ end }}
+
+      <!-- Pagination Controls -->
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center py-5">
+          {{ template "_internal/pagination.html" . }}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+{{ end }}

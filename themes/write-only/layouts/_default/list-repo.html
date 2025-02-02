@@ -20,7 +20,7 @@
         {{ $allPages = $allPages | append . }}
       {{ end }}
       <!-- Paginate Combined Pages -->
-      {{ $paginator := .Paginate ($allPages.ByTitle) 10 }}
+      {{ $paginator := .Paginate ($allPages.ByWeight) 10 }}
 
       {{ range .Paginator.Pages }}
         <article class="py-4">
@@ -28,8 +28,6 @@
             <h2 class="display-6 text-center text-uppercase fw-bold text-primary">
               <a href="{{- .RelPermalink -}}">{{- .LinkTitle -}}</a>
             </h2>
-            {{ partial "shared/post-meta" . }}
-            {{ partial "shared/post-categories" . }}            
             <div class="text-center py-2">
               {{- .Description -}}
             </div>   

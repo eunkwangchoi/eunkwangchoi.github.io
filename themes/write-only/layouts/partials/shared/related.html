@@ -1,0 +1,43 @@
+<div>
+  {{ if eq .Page.Params.Languages "한국어" }}
+    <h3>현재 문서</h3>
+  {{ else if eq .Page.Params.Languages "日本語" }}
+    <h3>見た記事</h3>
+  {{ else }}
+    <h3>Seen</h3>
+  {{ end }}
+
+  <nav aria-label="breadcrumb" class="page-location">
+    <ul>
+      <ol class="breadcrumb" style="display: flex; list-style-type: none; padding: 0;">
+        {{ range .Ancestors.Reverse }}
+          <li class="breadcrumb-item">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a> /
+          </li>
+        {{ end }}
+        <li class="breadcrumb-item active" aria-current="page">
+          {{ .Title }}
+        </li>
+      </ol>
+    </ul>
+  </nav>
+</div>
+
+<div class="mt-4">
+  {{ if eq .Page.Params.Languages "한국어" }}
+    <h3>관련 문서</h3>
+  {{ else if eq .Page.Params.Languages "日本語" }}
+    <h3>関連記事</h3>
+  {{ else }}
+    <h3>See Also</h3>
+  {{ end }}
+
+  {{ $related := .Site.RegularPages.Related . | first 5 }}
+  {{ with $related }}
+    <ul style="list-style-type: none;">
+    {{ range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+    </ul>
+  {{ end }}
+</div>

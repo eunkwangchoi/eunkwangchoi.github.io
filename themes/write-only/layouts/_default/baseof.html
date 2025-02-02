@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en" data-bs-theme="light">
   {{ partial "head/head.html" . }}
+  {{ if or .Params.math .Site.Params.math }}
+  {{ partial "ints/math.html" . }}
+  {{ end }}
   <body class="d-flex flex-column min-vh-100">
     {{- partial "shared/header.html" . -}}
     {{- block "main" . -}}{{- end -}}
