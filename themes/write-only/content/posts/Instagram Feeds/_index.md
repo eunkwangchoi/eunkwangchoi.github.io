@@ -1,6 +1,5 @@
 +++
-aliases = "posts"
-title = "Posts"
+title = "Instagram Feeds"
 description = "This is the test description of the section."
 layout = "list-post"
 +++
