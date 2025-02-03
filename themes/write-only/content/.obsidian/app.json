@@ -1,0 +1,15 @@
+{
+  "foldHeading": false,
+  "foldIndent": false,
+  "showLineNumber": true,
+  "propertiesInDocument": "visible",
+  "livePreview": false,
+  "strictLineBreaks": false,
+  "spellcheck": false,
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./",
+  "uriCallbacks": true
+}

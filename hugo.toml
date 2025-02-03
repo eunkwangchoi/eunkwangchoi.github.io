@@ -1,6 +1,6 @@
 baseURL = 'https://eunkwangchoi.com'
 title = 'the texts'
-theme = 'coming-soon'
+theme = 'write-only'
 copyright = 'Copyright 2025 Eunkwang Ryan Choi. All Rights Reserved.'
 summaryLength = 20
 defaultContentLanguage = 'en'

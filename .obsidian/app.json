@@ -1,0 +1,15 @@
+{
+  "livePreview": false,
+  "propertiesInDocument": "visible",
+  "foldHeading": false,
+  "foldIndent": false,
+  "showLineNumber": true,
+  "spellcheck": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./",
+  "uriCallbacks": true,
+  "showUnsupportedFiles": false,
+  "promptDelete": false
+}

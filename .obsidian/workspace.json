@@ -1,0 +1,262 @@
+{
+  "main": {
+    "id": "0b3905f9d7ac50c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "11538a47eb1a9110",
+        "type": "split",
+        "children": [
+          {
+            "id": "eb7ddc127294a432",
+            "type": "tabs",
+            "dimension": 30.399706637330397,
+            "children": [
+              {
+                "id": "75eb4af970411403",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "themes/write-only/archetypes/default.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "default"
+                }
+              }
+            ]
+          },
+          {
+            "id": "2860216d01f7d184",
+            "type": "tabs",
+            "dimension": 35.42354235423542,
+            "children": [
+              {
+                "id": "060f4b162bfcd3e8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "themes/write-only/content/posts/Instagram Feeds/2021/insta 210123.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "insta 210123"
+                }
+              }
+            ]
+          },
+          {
+            "id": "676a90df83252203",
+            "type": "tabs",
+            "dimension": 34.176751008434174,
+            "children": [
+              {
+                "id": "0e07ec363d532b26",
+                "type": "leaf",
+                "state": {
+                  "type": "hugo-preview-view",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Hugo Preview"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "99fce4facfe45673",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3db511960813064",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce9452a84bbcc648",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5506a73d9bbf26fb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "07656dd07aa8f589",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b6f154df0e406df7",
+    "type": "split",
+    "children": [
+      {
+        "id": "176696594a5813c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d43109455f8eb05",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "themes/write-only/content/posts/Instagram Feeds/2023/insta 230512.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for insta 230512"
+            }
+          },
+          {
+            "id": "aae835c9b645ab26",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/posts/Instagram Feeds/2024/insta 240420.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from insta 240420"
+            }
+          },
+          {
+            "id": "e2e0e22b91f71354",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "themes/write-only/content/posts/Instagram Feeds/2021/insta 210123.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of insta 210123"
+            }
+          },
+          {
+            "id": "55d236feb2ebc6b7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "ce9452a84bbcc648",
+  "lastOpenFiles": [
+    "public/page/7/index.html",
+    "public/page/7",
+    "public/posts/instagram-feeds/page/7/index.html",
+    "public/posts/instagram-feeds/page/7",
+    "public/posts/page/7/index.html",
+    "public/posts/page/7",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210128.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210130.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210123.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 211008.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 211001.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210923.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210922.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210917.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210806.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210717.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210711.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210705.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210702.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210607.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210606.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210402.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210322.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210314.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210307.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210304.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210228.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210225.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210223-2.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210223-1.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210220.md",
+    "public/posts/instagram-feeds/2021/insta-210402/index.html",
+    "public/posts/instagram-feeds/2021/insta-210402",
+    "public/posts/instagram-feeds/2021/insta-210422/index.html",
+    "public/posts/instagram-feeds/2021/insta-210422",
+    "public/posts/instagram-feeds/2021/insta-210322/index.html",
+    "public/svg/icons/linkedin.svg",
+    "public/svg/icons/twitter.svg",
+    "public/svg/icons/instagram.svg",
+    "public/svg/icons/tiktok.svg",
+    "public/svg/icons/github.svg",
+    "public/svg/icons/facebook.svg",
+    "public/svg/icons/email.svg"
+  ]
+}
