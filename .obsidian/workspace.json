@@ -25,6 +25,20 @@
                   "icon": "lucide-file",
                   "title": "default"
                 }
+              },
+              {
+                "id": "c0cf2324c597c596",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "themes/write-only/content/others/template-post.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "template-post"
+                }
               }
             ]
           },
@@ -39,12 +53,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/posts/Instagram Feeds/2021/insta 210123.md",
+                    "file": "themes/write-only/content/posts/Instagram Feeds/2020/insta 201020-2.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "insta 210123"
+                  "title": "insta 201020-2"
                 }
               }
             ]
@@ -173,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/posts/Instagram Feeds/2021/insta 210123.md",
+                "file": "themes/write-only/content/posts/Instagram Feeds/2020/insta 201020-2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of insta 210123"
+              "title": "Outline of insta 201020-2"
             }
           },
           {
@@ -213,50 +227,53 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ce9452a84bbcc648",
+  "active": "060f4b162bfcd3e8",
   "lastOpenFiles": [
-    "public/page/7/index.html",
-    "public/page/7",
-    "public/posts/instagram-feeds/page/7/index.html",
-    "public/posts/instagram-feeds/page/7",
-    "public/posts/page/7/index.html",
-    "public/posts/page/7",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210128.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210130.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210123.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 211008.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 211001.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210923.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210922.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210917.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210806.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210717.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210711.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210705.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210702.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210607.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210606.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210402.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210322.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210314.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210307.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210304.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210228.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210225.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210223-2.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210223-1.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 200902.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 200807.md",
     "themes/write-only/content/posts/Instagram Feeds/2021/insta 210220.md",
-    "public/posts/instagram-feeds/2021/insta-210402/index.html",
-    "public/posts/instagram-feeds/2021/insta-210402",
-    "public/posts/instagram-feeds/2021/insta-210422/index.html",
-    "public/posts/instagram-feeds/2021/insta-210422",
-    "public/posts/instagram-feeds/2021/insta-210322/index.html",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210218.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210207.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210130.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210128.md",
+    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210123.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201222.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201122.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201119.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201118.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201104.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201102.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201030.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201029.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201028.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201026.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201023-2.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201021-2.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201023-1.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201021-1.md",
+    "themes/write-only/archetypes/default.md",
+    "themes/write-only/content/posts/Instagram Feeds/2023/insta 230512.md",
+    "themes/write-only/content/posts/Instagram Feeds/2023/insta 230205.md",
+    "themes/write-only/content/posts/Instagram Feeds/2023/insta 230523.md",
+    "public/tags/개념/index.xml",
+    "public/tags/개념/index.html",
+    "public/tags/개념",
+    "public/tags/서ㅇ/index.xml",
+    "public/tags/서ㅇ/index.html",
+    "public/tags/서ㅇ",
+    "public/categories/도/index.xml",
+    "public/categories/도/index.html",
+    "public/categories/도",
+    "public/tags/i/index.xml",
+    "public/posts/instagram-feeds/images/insta-210314.jpg",
+    "themes/write-only/content/posts/Instagram Feeds/images/insta-210314.jpg",
+    "public/posts/instagram-feeds/images/insta-201102.jpg",
+    "themes/write-only/content/posts/Instagram Feeds/images/insta-201102.jpg",
+    "public/posts/instagram-feeds/images/insta 201102.jpg",
+    "themes/write-only/content/posts/Instagram Feeds/images/insta 201102.jpg",
+    "public/posts/instagram-feeds/images/1604276295460.jpg",
+    "themes/write-only/content/posts/Instagram Feeds/images/1604276295460.jpg",
     "public/svg/icons/linkedin.svg",
-    "public/svg/icons/twitter.svg",
-    "public/svg/icons/instagram.svg",
-    "public/svg/icons/tiktok.svg",
-    "public/svg/icons/github.svg",
-    "public/svg/icons/facebook.svg",
-    "public/svg/icons/email.svg"
+    "public/svg/icons/twitter.svg"
   ]
 }
