@@ -5,8 +5,6 @@ url = "/template"
 author = "Eunkwang Ryan Choi"
 title = "Post Template"
 description = "This is a template sample page of the post section."
-date = 2025-02-01
-expiryDate = 2099-12-31
 +++
 
 This is a summary section. To summarize a page, make a brief content before the `<!-- more -->` code in the editor. 

@@ -1,5 +1,5 @@
 +++
 title = "Repositories"
-description = "This is the test description of the section."
+description = "Collections of Published and Professional Works"
 layout = "list-repo"
 +++

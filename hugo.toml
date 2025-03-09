@@ -76,23 +76,28 @@ ignoreLogs = ['warning-goldmark-raw-html']
     weight = 10
     pre = "btn btn-primary text-dark"
   [[menus.footer]]
-    name = "Cats"
-    url = "/categories"
+    name = "Art"
+    url = "/arts"
     weight = 10
   [[menus.footer]]
-    name = "Langs"
-    url = "/languages"
+    name = "Tec"
+    url = "/techs"
     weight = 20
   [[menus.footer]]
-    name = "Tags"
-    url = "/tags"
+    name = "Ref"
+    url = "/refs"
     weight = 30
+  [[menus.footer]]
+    name = "Etc"
+    url = "/etcs"
+    weight = 40
 
 [taxonomies]
-  category = 'categories'
-  language = 'languages'
-  tag = 'tags'
-  doc = 'docs'
+  art = 'arts'
+  tech = 'techs'
+  ref = 'refs'
+  etc = 'etcs'
+  loc = 'locs'
 
 [languages]
   [languages.en]

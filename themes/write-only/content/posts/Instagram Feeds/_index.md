@@ -1,5 +1,5 @@
 +++
 title = "Instagram Feeds"
-description = "This is the test description of the section."
+description = "Little Blurps on Instagram, from '20 to '24"
 layout = "list-post"
 +++

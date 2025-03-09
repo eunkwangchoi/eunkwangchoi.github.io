@@ -1,29 +1,21 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
+description = "Eunkwang Ryan Choi -- Artist, Writer, and Researcher"
 date = "2025-01-29"
 layout = "about"
 languageCode = "en-US"
 translationKey = "about"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+### Artist | Writer | Researcher
 
-Hugo makes use of a variety of open source projects including:
+I am a multidisciplinary artist, writer, and researcher exploring the intersections of art, technology, and philosophy. My work focuses on the evolving role of text and media in the digital age, particularly in the context of artificial intelligence and multimedia art.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+With a background in aesthetics and philosophy from Seoul National University, I have contributed to academia as a professor at Kyungnam University and participated in various AI research initiatives. In 2022, I founded Atelier Euro to further investigate the fusion of technology and artistic expression.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+My creative practice spans literature, visual arts, and interdisciplinary research, examining the shifting boundaries between text and non-text in contemporary art. I seek to challenge conventional narratives, question the notion of "the end of art," and explore AI’s potential in pure artistic creation.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Currently, I am expanding my portfolio to integrate AI-generated art and multimedia compositions, aiming to redefine the dialogue between human creativity and machine intelligence.
 
 <a href="https://contact.eunkwangchoi.com" target="_blank" onclick="var width = 1200; var height = 800; var left = (screen.width - width) / 2; var top = (screen.height - height) / 2; if (screen.width > 768) { window.open(this.href, '_blank', 'width=' + width + ',height=' + height + ',top=' + top + ',left=' + left); } else { window.open(this.href, '_blank'); } return false;">
     Contact
