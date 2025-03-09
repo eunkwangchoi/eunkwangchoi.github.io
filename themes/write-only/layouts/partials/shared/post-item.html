@@ -1,3 +1,4 @@
+{{ if ne .Title "About" }}
 <article class="py-4">
   <div class="py-2">
     <h1 class="display-1 text-center text-uppercase fw-bold text-primary">
@@ -12,3 +13,4 @@
     {{ .Summary }}
   </div>
 </article>
+{{ end }}

@@ -1,6 +1,6 @@
 +++
 aliases = "posts"
 title = "Posts"
-description = "This is the test description of the section."
+description = "Unorganized, Unscheduled, and Unpredictable"
 layout = "list-post"
 +++

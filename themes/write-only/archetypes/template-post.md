@@ -5,8 +5,6 @@ url = "/template"
 author = "Eunkwang Ryan Choi"
 title = "Post Template"
 description = "This is a template sample page of the post section."
-date = 2025-02-01
-expiryDate = 2099-12-31
 +++
 
 This is a summary section. To summarize a page, make a brief content before the `<!-- more -->` code in the editor. 
@@ -145,6 +143,7 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 Most <mark>salamanders</mark> are <del>nocturnal</del>, and hunt for <ins>insects</ins>, <cite>worms</cite>, and other small creatures.
 
+Use ruby to show the Hurigana. <ruby>閑<rt>しずか</rt></ruby>さや<ruby>岩<rt>いわ</rt></ruby>にしみ<ruby>入<rt>い</rt></ruby>る<ruby>蟬<rt>せみ</rt></ruby>の<ruby>聲<rt>こえ</rt></ruby>
 
 # Math Typesetting
 
