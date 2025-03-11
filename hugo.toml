@@ -97,7 +97,28 @@ ignoreLogs = ['warning-goldmark-raw-html']
   tech = 'techs'
   ref = 'refs'
   etc = 'etcs'
-  loc = 'locs'
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+  [[related.indices]]
+    name = 'arts' 
+    type = 'fragments'
+    weight = 1
+  [[related.indices]]
+    name = 'techs'  
+    type = 'fragments'
+    weight = 1
+  [[related.indices]]
+    name = 'refs'
+    type = 'fragments'
+    applyFilter = true
+    weight = 1
+  [[related.indices]]
+    name = 'etcs'
+    type = 'fragments'
+    weight = 1
 
 [languages]
   [languages.en]

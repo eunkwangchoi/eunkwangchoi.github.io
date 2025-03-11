@@ -4,17 +4,12 @@
   {{ else if eq .Page.Params.Languages "日本語" }}
     <h3>見た記事</h3>
   {{ else }}
-    <h3>Seen</h3>
+    <h3>You See</h3>
   {{ end }}
 
   <nav aria-label="breadcrumb" class="page-location">
     <ul>
       <ol class="breadcrumb" style="display: flex; list-style-type: none; padding: 0;">
-        {{ range .Ancestors.Reverse }}
-          <li class="breadcrumb-item">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a> /
-          </li>
-        {{ end }}
         <li class="breadcrumb-item active" aria-current="page">
           {{ .Title }}
         </li>
