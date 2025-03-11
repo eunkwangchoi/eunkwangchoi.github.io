@@ -40,7 +40,8 @@
                   "title": "template-post"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "2860216d01f7d184",
@@ -53,12 +54,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/posts/Instagram Feeds/2024/insta 240116.md",
+                    "file": "themes/write-only/content/posts/2024/tech 240625.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "insta 240116"
+                  "title": "tech 240625"
                 }
               }
             ]
@@ -187,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/archetypes/default.md",
+                "file": "themes/write-only/content/posts/2024/tech 240625.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of default"
+              "title": "Outline of tech 240625"
             }
           },
           {
@@ -227,23 +228,32 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "75eb4af970411403",
+  "active": "060f4b162bfcd3e8",
   "lastOpenFiles": [
-    "public/posts/index.xml",
-    "public/docs/scrivener/lecture/index.xml",
-    "public/docs/index.xml",
-    "public/docs/scrivener/index.xml",
-    "public/docs/page/1/index.html",
-    "public/docs/page/1",
-    "public/docs/page",
-    "public/ja/page/1/index.html",
-    "public/ja/techs/index.xml",
-    "public/ja/page/1",
-    "public/ja/techs/index.html",
+    "themes/write-only/content/posts/2024/tech 240617-1.md",
+    "themes/write-only/content/posts/2024/tech 240617-2/index.md",
+    "themes/write-only/archetypes/template-post.md",
+    "themes/write-only/archetypes/default.md",
+    "public/posts/2024/tech-240617-2/001.png",
+    "public/posts/2024/tech-240625/index.html",
+    "public/posts/2024/tech-240617-2/index.html",
+    "public/posts/2024/tech-240617-2/002.png",
+    "public/posts/2024/tech-240617-1/index.html",
+    "public/posts/2024/tech-240625",
+    "public/posts/2024/tech-240617-2",
+    "public/posts/2024/tech-240617-1",
+    "public/posts/2024",
+    "themes/write-only/content/posts/2024/tech 240625.md",
+    "public/techs/microsoft/-ms-office-365/index.html",
+    "public/techs/microsoft/-ms-office-365/index.xml",
+    "public/techs/microsoft/-ms-office-365",
+    "themes/write-only/content/posts/2024/tech 240617-2/002.png",
+    "themes/write-only/content/posts/2024/tech 240617-2/001.png",
+    "themes/write-only/content/repos/articles/문장웹진/2408 세 권의 낭만 – 철학, 문학, 그리고 교양.md",
+    "themes/write-only/content/posts/Instagram Feeds/2024/insta 240116.md",
     "public/posts/instagram-feeds/2021/insta-210314/insta-210314.jpg",
     "public/posts/instagram-feeds/2020/insta-201102/insta-201102.jpg",
     "public/docs/scrivener/newsroom/240306/img.png",
-    "themes/write-only/content/posts/Instagram Feeds/2024/insta 240116.md",
     "themes/write-only/content/posts/Instagram Feeds/2023/insta 230831.md",
     "themes/write-only/content/posts/Instagram Feeds/2023/insta 230905.md",
     "themes/write-only/content/posts/Instagram Feeds/2023/insta 230830.md",
@@ -252,9 +262,7 @@
     "themes/write-only/content/posts/Instagram Feeds/2023/insta 230205.md",
     "themes/write-only/content/posts/Instagram Feeds/2021/insta 210130.md",
     "themes/write-only/content/posts/Instagram Feeds/2021/insta 210123.md",
-    "themes/write-only/archetypes/default.md",
     "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240910 예술가의 문장 – 왜 그렇게 어렵게 말해요.md",
-    "themes/write-only/content/repos/articles/문장웹진/2408 세 권의 낭만 – 철학, 문학, 그리고 교양.md",
     "themes/write-only/content/repos/articles/시사문단/2103 풋내기 수필가의 하루.md",
     "themes/write-only/content/repos/articles/시사문단/2103 뱃놈 이야기.md",
     "themes/write-only/content/repos/articles/시사문단/2101 지식의 회전목마.md",
@@ -264,16 +272,8 @@
     "themes/write-only/content/posts/Instagram Feeds/2023/insta 231124.md",
     "themes/write-only/content/posts/Instagram Feeds/2021/insta 211008.md",
     "themes/write-only/content/posts/Instagram Feeds/2021/insta 211001.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210923.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210717.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210711.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210607.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201102/insta-201102.jpg",
     "public/posts/instagram-feeds/images/insta-210314.jpg",
-    "public/posts/instagram-feeds/images/insta-201102.jpg",
-    "public/docs/newsroom/scrivener-news-240306/img.png",
-    "themes/write-only/content/docs/scrivener/newsroom/240306/img.png",
-    "themes/write-only/content/docs/scrivener newsroom/scrivener news 240306/img.png",
-    "public/docs/scrivener-newsroom/scrivener-news-240306/img.png"
+    "public/posts/instagram-feeds/images/insta-201102.jpg"
   ]
 }
