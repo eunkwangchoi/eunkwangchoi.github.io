@@ -2,7 +2,7 @@
 draft = false
 math = false
 isCJKLanguage = true
-url = "12"
+url = "m/12"
 author = "최은광"
 title = "03강 | 프로젝트"
 description = "로컬 디스크에 저장하기 (90쪽)"
@@ -13,6 +13,8 @@ languages = "한국어"
 +++
 
 03강 | 프로젝트 – 로컬 디스크에 저장하기 (무따기 90쪽)
+
+<!--more--> 
 
 #
 

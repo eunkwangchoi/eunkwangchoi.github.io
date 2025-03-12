@@ -40,8 +40,7 @@
                   "title": "template-post"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "2860216d01f7d184",
@@ -54,12 +53,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/posts/2024/tech 240625.md",
+                    "file": "themes/write-only/content/posts/2025/art 250313.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "tech 240625"
+                  "title": "art 250313"
                 }
               }
             ]
@@ -188,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/posts/2024/tech 240625.md",
+                "file": "themes/write-only/content/posts/2025/art 250313.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tech 240625"
+              "title": "Outline of art 250313"
             }
           },
           {
@@ -230,48 +229,49 @@
   },
   "active": "060f4b162bfcd3e8",
   "lastOpenFiles": [
-    "themes/write-only/content/posts/2024/tech 240617-1.md",
-    "themes/write-only/content/posts/2024/tech 240617-2/index.md",
-    "themes/write-only/archetypes/template-post.md",
+    "public/arts/formats/-음반/index.xml",
+    "public/posts/2025/art-250313/index.html",
+    "public/posts/2025/art-250313",
+    "public/posts/2025",
+    "public/arts/formats/-음반/index.html",
+    "public/arts/formats/-음반",
     "themes/write-only/archetypes/default.md",
-    "public/posts/2024/tech-240617-2/001.png",
-    "public/posts/2024/tech-240625/index.html",
-    "public/posts/2024/tech-240617-2/index.html",
-    "public/posts/2024/tech-240617-2/002.png",
-    "public/posts/2024/tech-240617-1/index.html",
-    "public/posts/2024/tech-240625",
-    "public/posts/2024/tech-240617-2",
-    "public/posts/2024/tech-240617-1",
-    "public/posts/2024",
-    "themes/write-only/content/posts/2024/tech 240625.md",
-    "public/techs/microsoft/-ms-office-365/index.html",
-    "public/techs/microsoft/-ms-office-365/index.xml",
-    "public/techs/microsoft/-ms-office-365",
-    "themes/write-only/content/posts/2024/tech 240617-2/002.png",
-    "themes/write-only/content/posts/2024/tech 240617-2/001.png",
-    "themes/write-only/content/repos/articles/문장웹진/2408 세 권의 낭만 – 철학, 문학, 그리고 교양.md",
-    "themes/write-only/content/posts/Instagram Feeds/2024/insta 240116.md",
+    "public/docs/scrivener/lecture/index.xml",
+    "public/docs/scrivener/newsroom/index.xml",
+    "public/docs/scrivener/research/index.xml",
+    "public/docs/scrivener/index.xml",
+    "public/docs/index.xml",
     "public/posts/instagram-feeds/2021/insta-210314/insta-210314.jpg",
     "public/posts/instagram-feeds/2020/insta-201102/insta-201102.jpg",
+    "public/posts/2024/tech-240617-2/001.png",
+    "public/posts/2024/tech-240617-2/002.png",
     "public/docs/scrivener/newsroom/240306/img.png",
-    "themes/write-only/content/posts/Instagram Feeds/2023/insta 230831.md",
-    "themes/write-only/content/posts/Instagram Feeds/2023/insta 230905.md",
-    "themes/write-only/content/posts/Instagram Feeds/2023/insta 230830.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210702.md",
-    "themes/write-only/content/posts/Instagram Feeds/2023/insta 230512.md",
-    "themes/write-only/content/posts/Instagram Feeds/2023/insta 230205.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210130.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 210123.md",
-    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240910 예술가의 문장 – 왜 그렇게 어렵게 말해요.md",
-    "themes/write-only/content/repos/articles/시사문단/2103 풋내기 수필가의 하루.md",
-    "themes/write-only/content/repos/articles/시사문단/2103 뱃놈 이야기.md",
-    "themes/write-only/content/repos/articles/시사문단/2101 지식의 회전목마.md",
-    "themes/write-only/content/posts/Instagram Feeds/2024/insta 240226.md",
-    "themes/write-only/content/posts/Instagram Feeds/2024/insta 240124.md",
-    "themes/write-only/content/posts/Instagram Feeds/2023/insta 231217.md",
-    "themes/write-only/content/posts/Instagram Feeds/2023/insta 231124.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 211008.md",
-    "themes/write-only/content/posts/Instagram Feeds/2021/insta 211001.md",
+    "themes/write-only/content/posts/2025/art 250313.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 17.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 20.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 19.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 18.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 16.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 15.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 14.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 13.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 12.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 11.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 10.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 09.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 08.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 07.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 06.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 05.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 04.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 03.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 02.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 01.md",
+    "themes/write-only/archetypes/template-post.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 05 - 복사본.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 04 - 복사본.md",
+    "themes/write-only/content/posts/2024/tech 240617-2/002.png",
+    "themes/write-only/content/posts/2024/tech 240617-2/001.png",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201102/insta-201102.jpg",
     "public/posts/instagram-feeds/images/insta-210314.jpg",
     "public/posts/instagram-feeds/images/insta-201102.jpg"

@@ -2,7 +2,7 @@
 draft = false
 math = false
 isCJKLanguage = true
-url = "10"
+url = "m/10"
 author = "최은광"
 title = "01강 | 설치와 초기 설정"
 description = "최신 버전 설치, 첫 실행, 한국어 설정 (40쪽)"
@@ -13,6 +13,8 @@ languages = "한국어"
 +++
 
 01강 | 설치, 첫 실행, 한국어 설정 (무따기 40쪽)
+
+<!--more--> 
 
 #
 

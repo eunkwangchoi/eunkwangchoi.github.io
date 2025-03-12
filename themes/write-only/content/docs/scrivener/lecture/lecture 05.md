@@ -2,7 +2,7 @@
 draft = false
 math = false
 isCJKLanguage = true
-url = "14"
+url = "m/14"
 author = "최은광"
 title = "05강 | 프로젝트"
 description = "클라우드에서 공유하기 (95쪽)"
@@ -13,6 +13,8 @@ languages = "한국어"
 +++
 
 05강 | 프로젝트 – 클라우드에서 공유하기 (무따기 95쪽)
+
+<!--more--> 
 
 #
 

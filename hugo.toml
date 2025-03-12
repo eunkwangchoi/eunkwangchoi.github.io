@@ -125,11 +125,13 @@ ignoreLogs = ['warning-goldmark-raw-html']
     disabled = false
     languageCode = 'en-US'
     languageName = 'English'
+    timeZone = 'America/New_York'
     weight = 1
   [languages.ko]
     disabled = false
     languageCode = 'ko-KR'
     languageName = '한국어'
+    timeZone = 'Asia/Seoul'
     weight = 2
     [languages.ko.params]
       author = '최은광'
@@ -139,6 +141,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
     disabled = false
     languageCode = 'ja-JP'
     languageName = '日本語'
+    timeZone = 'Asia/Tokyo'
     weight = 3
     [languages.ja.params]
       author = '崔恩光'

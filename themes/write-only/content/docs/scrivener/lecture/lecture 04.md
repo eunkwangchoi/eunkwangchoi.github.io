@@ -2,7 +2,7 @@
 draft = false
 math = false
 isCJKLanguage = true
-url = "13"
+url = "m/13"
 author = "최은광"
 title = "04강 | 프로젝트"
 description = "백업 파일로 저장하기 (92쪽)"
@@ -13,6 +13,8 @@ languages = "한국어"
 +++
 
 04강 | 프로젝트 – 백업 파일로 저장하기 (무따기 92쪽)
+
+<!--more--> 
 
 #
 

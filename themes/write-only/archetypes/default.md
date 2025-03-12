@@ -32,14 +32,14 @@ locs = [ "" ]
 
 {{< youtube ZJthWmvUzzc >}}
 ![cat](../../images/insta-201102.jpg)
-<center><a href="https://ko.wikipedia.org/wiki/%EC%84%9C%EC%B9%AD_%ED%8F%AC_%EC%8A%88%EA%B0%80%EB%A7%A8" target="_blank" rel="noopener noreferrer">Searching for Sugarman (2012)</a></center>
+
 
 
 art list
 	Categories
 		영화, 음악, 미술, 건축, 문학, 사진, 디자인
 	Formats
-		전시, 공연
+		전시, 공연, 음반
 
 tech list
 	Generative AI

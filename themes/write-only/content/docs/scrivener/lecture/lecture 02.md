@@ -2,7 +2,7 @@
 draft = false
 math = false
 isCJKLanguage = true
-url = "11"
+url = "m/11"
 author = "최은광"
 title = "02강 | 프로젝트"
 description = "템플릿을 이용해 첫 프로젝트 만들기 (80쪽)"
@@ -13,6 +13,8 @@ languages = "한국어"
 +++
 
 02강 | 프로젝트 – 템플릿에서 만들기 (무따기 80쪽)
+
+<!--more--> 
 
 #
 
