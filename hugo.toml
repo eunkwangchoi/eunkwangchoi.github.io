@@ -8,19 +8,11 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
   author = 'Eunkwang Ryan Choi'
-  description = 'Ryan Choi -- Artist, Writer, and Researcher'
+  description = 'Artist, Writer, and Researcher'
   location = ["Seoul", "South Korea"]
   contact = ["ryan.choi@arteuro.net"]
-  images = ["images/hero-image.png"]
-  logo = "arrow-up.png"
+  logo = "favicon.png"
   math = true
-    [params.favicons]
-      themeColor = "#FFFFFF"
-      backgroundColor = "#FFFFFF"
-      faviconColor = "#000000"
-    [params.social]
-      instagram = "https://instagram.com/eunkwang.ryan.choi"
-      facebook = "#"
 
 [services]
   [services.googleAnalytics]

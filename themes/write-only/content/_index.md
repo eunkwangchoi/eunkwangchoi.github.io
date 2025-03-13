@@ -1,4 +1,4 @@
 +++
-title = "the text"
-description = "Ryan Choi -- Artist, Writer, and Researcher"
+title = "Eunkwang Ryan Choi"
+description = "Artist, Writer, and Researcher"
 +++
