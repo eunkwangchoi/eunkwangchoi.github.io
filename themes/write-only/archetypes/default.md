@@ -33,6 +33,7 @@ locs = [ "" ]
 {{< youtube ZJthWmvUzzc >}}
 ![cat](../../images/insta-201102.jpg)
 
+<a href="https://munjang.or.kr/board.es?mid=a20204000000&bid=0011&act=view&ord=B&list_no=101979&nPage=2&c_page=" target="_blank" rel="noopener noreferrer">원문: 문장웹진</a>
 
 
 art list
