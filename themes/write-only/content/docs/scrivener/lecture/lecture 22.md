@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-22강 | 가져오기 – 원고 분할 (189 & 197쪽)
+22강 | 가져오기 – 원고 분할 (무따기 189 & 197쪽)
 
 <!--more--> 
 

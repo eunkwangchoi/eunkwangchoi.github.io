@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-21강 | 가져오기 – 기존 원고 가져오기 (182쪽)
+21강 | 가져오기 – 기존 원고 가져오기 (무따기 182쪽)
 
 <!--more--> 
 

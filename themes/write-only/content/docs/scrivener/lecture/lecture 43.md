@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-43강 | 에디터 – 다중 에디터 활용하기 (368쪽)
+43강 | 에디터 – 다중 에디터 활용하기 (무따기 368쪽)
 
 <!--more--> 
 

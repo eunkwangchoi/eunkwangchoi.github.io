@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-16강 | 컴포지션 모드 2 (131쪽)
+16강 | 컴포지션 모드 2 (무따기 131쪽)
 
 <!--more--> 
 

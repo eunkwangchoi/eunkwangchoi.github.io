@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-32강 | 인스펙터 – 라벨 (287쪽)
+32강 | 인스펙터 – 라벨 (무따기 287쪽)
 
 <!--more--> 
 

@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-26강 | 가져오기 – 링크로 연결하기 (214 & 222쪽)
+26강 | 가져오기 – 링크로 연결하기 (무따기 214 & 222쪽)
 
 <!--more--> 
 

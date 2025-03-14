@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-38강 | 검색 – 찾아서 바꾸기 (317쪽)
+38강 | 검색 – 찾아서 바꾸기 (무따기 317쪽)
 
 <!--more--> 
 

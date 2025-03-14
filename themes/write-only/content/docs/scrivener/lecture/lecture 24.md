@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-24강 | 가져오기 – PDF 문서 (206쪽)
+24강 | 가져오기 – PDF 문서 (무따기 206쪽)
 
 <!--more--> 
 

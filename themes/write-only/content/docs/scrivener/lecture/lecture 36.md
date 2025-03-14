@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-36강 | 검색 – 필터 활용하기 (311쪽)
+36강 | 검색 – 필터 활용하기 (무따기 311쪽)
 
 <!--more--> 
 

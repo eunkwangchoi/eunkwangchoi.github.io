@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-28강 | 스크래치패드 1 (260쪽)
+28강 | 스크래치패드 1 (무따기 260쪽)
 
 <!--more--> 
 

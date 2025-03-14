@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-17강 | 바인더 (138쪽)
+17강 | 바인더 (무따기 138쪽)
 
 <!--more--> 
 

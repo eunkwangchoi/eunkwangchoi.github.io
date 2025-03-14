@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-18강 | 컬렉션 (148 & 156쪽)
+18강 | 컬렉션 (무따기 148 & 156쪽)
 
 <!--more--> 
 

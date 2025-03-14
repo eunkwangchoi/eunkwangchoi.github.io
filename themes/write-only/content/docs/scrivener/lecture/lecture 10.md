@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-10강 | 에디터 – 다양한 공백의 입력과 편집 (110쪽)
+10강 | 에디터 – 다양한 공백의 입력과 편집 (무따기 110쪽)
 
 <!--more--> 
 

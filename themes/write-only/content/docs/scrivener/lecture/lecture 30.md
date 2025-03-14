@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-30강 | 그룹 뷰 – 아웃라이너 (275쪽)
+30강 | 그룹 뷰 – 아웃라이너 (무따기 275쪽)
 
 <!--more--> 
 

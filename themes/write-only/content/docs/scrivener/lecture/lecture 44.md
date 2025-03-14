@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-44강 | 에디터 – 퀵 레퍼런스 (378쪽)
+44강 | 에디터 – 퀵 레퍼런스 (무따기 378쪽)
 
 <!--more--> 
 

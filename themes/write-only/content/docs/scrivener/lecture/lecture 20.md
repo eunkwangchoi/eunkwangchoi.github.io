@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-20강 | 내보내기 – 목차 저장하기 (177쪽)
+20강 | 내보내기 – 목차 저장하기 (무따기 177쪽)
 
 <!--more--> 
 

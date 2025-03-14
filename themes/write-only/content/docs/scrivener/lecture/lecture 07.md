@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-07강 | 새 문서 – 메뉴와 툴바에서 만들기 (99쪽)
+07강 | 새 문서 – 메뉴와 툴바에서 만들기 (무따기 99쪽)
 
 <!--more--> 
 

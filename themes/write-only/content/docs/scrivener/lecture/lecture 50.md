@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-50강 | 컴파일 기초 2 (406쪽)
+50강 | 컴파일 기초 2 (무따기 406쪽)
 
 <!--more--> 
 

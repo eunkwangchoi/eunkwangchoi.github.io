@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-06강 | 새 문서 – 바인더에서 직접 만들기 (96쪽)
+06강 | 새 문서 – 바인더에서 직접 만들기 (무따기 96쪽)
 
 <!--more--> 
 

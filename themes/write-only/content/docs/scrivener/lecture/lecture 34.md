@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-34강 | 인스펙터 – 키워드 (297쪽)
+34강 | 인스펙터 – 키워드 (무따기 297쪽)
 
 <!--more--> 
 

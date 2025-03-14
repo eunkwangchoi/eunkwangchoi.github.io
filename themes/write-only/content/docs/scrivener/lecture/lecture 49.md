@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-49강 | 컴파일 기초 1 (403쪽)
+49강 | 컴파일 기초 1 (무따기 403쪽)
 
 <!--more--> 
 

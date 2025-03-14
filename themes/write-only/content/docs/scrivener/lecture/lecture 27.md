@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-27강 | 그룹 뷰 – 코르크보드 (249쪽)
+27강 | 그룹 뷰 – 코르크보드 (무따기 249쪽)
 
 <!--more--> 
 

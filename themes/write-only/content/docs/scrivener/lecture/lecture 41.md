@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-41강 | 인스펙터 – 스냅샷 (344쪽)
+41강 | 인스펙터 – 스냅샷 (무따기 344쪽)
 
 <!--more--> 
 

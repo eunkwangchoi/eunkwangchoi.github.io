@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-12강 | 에디터 – 편집 화면의 조정과 분할 (119쪽)
+12강 | 에디터 – 편집 화면의 조정과 분할 (무따기 119쪽)
 
 <!--more--> 
 

@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-39강 | 문서 – 분할과 병합 (320쪽)
+39강 | 문서 – 분할과 병합 (무따기 320쪽)
 
 <!--more--> 
 

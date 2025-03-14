@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-45강 | 에디터 – 카피홀더 (384쪽)
+45강 | 에디터 – 카피홀더 (무따기 384쪽)
 
 <!--more--> 
 

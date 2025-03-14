@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-08강 | 에디터 – 글자의 입력과 편집 (102쪽)
+08강 | 에디터 – 글자의 입력과 편집 (무따기 102쪽)
 
 <!--more--> 
 

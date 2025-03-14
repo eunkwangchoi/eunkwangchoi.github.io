@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-33강 | 인스펙터 – 상태 (293쪽)
+33강 | 인스펙터 – 상태 (무따기 293쪽)
 
 <!--more--> 
 

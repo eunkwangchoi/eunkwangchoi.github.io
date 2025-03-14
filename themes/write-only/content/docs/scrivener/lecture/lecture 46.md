@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-46강 | 정보 – 문서 통계 확인하기 (390쪽)
+46강 | 정보 – 문서 통계 확인하기 (무따기 390쪽)
 
 <!--more--> 
 

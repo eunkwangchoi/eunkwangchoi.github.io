@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-31강 | 그룹 뷰 – 스크리브닝 (282쪽)
+31강 | 그룹 뷰 – 스크리브닝 (무따기 282쪽)
 
 <!--more--> 
 

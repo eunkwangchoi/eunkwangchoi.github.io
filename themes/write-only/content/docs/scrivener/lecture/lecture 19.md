@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-19강 | 내보내기 – 워드 파일로 저장하기 (165쪽)
+19강 | 내보내기 – 워드 파일로 저장하기 (무따기 165쪽)
 
 <!--more--> 
 

@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-13강 | 에디터 – 특수한 선택과 복사 (122쪽)
+13강 | 에디터 – 특수한 선택과 복사 (무따기 122쪽)
 
 <!--more--> 
 

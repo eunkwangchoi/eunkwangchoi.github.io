@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-40강 | 문서 – 연결하기 (327쪽)
+40강 | 문서 – 연결하기 (무따기 327쪽)
 
 <!--more--> 
 

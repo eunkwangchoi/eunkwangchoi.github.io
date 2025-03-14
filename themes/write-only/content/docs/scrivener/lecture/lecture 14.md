@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-14강 | 에디터 – 서식의 정리 정돈 (124쪽)
+14강 | 에디터 – 서식의 정리 정돈 (무따기 124쪽)
 
 <!--more--> 
 

@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-37강 | 검색 – 지정된 서식으로 찾기 (315쪽)
+37강 | 검색 – 지정된 서식으로 찾기 (무따기 315쪽)
 
 <!--more--> 
 

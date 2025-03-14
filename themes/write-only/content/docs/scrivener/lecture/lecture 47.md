@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-47강 | 정보 – 집필 기록 확인하기 (396쪽)
+47강 | 정보 – 집필 기록 확인하기 (무따기 396쪽)
 
 <!--more--> 
 

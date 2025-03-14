@@ -12,7 +12,7 @@ techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
 +++
 
-35강 | 인스펙터 – 사용자 메타데이터 (303쪽)
+35강 | 인스펙터 – 사용자 메타데이터 (무따기 303쪽)
 
 <!--more--> 
 
