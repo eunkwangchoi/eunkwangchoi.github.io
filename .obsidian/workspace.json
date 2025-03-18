@@ -60,8 +60,23 @@
                   "icon": "lucide-file",
                   "title": "lecture 42"
                 }
+              },
+              {
+                "id": "b22e21fbd0e2509d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "themes/write-only/content/docs/scrivener/newsroom/250316.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "250316"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "676a90df83252203",
@@ -187,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
+                "file": "themes/write-only/content/docs/scrivener/newsroom/250316.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lecture 42"
+              "title": "Outline of 250316"
             }
           },
           {
@@ -227,11 +242,24 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "060f4b162bfcd3e8",
+  "active": "b22e21fbd0e2509d",
   "lastOpenFiles": [
-    "themes/write-only/content/docs/scrivener/lecture/lecture 41.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
+    "themes/write-only/archetypes/default.md",
+    "public/qr_d5b356e5c6d20b44.png",
+    "themes/write-only/content/docs/scrivener/newsroom/250316.md",
+    "public/qr_54f7edb7290850d9.png",
+    "public/qr_72d9a8327e8910d.png",
+    "public/qr_924bf7d80a564b23.png",
+    "themes/write-only/content/docs/scrivener/newsroom/250317.md",
+    "public/docs/scrivener/newsroom/250316-1/index.html",
+    "public/docs/scrivener/newsroom/250316-1",
+    "public/docs/scrivener/newsroom/250316/index.html",
+    "public/docs/scrivener/newsroom/250316",
+    "public/docs/scrivener/newsroom/250317/index.html",
+    "public/docs/scrivener/newsroom/250317",
     "themes/write-only/content/docs/scrivener/newsroom/230628.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 41.md",
     "themes/write-only/content/docs/scrivener/newsroom/230522.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 01.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 50.md",
@@ -251,29 +279,15 @@
     "themes/write-only/content/docs/scrivener/lecture/lecture 34.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 33.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 32.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 31.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 30.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 29.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 28.md",
     "public/etcs/집필/index.xml",
     "public/etcs/집필/index.html",
     "public/etcs/집필",
     "public/docs/scrivener/newsroom/230628/index.html",
-    "public/docs/scrivener/newsroom/230628",
-    "public/docs/scrivener/newsroom/untitled/index.html",
-    "public/docs/scrivener/newsroom/untitled",
-    "public/m/41/index.html",
-    "public/m/41",
-    "public/m/44/index.html",
     "public/android-chrome-512x512.png",
     "public/android-chrome-192x192.png",
     "public/posts/instagram-feeds/2021/insta-210314/insta-210314.jpg",
     "public/posts/instagram-feeds/2020/insta-201102/insta-201102.jpg",
     "public/posts/2024/tech-240617-2/001.png",
-    "public/posts/2024/tech-240617-2/002.png",
-    "public/docs/scrivener/newsroom/240306/img.png",
-    "themes/write-only/content/posts/2024/tech 240617-2/002.png",
-    "themes/write-only/content/posts/2024/tech 240617-2/001.png",
-    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201102/insta-201102.jpg"
+    "public/posts/2024/tech-240617-2/002.png"
   ]
 }

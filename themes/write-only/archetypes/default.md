@@ -35,6 +35,10 @@ locs = [ "" ]
 
 <a href="https://munjang.or.kr/board.es?mid=a20204000000&bid=0011&act=view&ord=B&list_no=101979&nPage=2&c_page=" target="_blank" rel="noopener noreferrer">원문: 문장웹진</a>
 
+<div style="text-align: center;">
+    <a href="https://talk.naver.com/W448DX" target="_blank" rel="noopener noreferrer">네이버 톡톡</a>
+</div>
+
 
 art list
 	Categories
