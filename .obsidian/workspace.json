@@ -74,9 +74,23 @@
                   "icon": "lucide-file",
                   "title": "250316"
                 }
+              },
+              {
+                "id": "aa63be3f71b2a487",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "README"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "676a90df83252203",
@@ -202,13 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/docs/scrivener/newsroom/250316.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 250316"
+              "title": "Outline of README"
             }
           },
           {
@@ -242,11 +256,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b22e21fbd0e2509d",
+  "active": "aa63be3f71b2a487",
   "lastOpenFiles": [
+    "themes/write-only/README.md",
+    "README.md",
+    "themes/write-only/content/docs/scrivener/newsroom/250316.md",
     "themes/write-only/archetypes/default.md",
     "public/qr_d5b356e5c6d20b44.png",
-    "themes/write-only/content/docs/scrivener/newsroom/250316.md",
     "public/qr_54f7edb7290850d9.png",
     "public/qr_72d9a8327e8910d.png",
     "public/qr_924bf7d80a564b23.png",
@@ -278,7 +294,6 @@
     "themes/write-only/content/docs/scrivener/lecture/lecture 35.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 34.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 33.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 32.md",
     "public/etcs/집필/index.xml",
     "public/etcs/집필/index.html",
     "public/etcs/집필",
