@@ -6,7 +6,7 @@ url = "m/58"
 author = "최은광"
 title = "49강 | 컴파일"
 description = "컴파일 기초 1 (403쪽)"
-date = 2024-05-08
+date = 2025-03-20
 expiryDate = 2099-12-31
 techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
@@ -15,6 +15,14 @@ languages = "한국어"
 49강 | 컴파일 기초 1 (무따기 403쪽)
 
 <!--more--> 
+
+#
+
+[스크리브너 무따기 블로그 이전 안내](../../docs/scrivener/newsroom/scrivener-notice-01/)
+
+#
+
+---
 
 #
 

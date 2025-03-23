@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "최은광 -- 아티스트, 작가, 연구자"
-date = "2025-01-29"
+date = 2025-03-21
 layout = "about"
 languageCode = "ko-KR"
 translationKey = "about"

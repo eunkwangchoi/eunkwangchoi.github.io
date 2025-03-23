@@ -18,9 +18,17 @@ languages = "한국어"
 
 #
 
+[스크리브너 무따기 블로그 이전 안내](../../docs/scrivener/newsroom/scrivener-notice-01/)
+
+#
+
+---
+
+#
+
 {{< youtube 2Jizgl50Bl4 >}}
 
-<br><br>
+<br>
 
 {{< youtube bNoyHdtXs_M >}}
 

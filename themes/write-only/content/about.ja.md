@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "チェ・ウンガン -- アーティスト、作家、研究者"
-date = "2025-01-29"
+date = 2025-03-21
 layout = "about"
 languageCode = "ja-JP"
 translationKey = "about"

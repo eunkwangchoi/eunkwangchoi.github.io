@@ -40,6 +40,15 @@ locs = [ "" ]
 </div>
 
 
+<script src="https://cdn.fastcomments.com/js/embed-v2.min.js"></script>
+  <div id="fastcomments-widget"></div>
+  <script>
+	FastCommentsUI(document.getElementById('fastcomments-widget'), {
+	  tenantId: 'kYpW2ra3fpa'
+	});
+</script>
+
+
 art list
 	Categories
 		영화, 음악, 미술, 건축, 문학, 사진, 디자인

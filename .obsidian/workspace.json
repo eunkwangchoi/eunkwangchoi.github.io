@@ -53,12 +53,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
+                    "file": "themes/write-only/content/about.ko.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "lecture 42"
+                  "title": "about.ko"
                 }
               },
               {
@@ -90,7 +90,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           },
           {
             "id": "676a90df83252203",
@@ -216,13 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "themes/write-only/content/docs/scrivener/newsroom/250316.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of 250316"
             }
           },
           {
@@ -256,28 +256,8 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "aa63be3f71b2a487",
+  "active": "b22e21fbd0e2509d",
   "lastOpenFiles": [
-    "themes/write-only/README.md",
-    "README.md",
-    "themes/write-only/content/docs/scrivener/newsroom/250316.md",
-    "themes/write-only/archetypes/default.md",
-    "public/qr_d5b356e5c6d20b44.png",
-    "public/qr_54f7edb7290850d9.png",
-    "public/qr_72d9a8327e8910d.png",
-    "public/qr_924bf7d80a564b23.png",
-    "themes/write-only/content/docs/scrivener/newsroom/250317.md",
-    "public/docs/scrivener/newsroom/250316-1/index.html",
-    "public/docs/scrivener/newsroom/250316-1",
-    "public/docs/scrivener/newsroom/250316/index.html",
-    "public/docs/scrivener/newsroom/250316",
-    "public/docs/scrivener/newsroom/250317/index.html",
-    "public/docs/scrivener/newsroom/250317",
-    "themes/write-only/content/docs/scrivener/newsroom/230628.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 41.md",
-    "themes/write-only/content/docs/scrivener/newsroom/230522.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 01.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 50.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 49.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 48.md",
@@ -286,6 +266,8 @@
     "themes/write-only/content/docs/scrivener/lecture/lecture 45.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 44.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 43.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 41.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 40.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 39.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 38.md",
@@ -294,10 +276,28 @@
     "themes/write-only/content/docs/scrivener/lecture/lecture 35.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 34.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 33.md",
-    "public/etcs/집필/index.xml",
-    "public/etcs/집필/index.html",
-    "public/etcs/집필",
-    "public/docs/scrivener/newsroom/230628/index.html",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 32.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 31.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 30.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 29.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 28.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 27.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 26.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 25.md",
+    "public/docs/scrivener/newsroom/scrivener-notice-01/index.html",
+    "public/docs/scrivener/newsroom/scrivener-notice-01",
+    "public/docs/scrivener/newsroom/scrivener-notice/index.html",
+    "public/docs/scrivener/newsroom/scrivener-notice",
+    "public/docs/scrivener/newsroom/scrivener/index.html",
+    "public/docs/scrivener/newsroom/scrivener",
+    "public/docs/scrivener/newsroom/scr/index.html",
+    "public/docs/scrivener/newsroom/scr",
+    "public/robots.txt",
+    "public/CNAME",
+    "public/qr_d5b356e5c6d20b44.png",
+    "public/qr_54f7edb7290850d9.png",
+    "public/qr_72d9a8327e8910d.png",
+    "public/qr_924bf7d80a564b23.png",
     "public/android-chrome-512x512.png",
     "public/android-chrome-192x192.png",
     "public/posts/instagram-feeds/2021/insta-210314/insta-210314.jpg",

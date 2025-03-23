@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "Eunkwang Ryan Choi -- Artist, Writer, and Researcher"
-date = "2025-01-29"
+date = 2025-03-21
 layout = "about"
 languageCode = "en-US"
 translationKey = "about"
