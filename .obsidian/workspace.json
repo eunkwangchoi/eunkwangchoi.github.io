@@ -67,12 +67,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/docs/scrivener/lecture/lecture 50.md",
+                    "file": "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "lecture 50"
+                  "title": "lecture 42"
                 }
               },
               {
@@ -216,13 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/docs/scrivener/lecture/lecture 50.md",
+                "file": "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lecture 50"
+              "title": "Outline of lecture 42"
             }
           },
           {
@@ -258,17 +258,20 @@
   },
   "active": "b22e21fbd0e2509d",
   "lastOpenFiles": [
-    "themes/write-only/content/docs/scrivener/lecture/lecture 49.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 48.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 47.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 46.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 45.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 44.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 43.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
-    "themes/write-only/content/docs/scrivener/newsroom/250316.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 44.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 45.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 46.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 47.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 48.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 49.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 50.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 41.md",
+    "themes/write-only/layouts/partials/shared/comment.html",
+    "themes/write-only/layouts/partials/shared/comments.html",
+    "themes/write-only/layouts/partials/shared/fastcomments.html",
+    "themes/write-only/content/docs/scrivener/newsroom/250316.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 40.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 39.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 38.md",
@@ -283,7 +286,6 @@
     "themes/write-only/content/docs/scrivener/lecture/lecture 29.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 28.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 27.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 26.md",
     "public/docs/scrivener/newsroom/scrivener-notice-01/index.html",
     "public/docs/scrivener/newsroom/scrivener-notice-01",
     "public/docs/scrivener/newsroom/scrivener-notice/index.html",
@@ -291,9 +293,6 @@
     "public/docs/scrivener/newsroom/scrivener/index.html",
     "public/docs/scrivener/newsroom/scrivener",
     "public/docs/scrivener/newsroom/scr/index.html",
-    "public/docs/scrivener/newsroom/scr",
-    "public/robots.txt",
-    "public/CNAME",
     "public/qr_d5b356e5c6d20b44.png",
     "public/qr_54f7edb7290850d9.png",
     "public/qr_72d9a8327e8910d.png",

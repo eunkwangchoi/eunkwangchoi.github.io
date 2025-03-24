@@ -28,6 +28,9 @@
         </div>
         <div class="markdown-content py-2">
           {{ .Site.Params.author }}
+        </div>
+        <div class="markdown-content py-2">
+          {{ partial "shared/comment.html" . }}
         </div>        
       </div>
   </div>

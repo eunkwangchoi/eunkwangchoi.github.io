@@ -1,12 +1,12 @@
 +++
-draft = true
+draft = false
 math = false
 isCJKLanguage = true
 url = "m/58"
 author = "최은광"
 title = "49강 | 컴파일"
 description = "컴파일 기초 1 (403쪽)"
-date = 2025-03-20
+date = 2023-03-20
 expiryDate = 2099-12-31
 techs = ["Literature & Latte/ Scrivener"]
 languages = "한국어"
