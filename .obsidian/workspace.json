@@ -48,34 +48,35 @@
             "dimension": 35.430318916557454,
             "children": [
               {
-                "id": "aa63be3f71b2a487",
+                "id": "4b11a2ce9c619249",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/repos/articles/기타/1012 자본주의 종결자.md",
+                    "file": "themes/write-only/content/docs/scrivener/newsroom/230620.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "1012 자본주의 종결자"
+                  "title": "230620"
                 }
               },
               {
-                "id": "25bf01d5eb1e96d6",
+                "id": "a4ef2f036f16a22e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/repos/articles/시사문단/2101 변신 로봇 이야기.md",
+                    "file": "themes/write-only/content/repos/articles/한국투데이_기사/241028 가을 정취 속 발레 명작의 향연.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "2101 변신 로봇 이야기"
+                  "title": "241028 가을 정취 속 발레 명작의 향연"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "676a90df83252203",
@@ -201,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/repos/articles/기타/1012 자본주의 종결자.md",
+                "file": "themes/write-only/content/repos/articles/한국투데이_기사/241028 가을 정취 속 발레 명작의 향연.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1012 자본주의 종결자"
+              "title": "Outline of 241028 가을 정취 속 발레 명작의 향연"
             }
           },
           {
@@ -241,14 +242,20 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "aa63be3f71b2a487",
+  "active": "a4ef2f036f16a22e",
   "lastOpenFiles": [
+    "themes/write-only/content/repos/articles/한국투데이_기사/240926 김병종, 전시 ‘생명광시곡’.md",
+    "themes/write-only/content/repos/articles/한국투데이_기사/240925 크리에이티브 윤슬, 연극 ‘세계몰락감’.md",
+    "themes/write-only/content/repos/articles/한국투데이_기사/240920 서울대 미술관 – 예술, 보이지 않는 것들의 관문 展.md",
+    "themes/write-only/content/repos/articles/한국투데이_기사/240912 파라다이스 아트랩 페스티벌.md",
+    "themes/write-only/content/repos/articles/한국투데이_기사/240906 키아프, 생동하는 동시대 예술의 현장.md",
+    "themes/write-only/content/docs/scrivener/newsroom/230620.md",
+    "themes/write-only/content/docs/scrivener/newsroom/230522.md",
+    "themes/write-only/content/docs/scrivener/newsroom/230628.md",
+    "themes/write-only/content/repos/articles/기타/1012 자본주의 종결자.md",
     "themes/write-only/content/repos/articles/시사문단/2101 변신 로봇 이야기.md",
     "themes/write-only/content/repos/articles/문장웹진/2408 세 권의 낭만 – 철학, 문학, 그리고 교양.md",
-    "themes/write-only/content/repos/articles/기타/1012 자본주의 종결자.md",
-    "themes/write-only/content/docs/scrivener/newsroom/230522.md",
     "themes/write-only/content/repos/articles/기타",
-    "themes/write-only/content/docs/scrivener/newsroom/230628.md",
     "themes/write-only/content/docs/scrivener/newsroom/250316.md",
     "themes/write-only/content/repos/articles/한국투데이_기사/241028 가을 정취 속 발레 명작의 향연.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 44.md",
@@ -264,12 +271,6 @@
     "themes/write-only/content/docs/scrivener/lecture/lecture 34.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 33.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 32.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 31.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 30.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 29.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 28.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 27.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 26.md",
     "themes/write-only/layouts/partials/shared/comment.html",
     "themes/write-only/layouts/partials/shared/comments.html",
     "themes/write-only/layouts/partials/shared/fastcomments.html",
