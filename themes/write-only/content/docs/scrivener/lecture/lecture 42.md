@@ -24,13 +24,11 @@ languages = "한국어"
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2618164900782657"
      crossorigin="anonymous"></script>
-<!-- media-default -->
 <ins class="adsbygoogle"
      style="display:block"
+     data-ad-format="autorelaxed"
      data-ad-client="ca-pub-2618164900782657"
-     data-ad-slot="9686088214"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
+     data-ad-slot="3789799679"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
