@@ -53,12 +53,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/about.ko.md",
+                    "file": "themes/write-only/content/repos/articles/한국투데이_기사/241028 가을 정취 속 발레 명작의 향연.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "about.ko"
+                  "title": "241028 가을 정취 속 발레 명작의 향연"
                 }
               },
               {
@@ -81,16 +81,15 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "README.md",
+                    "file": "themes/write-only/content/docs/scrivener/lecture/lecture 41.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "README"
+                  "title": "lecture 41"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "676a90df83252203",
@@ -216,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
+                "file": "themes/write-only/content/repos/articles/한국투데이_기사/241028 가을 정취 속 발레 명작의 향연.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lecture 42"
+              "title": "Outline of 241028 가을 정취 속 발레 명작의 향연"
             }
           },
           {
@@ -256,11 +255,16 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b22e21fbd0e2509d",
+  "active": "060f4b162bfcd3e8",
   "lastOpenFiles": [
-    "themes/write-only/content/repos/articles/한국투데이_기사/241028 가을 정취 속 발레 명작의 향연.md",
+    "themes/write-only/content/about.ko.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 41.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 43.md",
+    "README.md",
+    "themes/write-only/archetypes/default.md",
+    "themes/write-only/archetypes/template-post.md",
+    "themes/write-only/content/repos/articles/한국투데이_기사/241028 가을 정취 속 발레 명작의 향연.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 44.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 45.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 46.md",
@@ -268,7 +272,6 @@
     "themes/write-only/content/docs/scrivener/lecture/lecture 48.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 49.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 50.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 41.md",
     "themes/write-only/layouts/partials/shared/comment.html",
     "themes/write-only/layouts/partials/shared/comments.html",
     "themes/write-only/layouts/partials/shared/fastcomments.html",
@@ -283,10 +286,6 @@
     "themes/write-only/content/docs/scrivener/lecture/lecture 33.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 32.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 31.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 30.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 29.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 28.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 27.md",
     "public/docs/scrivener/newsroom/scrivener-notice-01/index.html",
     "public/docs/scrivener/newsroom/scrivener-notice-01",
     "public/docs/scrivener/newsroom/scrivener-notice/index.html",
