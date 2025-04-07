@@ -42,6 +42,20 @@ sfc /scannow
 
 <br>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2618164900782657"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2618164900782657"
+     data-ad-slot="9803941047"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br>
+
 # 2. MS에서 권장하는 공식 절차에 따라 제거 시도  
 
 #
@@ -71,6 +85,22 @@ sfc /scannow
 <abbr title="3rd Party Applications">서드파티 앱</abbr>이란 제조사가 만든 앱이 아닌 외부의 앱을 의미합니다. 여기서는 마이크로소프트가 직접 만들지 않은 앱이 되겠지요. 대개는 MS에서 그 성능을 보증하지 않습니다.  
   
 네, 그렇습니다. 이제부터는 다소 아슬아슬하니 위험한 길이 될 수 있습니다. <del>그래서 그냥 포맷하시는 편이 낫다는...</del> 아래 절차는 반드시 백업과 복원 지점 설정을 완료하신 뒤 수행하실 것을 권합니다.  
+
+<br>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2618164900782657"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-2618164900782657"
+     data-ad-slot="9803941047"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br>
   
 ## 1단계 - 시작 프로그램 및 서비스 정리  
   

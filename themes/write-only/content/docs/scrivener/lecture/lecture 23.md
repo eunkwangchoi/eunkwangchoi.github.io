@@ -20,7 +20,7 @@ languages = "한국어"
 
 [스크리브너 무따기 블로그 이전 안내](../../docs/scrivener/newsroom/scrivener-notice-01/)
 
-#
+<br>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2618164900782657"
      crossorigin="anonymous"></script>
@@ -33,7 +33,7 @@ languages = "한국어"
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-#
+<br>
 
 {{< youtube OC11ozMYkWc >}}
 
