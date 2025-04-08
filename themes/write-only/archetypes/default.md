@@ -58,6 +58,7 @@ art list
 tech list
 	Adobe
 		Behance
+		Adobe CC
 	Generative AI
 		MidJourney
 	Google

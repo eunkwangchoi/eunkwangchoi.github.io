@@ -74,9 +74,23 @@
                   "icon": "lucide-file",
                   "title": "0912 탕자의 귀향"
                 }
+              },
+              {
+                "id": "639b2575bc3001ee",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241023 예술정의론 (3) – 형식론.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "241023 예술정의론 (3) – 형식론"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "676a90df83252203",
@@ -202,13 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/posts/Old Articles/0912 탕자의 귀향.md",
+                "file": "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241023 예술정의론 (3) – 형식론.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 0912 탕자의 귀향"
+              "title": "Outline of 241023 예술정의론 (3) – 형식론"
             }
           },
           {
@@ -242,9 +256,15 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a4ef2f036f16a22e",
+  "active": "639b2575bc3001ee",
   "lastOpenFiles": [
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241021 예술정의론 (2) – 표현론.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240930 예술정의론 (1) – 모방론.md",
     "themes/write-only/content/docs/scrivener/newsroom/230620.md",
+    "themes/write-only/content/repos/papers/1310.md",
+    "themes/write-only/archetypes/default.md",
+    "themes/write-only/archetypes/template-post.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241023 예술정의론 (3) – 형식론.md",
     "themes/write-only/content/posts/Old Articles/0912 탕자의 귀향.md",
     "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240920 미학과는 왜 하나밖에 없을까.md",
     "themes/write-only/content/posts/Old Articles",
@@ -265,12 +285,6 @@
     "themes/write-only/content/docs/scrivener/lecture/lecture 47.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 46.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 45.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 44.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 43.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 42.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 41.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 40.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 39.md",
     "themes/write-only/content/posts/2024/tech 240604/014.jpg",
     "themes/write-only/content/posts/2024/tech 240604/016.jpg",
     "themes/write-only/content/posts/2024/tech 240604/015.jpg",

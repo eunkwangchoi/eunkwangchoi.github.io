@@ -139,3 +139,9 @@ ignoreLogs = ['warning-goldmark-raw-html']
       author = '崔恩光'
       description = '崔恩光 -- アーティスト, 作家, 研究者'
       location = ["ソウル", "大韓民国"]
+
+[sitemap]
+  changeFreq = ''
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
