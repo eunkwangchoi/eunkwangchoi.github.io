@@ -53,12 +53,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/docs/scrivener/newsroom/230620.md",
+                    "file": "themes/write-only/content/refs/Arendt/Socrates.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "230620"
+                  "title": "Socrates"
                 }
               },
               {
@@ -89,8 +89,7 @@
                   "title": "241023 예술정의론 (3) – 형식론"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "676a90df83252203",
@@ -98,13 +97,45 @@
             "dimension": 34.16339012669288,
             "children": [
               {
-                "id": "0e07ec363d532b26",
+                "id": "4c41626165d1402a",
                 "type": "leaf",
                 "state": {
-                  "type": "hugo-preview-view",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "themes/write-only/content/about.ko.md",
+                    "mode": "source",
+                    "source": true
+                  },
                   "icon": "lucide-file",
-                  "title": "Hugo Preview"
+                  "title": "about.ko"
+                }
+              },
+              {
+                "id": "de83a82bfc396b42",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "themes/write-only/content/about.en.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "about.en"
+                }
+              },
+              {
+                "id": "daf3b65544871759",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "themes/write-only/content/about.ja.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "about.ja"
                 }
               }
             ]
@@ -216,13 +247,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241023 예술정의론 (3) – 형식론.md",
+                "file": "themes/write-only/content/about.ko.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 241023 예술정의론 (3) – 형식론"
+              "title": "Outline of about.ko"
             }
           },
           {
@@ -256,35 +287,36 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "639b2575bc3001ee",
+  "active": "4c41626165d1402a",
   "lastOpenFiles": [
-    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241021 예술정의론 (2) – 표현론.md",
-    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240930 예술정의론 (1) – 모방론.md",
-    "themes/write-only/content/docs/scrivener/newsroom/230620.md",
-    "themes/write-only/content/repos/papers/1310.md",
-    "themes/write-only/archetypes/default.md",
-    "themes/write-only/archetypes/template-post.md",
-    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241023 예술정의론 (3) – 형식론.md",
-    "themes/write-only/content/posts/Old Articles/0912 탕자의 귀향.md",
-    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240920 미학과는 왜 하나밖에 없을까.md",
-    "themes/write-only/content/posts/Old Articles",
     "themes/write-only/content/about.ja.md",
     "themes/write-only/content/about.en.md",
     "themes/write-only/content/about.ko.md",
+    "themes/write-only/content/refs/Arendt/Socrates.md",
+    "themes/write-only/content/repos/articles/기타/1012 자본주의 종결자.md",
+    "themes/write-only/content/repos/articles/문장웹진/2408 세 권의 낭만 – 철학, 문학, 그리고 교양.md",
+    "themes/write-only/content/posts/Old Articles/0912 탕자의 귀향.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241023 예술정의론 (3) – 형식론.md",
+    "themes/write-only/content/docs/scrivener/newsroom/230620.md",
+    "themes/write-only/archetypes/default.md",
+    "themes/write-only/content/refs/Arendt",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241021 예술정의론 (2) – 표현론.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240930 예술정의론 (1) – 모방론.md",
+    "themes/write-only/content/repos/papers/1310.md",
+    "themes/write-only/archetypes/template-post.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240920 미학과는 왜 하나밖에 없을까.md",
+    "themes/write-only/content/posts/Old Articles",
     "themes/write-only/content/repos/articles/한국투데이_기사/240926 김병종, 전시 ‘생명광시곡’.md",
     "themes/write-only/content/repos/articles/한국투데이_기사/241028 가을 정취 속 발레 명작의 향연.md",
     "themes/write-only/content/repos/articles/한국투데이_기사/240925 크리에이티브 윤슬, 연극 ‘세계몰락감’.md",
     "themes/write-only/content/repos/articles/한국투데이_기사/240920 서울대 미술관 – 예술, 보이지 않는 것들의 관문 展.md",
     "themes/write-only/content/repos/articles/한국투데이_기사/240912 파라다이스 아트랩 페스티벌.md",
     "themes/write-only/content/repos/articles/한국투데이_기사/240906 키아프, 생동하는 동시대 예술의 현장.md",
-    "themes/write-only/content/repos/articles/기타/1012 자본주의 종결자.md",
     "themes/write-only/content/docs/scrivener/newsroom/250316.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 50.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 49.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 48.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 47.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 46.md",
-    "themes/write-only/content/docs/scrivener/lecture/lecture 45.md",
     "themes/write-only/content/posts/2024/tech 240604/014.jpg",
     "themes/write-only/content/posts/2024/tech 240604/016.jpg",
     "themes/write-only/content/posts/2024/tech 240604/015.jpg",
@@ -302,7 +334,6 @@
     "themes/write-only/layouts/partials/shared/fastcomments.html",
     "public/docs/scrivener/newsroom/scrivener-notice-01/index.html",
     "public/docs/scrivener/newsroom/scrivener-notice-01",
-    "public/docs/scrivener/newsroom/scrivener-notice/index.html",
-    "public/docs/scrivener/newsroom/scrivener-notice"
+    "public/docs/scrivener/newsroom/scrivener-notice/index.html"
   ]
 }
