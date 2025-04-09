@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /
 Allow: /$
-Sitemap: https://eunkwangchoi.com/sitemap.xml
+Allow: /ads.txt
+Sitemap: /sitemap.xml
