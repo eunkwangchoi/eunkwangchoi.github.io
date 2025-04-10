@@ -67,12 +67,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/posts/Old Articles/0912 탕자의 귀향.md",
+                    "file": "themes/write-only/content/repos/papers/1906 자연법적 민주주의.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "0912 탕자의 귀향"
+                  "title": "1906 자연법적 민주주의"
                 }
               },
               {
@@ -81,15 +81,16 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241023 예술정의론 (3) – 형식론.md",
+                    "file": "themes/write-only/content/repos/articles/아레테 리더/2108 고전 독서의 방법.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "241023 예술정의론 (3) – 형식론"
+                  "title": "2108 고전 독서의 방법"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "676a90df83252203",
@@ -248,13 +249,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/posts/Instagram Feeds/2020/insta 201104.md",
+                "file": "themes/write-only/content/repos/articles/아레테 리더/2108 고전 독서의 방법.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of insta 201104"
+              "title": "Outline of 2108 고전 독서의 방법"
             }
           },
           {
@@ -288,12 +289,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4b11a2ce9c619249",
+  "active": "639b2575bc3001ee",
   "lastOpenFiles": [
+    "themes/write-only/content/repos/papers/1310 분석철학의 종말.md",
+    "themes/write-only/content/repos/papers/1906 자연법적 민주주의.md",
+    "themes/write-only/content/posts/Old Articles/0709 Socrates.md",
+    "themes/write-only/content/posts/Old Articles/0912 탕자의 귀향.md",
+    "themes/write-only/content/repos/articles/기타/1012 자본주의 종결자.md",
+    "themes/write-only/content/repos/articles/아레테 리더/2108 고전 독서의 방법.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241023 예술정의론 (3) – 형식론.md",
+    "themes/write-only/content/repos/articles/문장웹진/2408 습한 이론과 젖어버린 현실.md",
+    "themes/write-only/content/repos/articles/문장웹진/2408 옛날이야기 – 어쩌면 오늘.md",
+    "themes/write-only/content/repos/articles/한국투데이_기사/241028 가을 정취 속 발레 명작의 향연.md",
+    "themes/write-only/archetypes/default.md",
+    "public/refs/artists/-bosch-hieronymus/index.xml",
+    "public/refs/artists/-bosch-hieronymus/index.html",
+    "public/refs/artists/-bosch-hieronymus",
+    "public/refs/artists/-opie-julian/index.xml",
+    "public/refs/artists/-opie-julian/index.html",
+    "public/refs/artists/-opie-julian",
+    "public/refs/artists/-matisse-henri/index.xml",
+    "public/refs/artists/-matisse-henri/index.html",
+    "public/refs/artists/-matisse-henri",
+    "public/refs/artists/-村上-春樹/index.html",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201104.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201118.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201222.md",
     "themes/write-only/content/about.ja.md",
     "themes/write-only/content/about.ko.md",
-    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201104.md",
-    "themes/write-only/archetypes/default.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201030.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201029.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201028.md",
@@ -302,24 +325,8 @@
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201021-2.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201023-1.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201023-2.md",
-    "public/refs/artists/-warhol-andy/index.html",
-    "public/refs/artists/-warhol-andy/index.xml",
-    "public/refs/artists/-rodriguez-sixto/index.xml",
-    "public/refs/artists/-rodriguez-sixto/index.html",
-    "public/refs/artists/-warhol-andy",
-    "public/refs/artists/-rodriguez-sixto",
-    "public/refs/artists",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201020-2.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 200902.md",
-    "themes/write-only/content/posts/Instagram Feeds/2020/insta 200807.md",
-    "themes/write-only/content/repos/papers/1310 분석철학의 종말.md",
-    "public/refs/philosophers/-rorty-richard/index.html",
-    "public/refs/philosophers/-rorty-richard/index.xml",
-    "public/refs/philosophers/-aquinas-thomas/index.html",
-    "themes/write-only/content/repos/papers/1906 자연법적 민주주의.md",
-    "themes/write-only/content/posts/Old Articles/0709 Socrates.md",
-    "themes/write-only/content/posts/Old Articles/0912 탕자의 귀향.md",
-    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201102/index.md",
     "public/posts/2024/tech-240604/016.jpg",
     "public/posts/2024/tech-240604/015.jpg",
     "public/posts/2024/tech-240604/014.jpg",
@@ -329,12 +336,6 @@
     "public/posts/2024/tech-240604/010.jpg",
     "public/posts/2024/tech-240604/009.jpg",
     "public/posts/2024/tech-240604/008.jpg",
-    "public/posts/2024/tech-240604/007.jpg",
-    "themes/write-only/content/repos/articles/한국투데이_기사/241028 가을 정취 속 발레 명작의 향연.md",
-    "themes/write-only/content/repos/_index.md",
-    "themes/write-only/content/refs/_index.md",
-    "themes/write-only/content/about.en.md",
-    "themes/write-only/content/repos/articles/기타/1012 자본주의 종결자.md",
-    "themes/write-only/content/repos/articles/문장웹진/2408 세 권의 낭만 – 철학, 문학, 그리고 교양.md"
+    "public/posts/2024/tech-240604/007.jpg"
   ]
 }

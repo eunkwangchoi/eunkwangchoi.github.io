@@ -121,3 +121,9 @@
     background-color: $dark;
   }
 }
+
+.toc {
+  ul, li {
+    list-style: none;  // Removes the bullets
+  }
+}

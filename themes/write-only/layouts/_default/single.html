@@ -14,6 +14,13 @@
           {{ .Description }}
         </div>
         <div class="markdown-content py-2">
+          {{ if and (.TableOfContents) (eq (.Params.toc | default false) true) }}
+          <nav class="toc">
+            {{ .TableOfContents }}
+          </nav>
+          {{ end }}
+        </div>
+        <div class="markdown-content py-2">
           {{ .Content }}
         </div>
         <div class="py-4">

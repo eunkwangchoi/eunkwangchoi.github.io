@@ -19,7 +19,13 @@ ignoreLogs = ['warning-goldmark-raw-html']
   id = 'G-SGXH2E8Q74'
 
 [markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
   [markup.goldmark]
+    [markup.goldmark.parser]
+      autoHeadingID = true
     [markup.goldmark.renderer]
       unsafe = true
     [markup.goldmark.extensions]
