@@ -14,6 +14,7 @@ Disallow: /ja/about/
 Allow: /$
 Allow: /ads.txt
 Allow: /favicon.ico
+Allow: /sitemap.xml
 Allow: /posts/2025/
 Allow: /posts/2024/
 Allow: /docs/
@@ -22,4 +23,3 @@ Allow: /docs/scrivener/lecture/
 Allow: /docs/scrivener/newsroom/
 Allow: /repos/articles/
 Allow: /repos/papers/
-Sitemap: /sitemap.xml
