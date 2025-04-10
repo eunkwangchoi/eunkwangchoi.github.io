@@ -6,7 +6,7 @@ author = "최은광"
 title = "정치사상의 뿌리 – 우정(友情)으로 정치하기"
 date = 2007-09-20
 expiryDate = 2099-12-31
-refs = ["Arendt, Hannah"]
+refs = ["Philosophers/ Arendt, Hannah"]
 etcs = ["Activities/ 독서"]
 languages = "한국어"
 +++

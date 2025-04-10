@@ -72,6 +72,28 @@ tech list
 		Onedrive
 		MS (Office) 365
 
+ref list
+	Philosophers
+		Arendt, Hannah
+		Rorty, Richard
+		Aquinas, Thomas
+	Historians
+		Gombrich, Ernst
+	Clerics
+		Nouwen, Henry
+	Artists
+		Warhol, Andy
+		Rodriguez, Sixto
+		Bosch, Hieronymus
+		Fitzgerald, Scott
+		Koons, Jeff
+		Lichtenstein, Roy
+		Matisse, Henri
+		Basquiat, Jean-Michel
+		Opie, Julian
+		村上 春樹
+		村上 隆
+		세븐틴
 
 etc list
 	Activities

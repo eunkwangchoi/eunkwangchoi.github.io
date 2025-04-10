@@ -1,5 +1,4 @@
 <div class="text-center">
-  {{/* Create an empty slice to hold items from both Arts and Techs */}}
   {{ $items := slice }}
 
   {{ with .Params.Arts }}
@@ -11,6 +10,12 @@
   {{ with .Params.Techs }}
     {{ range . }}
       {{ $items = $items | append (dict "label" . "type" "techs") }}
+    {{ end }}
+  {{ end }}
+
+  {{ with .Params.Refs }}
+    {{ range . }}
+      {{ $items = $items | append (dict "label" . "type" "refs") }}
     {{ end }}
   {{ end }}
 
@@ -28,11 +33,17 @@
           <path d="M1.293 7.793A1 1 0 0 1 1 7.086V2a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l.043-.043-7.457-7.457z"/>
         </svg>
         {{ $parts := split .label "/ " }}
+        {{ $subLabel := .label }}
         {{ if gt (len $parts) 1 }}
-          {{ index $parts 1 }}
-        {{ else }}
-          {{ .label }}
+          {{ $subLabel = index $parts 1 }}
         {{ end }}
+        {{ if in $subLabel ", " }}
+          {{ $commaParts := split $subLabel ", " }}
+          {{ if gt (len $commaParts) 0 }}
+            {{ $subLabel = index $commaParts 0 }}
+          {{ end }}
+        {{ end }}
+        {{ $subLabel }}
       </a>
     {{ end }}
   </span>
