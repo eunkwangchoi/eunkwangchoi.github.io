@@ -78,6 +78,9 @@ ref list
 		Arendt, Hannah
 		Rorty, Richard
 		Aquinas, Thomas
+		Ostrom, Elinor
+		Rawls, John
+		Sen, Amartya
 	Historians
 		Gombrich, Ernst
 	Clerics
