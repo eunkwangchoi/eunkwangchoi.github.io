@@ -249,13 +249,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/repos/papers/1806 신제도주의의 정치철학적 함의.md",
+                "file": "themes/write-only/archetypes/default.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1806 신제도주의의 정치철학적 함의"
+              "title": "Outline of default"
             }
           },
           {
@@ -289,11 +289,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "639b2575bc3001ee",
+  "active": "75eb4af970411403",
   "lastOpenFiles": [
+    "themes/write-only/content/repos/papers/1806 신제도주의의 정치철학적 함의.md",
     "themes/write-only/content/repos/papers/1906 자연법적 민주주의.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201104.md",
-    "themes/write-only/content/repos/papers/1806 신제도주의의 정치철학적 함의.md",
     "themes/write-only/archetypes/default.md",
     "themes/write-only/content/repos/articles/아레테 리더/2108 고전 독서의 방법.md",
     "themes/write-only/content/repos/papers/1310 분석철학의 종말.md",
