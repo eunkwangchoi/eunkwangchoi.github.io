@@ -17,17 +17,27 @@ I studied aesthetics and philosophy at Seoul National University. I spent some t
     <tr style="border: 0; padding: 0; spacing: 0;">
         <td style="border: 0; padding: 0; spacing: 0;">
             <a href="https://contact.eunkwangchoi.com" target="_blank" onclick="var width = 1200; var height = 800; var left = (screen.width - width) / 2; var top = (screen.height - height) / 2; if (screen.width > 768) { window.open(this.href, '_blank', 'width=' + width + ',height=' + height + ',top=' + top + ',left=' + left); } else { window.open(this.href, '_blank'); } return false;">
-                <img src="/images/icon_email.png" alt="E-Mail">
+                <img src="/imgs/icon_email.png" alt="E-Mail">
             </a>
         </td>
         <td style="border: 0; padding: 0; spacing: 0;">
-            <a href="https://talk.naver.com/W448DX" target="_blank" rel="noopener noreferrer">
-                <img src="/images/icon_naver.png" alt="Naver Talk">
+            <a href="https://instagram.com/eunkwang.ryan.choi" target="_blank" rel="noopener noreferrer">
+                <img src="/imgs/icon_instagram.png" alt="Instagram">
+            </a>
+        </td>
+        <td style="border: 0; padding: 0; spacing: 0;">
+            <a href="https://www.behance.net/0477d466" target="_blank" rel="noopener noreferrer">
+                <img src="/imgs/icon_behance.png" alt="Behance">
             </a>
         </td>
         <td style="border: 0; padding: 0; spacing: 0;">
             <a href="https://unsplash.com/@ryanchoi" target="_blank" rel="noopener noreferrer">
-                <img src="/images/icon_unsplash.png" alt="Unsplash">
+                <img src="/imgs/icon_unsplash.png" alt="Unsplash">
+            </a>
+        </td>
+        <td style="border: 0; padding: 0; spacing: 0;">
+            <a href="https://paypal.me/eunkwangchoi" target="_blank" rel="noopener noreferrer">
+                <img src="/imgs/icon_paypal.png" alt="Paypal">
             </a>
         </td>
     </tr>
