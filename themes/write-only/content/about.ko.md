@@ -16,28 +16,28 @@ translationKey = "about"
 <table style="border: 0; padding: 0; cellspacing: 0;">
     <tr style="border: 0; padding: 0; spacing: 0;">
         <td style="border: 0; padding: 0; spacing: 0;">
-            <a href="https://contact.eunkwangchoi.com/ko/" target="_blank" onclick="var width = 1200; var height = 800; var left = (screen.width - width) / 2; var top = (screen.height - height) / 2; if (screen.width > 768) { window.open(this.href, '_blank', 'width=' + width + ',height=' + height + ',top=' + top + ',left=' + left); } else { window.open(this.href, '_blank'); } return false;">
-                <img src="/imgs/icon_email.png" alt="E-Mail">
+            <a href="https://contact.eunkwangchoi.com/ko" target="_blank" onclick="var width = 1200; var height = 800; var left = (screen.width - width) / 2; var top = (screen.height - height) / 2; if (screen.width > 768) { window.open(this.href, '_blank', 'width=' + width + ',height=' + height + ',top=' + top + ',left=' + left); } else { window.open(this.href, '_blank'); } return false;">
+                <img src="/imgs/icon_email.svg" width=32 height=32 alt="E-Mail">
             </a>
         </td>
         <td style="border: 0; padding: 0; spacing: 0;">
             <a href="https://instagram.com/eunkwang.ryan.choi" target="_blank" rel="noopener noreferrer">
-                <img src="/imgs/icon_instagram.png" alt="Instagram">
+                <img src="/imgs/icon_instagram.svg" width=32 height=32 alt="Instagram">
             </a>
         </td>
         <td style="border: 0; padding: 0; spacing: 0;">
             <a href="https://www.behance.net/0477d466" target="_blank" rel="noopener noreferrer">
-                <img src="/imgs/icon_behance.png" alt="Behance">
+                <img src="/imgs/icon_behance.svg" width=32 height=32 alt="Behance">
             </a>
         </td>
         <td style="border: 0; padding: 0; spacing: 0;">
             <a href="https://unsplash.com/ko/@ryanchoi" target="_blank" rel="noopener noreferrer">
-                <img src="/imgs/icon_unsplash.png" alt="Unsplash">
+                <img src="/imgs/icon_unsplash.svg" width=32 height=32 alt="Unsplash">
             </a>
         </td>
         <td style="border: 0; padding: 0; spacing: 0;">
             <a href="https://paypal.me/eunkwangchoi" target="_blank" rel="noopener noreferrer">
-                <img src="/imgs/icon_paypal.png" alt="Paypal">
+                <img src="/imgs/icon_paypal.svg" width=32 height=32 alt="Paypal">
             </a>
         </td>
     </tr>
