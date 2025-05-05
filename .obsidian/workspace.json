@@ -48,20 +48,6 @@
             "dimension": 35.430318916557454,
             "children": [
               {
-                "id": "4b11a2ce9c619249",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "themes/write-only/content/posts/Instagram Feeds/2020/insta 200807.md",
-                    "mode": "source",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "insta 200807"
-                }
-              },
-              {
                 "id": "a4ef2f036f16a22e",
                 "type": "leaf",
                 "state": {
@@ -88,8 +74,23 @@
                   "icon": "lucide-file",
                   "title": "1806 신제도주의의 정치철학적 함의"
                 }
+              },
+              {
+                "id": "64b559542cb9cd7e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "themes/write-only/content/posts/2025/art 250313.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "art 250313"
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "676a90df83252203",
@@ -248,13 +249,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/posts/Instagram Feeds/2020/insta 200807.md",
+                "file": "themes/write-only/content/posts/2025/art 250313.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of insta 200807"
+              "title": "Outline of art 250313"
             }
           },
           {
@@ -288,13 +289,19 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4b11a2ce9c619249",
+  "active": "64b559542cb9cd7e",
   "lastOpenFiles": [
+    "public/imgs/icon_vibe.svg",
+    "public/imgs/icon_stageplus.svg",
+    "public/imgs/icon_melon.svg",
+    "public/imgs/icon_genie.svg",
+    "public/imgs/icon_bugs.svg",
+    "themes/write-only/content/repos/papers/1906 자연법적 민주주의.md",
+    "themes/write-only/content/posts/Instagram Feeds/2020/insta 200807.md",
+    "themes/write-only/content/about.ja.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201104.md",
     "themes/write-only/archetypes/default.md",
-    "themes/write-only/content/posts/Instagram Feeds/2020/insta 200807.md",
     "themes/write-only/content/repos/papers/1806 신제도주의의 정치철학적 함의.md",
-    "themes/write-only/content/repos/papers/1906 자연법적 민주주의.md",
     "themes/write-only/content/repos/articles/아레테 리더/2108 고전 독서의 방법.md",
     "themes/write-only/content/repos/papers/1310 분석철학의 종말.md",
     "themes/write-only/content/posts/Old Articles/0709 Socrates.md",
@@ -316,7 +323,6 @@
     "public/refs/artists/-村上-春樹/index.html",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201118.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201222.md",
-    "themes/write-only/content/about.ja.md",
     "themes/write-only/content/about.ko.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201030.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201029.md",
@@ -325,16 +331,11 @@
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201021-1.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201021-2.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201023-1.md",
-    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201023-2.md",
     "public/posts/2024/tech-240604/016.jpg",
     "public/posts/2024/tech-240604/015.jpg",
     "public/posts/2024/tech-240604/014.jpg",
     "public/posts/2024/tech-240604/013.jpg",
     "public/posts/2024/tech-240604/012.jpg",
-    "public/posts/2024/tech-240604/011.jpg",
-    "public/posts/2024/tech-240604/010.jpg",
-    "public/posts/2024/tech-240604/009.jpg",
-    "public/posts/2024/tech-240604/008.jpg",
-    "public/posts/2024/tech-240604/007.jpg"
+    "public/posts/2024/tech-240604/011.jpg"
   ]
 }
