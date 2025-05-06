@@ -81,12 +81,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/posts/2025/art 250313.md",
+                    "file": "themes/write-only/content/posts/2025/art 250425.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "art 250313"
+                  "title": "art 250425"
                 }
               }
             ],
@@ -249,13 +249,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/posts/2025/art 250313.md",
+                "file": "themes/write-only/content/posts/2025/art 250425.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of art 250313"
+              "title": "Outline of art 250425"
             }
           },
           {
@@ -291,6 +291,10 @@
   },
   "active": "64b559542cb9cd7e",
   "lastOpenFiles": [
+    "public/posts/2025/art-250425/index.html",
+    "public/posts/2025/art-250425",
+    "themes/write-only/content/posts/2025/art 250313.md",
+    "themes/write-only/content/posts/2025/art 250425.md",
     "public/imgs/icon_vibe.svg",
     "public/imgs/icon_stageplus.svg",
     "public/imgs/icon_melon.svg",
@@ -320,7 +324,6 @@
     "public/refs/artists/-matisse-henri/index.xml",
     "public/refs/artists/-matisse-henri/index.html",
     "public/refs/artists/-matisse-henri",
-    "public/refs/artists/-村上-春樹/index.html",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201118.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201222.md",
     "themes/write-only/content/about.ko.md",
@@ -329,13 +332,10 @@
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201028.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201026.md",
     "themes/write-only/content/posts/Instagram Feeds/2020/insta 201021-1.md",
-    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201021-2.md",
-    "themes/write-only/content/posts/Instagram Feeds/2020/insta 201023-1.md",
     "public/posts/2024/tech-240604/016.jpg",
     "public/posts/2024/tech-240604/015.jpg",
     "public/posts/2024/tech-240604/014.jpg",
     "public/posts/2024/tech-240604/013.jpg",
-    "public/posts/2024/tech-240604/012.jpg",
-    "public/posts/2024/tech-240604/011.jpg"
+    "public/posts/2024/tech-240604/012.jpg"
   ]
 }
