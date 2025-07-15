@@ -60,6 +60,8 @@ tech list
 	Adobe
 		Behance
 		Adobe CC
+	Celsys
+		Clip Studio Paint
 	Generative AI
 		MidJourney
 	Google
