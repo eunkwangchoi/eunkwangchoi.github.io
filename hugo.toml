@@ -145,6 +145,30 @@ ignoreLogs = ['warning-goldmark-raw-html']
       author = '崔恩光'
       description = '崔恩光 -- アーティスト, 作家, 研究者'
       location = ["ソウル", "大韓民国"]
+  [languages.zh]
+    disabled = false
+    languageCode = 'zh-CN'
+    languageName = '中文'
+    timeZone = 'Asia/Shanghai'
+    weight = 4
+  [languages.vi]
+    disabled = false
+    languageCode = 'vi-VN'
+    languageName = 'Tiếng Việt'
+    timeZone = 'Asia/Ho_Chi_Minh'
+    weight = 5
+  [languages.th]
+    disabled = false
+    languageCode = 'th-TH'
+    languageName = 'ภาษาไทย'
+    timeZone = 'Asia/Bangkok'
+    weight = 6
+  [languages.mn]
+    disabled = false
+    languageCode = 'mn-MN'
+    languageName = 'Монгол'
+    timeZone = 'Asia/Ulaanbaatar'
+    weight = 7
 
 [sitemap]
   changeFreq = ''
