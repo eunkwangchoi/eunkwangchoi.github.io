@@ -11,6 +11,11 @@ languages = "Tiếng Việt"
 layout = "single-multilinguial"
 +++
 
+Chương trình giáo dục AI tạo sinh phối hợp cùng Trường Thanh thiếu niên châu Á NASEOM
+Thư viện Thông tin Gwangjin | Tháng 7 năm 2025
+
+<!--more--> 
+
 # 0. Trước khi bắt đầu buổi học
 
 ## 0.1. Giới thiệu giáo viên

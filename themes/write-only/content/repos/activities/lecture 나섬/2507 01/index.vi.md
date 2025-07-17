@@ -10,6 +10,11 @@ languages = "Tiếng Việt"
 layout = "single-multilinguial"
 +++
 
+Chương trình giáo dục AI tạo sinh phối hợp cùng Trường Thanh thiếu niên châu Á NASEOM
+Thư viện Thông tin Gwangjin | Tháng 7 năm 2025
+
+<!--more--> 
+
 # Buổi 1 (17) – Tổng quan về công cụ AI
 
 #

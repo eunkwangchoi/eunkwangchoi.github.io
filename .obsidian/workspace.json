@@ -53,7 +53,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.mn.md",
+                    "file": "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.mn.md",
                     "mode": "source",
                     "source": true
                   },
@@ -248,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.mn.md",
+                "file": "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.mn.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -290,16 +290,19 @@
   },
   "active": "a4ef2f036f16a22e",
   "lastOpenFiles": [
+    "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.mn.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.th.md",
+    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.th.md",
+    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.vi.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.vi.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.en.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.mn.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.ko.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.vi.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.th.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.mn.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.en.md",
+    "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.ko.md",
+    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.mn.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.ko.md",
+    "themes/write-only/content/docs/scrivener/lecture/lecture 01.md",
+    "themes/write-only/content/repos/activities/lecture 나섬/_index.md",
+    "themes/write-only/content/repos/activities/_index.md",
     "themes/write-only/content/docs/scrivener/lecture/lecture 03.md",
     "themes/write-only/content/repos/papers/1806 신제도주의의 정치철학적 함의.md",
     "public/ko/nasum/index.html",
@@ -316,8 +319,6 @@
     "public/mn/repos/activities/lecture-나섬/2507-02",
     "public/ko/repos/activities/lecture-나섬/2507-02/index.html",
     "public/ko/repos/activities/lecture-나섬/2507-02",
-    "themes/write-only/content/repos/activities/lecture 나섬/_index.md",
-    "themes/write-only/content/repos/activities/_index.md",
     "themes/write-only/content/about.en.md",
     "themes/write-only/content/docs/scrivener/newsroom/240306/index.md",
     "themes/write-only/content/docs/scrivener/lecture/_index.md",
@@ -332,7 +333,6 @@
     "themes/write-only/content/docs/scrivener/newsroom/230620.md",
     "themes/write-only/content/docs/scrivener/newsroom/230628.md",
     "themes/write-only/content/docs/scrivener/newsroom/250316.md",
-    "themes/write-only/content/docs/scrivener/newsroom/230522.md",
     "themes/write-only/content/docs/scrivener/newsroom/240306/img.png",
     "themes/write-only/content/docs/clipstudio/lecture/lecture 01/006.png",
     "themes/write-only/content/docs/clipstudio/lecture/lecture 01/005.png"

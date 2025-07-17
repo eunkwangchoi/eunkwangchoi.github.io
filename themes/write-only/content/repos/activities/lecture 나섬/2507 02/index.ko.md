@@ -9,8 +9,11 @@ date = 2025-07-10
 expiryDate = 2099-12-31
 languages = "한국어"
 layout = "single-multilinguial"
-url = "nasum"
 +++
+
+나섬아시아청소년학교와 함께하는 생성형 AI 활용 교육 | 광진정보도서관 | 25년 7월
+
+<!--more--> 
 
 # 0. 수업에 들어가기에 앞서
 

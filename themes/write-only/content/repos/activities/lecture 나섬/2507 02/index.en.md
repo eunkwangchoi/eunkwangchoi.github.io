@@ -11,6 +11,11 @@ languages = "English"
 layout = "single-multilinguial"
 +++
 
+Generative AI Education in Collaboration with NASEOM Asia Youth School
+Gwangjin Information Library | July 2025
+
+<!--more--> 
+
 # 0. Before Starting the Class
 
 ## 0.1. Introduction of the Teachers

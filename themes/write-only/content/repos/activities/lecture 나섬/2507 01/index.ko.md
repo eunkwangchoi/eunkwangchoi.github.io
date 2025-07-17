@@ -10,6 +10,10 @@ languages = "한국어"
 layout = "single-multilinguial"
 +++
 
+나섬아시아청소년학교와 함께하는 생성형 AI 활용 교육 | 광진정보도서관 | 25년 7월
+
+<!--more--> 
+
 # 1회차 (17일) - AI 도구 개괄
 
 #
