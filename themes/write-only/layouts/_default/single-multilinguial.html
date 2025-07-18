@@ -13,15 +13,15 @@
         <div class="text-center py-2">
           {{ .Description }}
         </div>
+        <div class="text-center py-2 mt-5">
+          {{ partial "ints/i18nlist" . }}
+        </div>
         <div class="markdown-content py-2">
           {{ if and (.TableOfContents) (eq (.Params.toc | default false) true) }}
           <nav class="toc">
             {{ .TableOfContents }}
           </nav>
           {{ end }}
-        </div>
-        <div class="text-center py-2 mt-5">
-          {{ partial "ints/i18nlist" . }}
         </div>
         <div class="markdown-content py-2">
           {{ .Content }}
