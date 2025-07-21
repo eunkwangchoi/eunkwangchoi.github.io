@@ -16,22 +16,22 @@ Thư viện Thông tin Gwangjin | Tháng 7 năm 2025
 
 <!--more--> 
 
-# 0. 수업에 들어가기에 앞서
+# 0. Trước Khi Vào Bài Học
 
 #
 
-- 영상 AI 계정 만들기 : Runway https://runwayml.com, Bing (Microsoft) https://www.bing.com/create
-- 새로운 이미지 AI 모델 : Mage.Space https://www.mage.space
+- Tạo tài khoản AI video : Runway https://runwayml.com, Bing (Microsoft) https://www.bing.com/create
+- Mô hình AI tạo ảnh mới : Mage.Space https://www.mage.space
 
 
-# 1. 프롬프트란 무엇인가?
+# 1.  Prompt là gì?
 
 #
 
-- 지난 시간 결과물 확인
-- 세 가지 스타일의 프롬프트 : 달리(Dall·E), 미드저니(MidJourney), 스테이블 디퓨전(Stable Diffusion)
+- Kiểm tra kết quả buổi học trước
+- Ba phong cách prompt : 달리(Dall·E), 미드저니(MidJourney), 스테이블 디퓨전(Stable Diffusion)
 
-|모델 이름|프롬프트 예시|어떻게 말해야 잘 나올까?|추가 팁 (Negative Prompt)|
+|Tên mô hình|Ví dụ Prompt|Cách nói hiệu quả|Gợi ý thêm (Negative Prompt)|
 |---|---|---|---|
 |**DALL·E**|`A cute cat sitting on a sofa, photorealistic`<br>귀여운 고양이가 소파에 앉아 있는 모습, 사진처럼|**문장처럼 부드럽게 말하기**👉 AI가 문장을 잘 이해해서 자연스럽게 그림을 그림|❌ 없음(싫은 건 따로 말 못 함)|
 |**MidJourney**|`cute cat, sofa, photorealistic, 4k, soft lighting`<br>귀여운 고양이, 소파, 4K 화질, 부드러운 조명|**중요한 단어만 나열하기**👉 예쁜 그림을 잘 그리지만, 문장은 못 알아들음|⚠️ 거의 없음(간단한 표현으로 조절 가능)|
@@ -39,14 +39,14 @@ Thư viện Thông tin Gwangjin | Tháng 7 năm 2025
 
 #
 
-- 프롬프트 스타일 판단해 보기
-- 프롬프트 모델 판단해 보기
+- Phân biệt phong cách prompt
+- Đoán mô hình phù hợp với prompt
 
-# 2. 좋은 프롬프트 vs 나쁜 프롬프트
+# 2. Prompt Tốt vs Prompt Kém
 
 #
 
-## 2.1. 나쁜 프롬프트
+## 2.1. Prompt Kém
 
 #
 
@@ -54,28 +54,28 @@ Thư viện Thông tin Gwangjin | Tháng 7 năm 2025
 
 #
 
-- 너무 짧고 모호함
-- 어떤 강아지인지, 어떤 상황인지, 어떤 스타일인지 알 수 없음
-- 기본적인 강아지 모습만 나옴 (종류, 감정, 배경 등 불분명)
+* Quá ngắn và không rõ ràng
+* Không nói rõ con chó như thế nào, ở đâu, phong cách gì
+* Kết quả chỉ là hình ảnh chó đơn giản
 
-## 2.2. 좋은 프롬프트
+## 2.2. Prompt Tốt
 
 #
 
 `a cute golden retriever puppy wearing a red scarf, sitting in a green park, cartoon style`
 
-- 4W1H + 스타일
-- 무엇을(어떤 강아지?) → 골든 리트리버    
-- 어떻게(어떤 모습?) → 귀엽고 강아지, 스카프 착용    
-- 어디에(장소는?) → 공원    
-- 어떤 스타일? → 만화 스타일
+* 4W1H + Phong cách
+* Là con gì → Chó Golden Retriever
+* Như thế nào → Dễ thương, đeo khăn đỏ
+* Ở đâu → Trong công viên
+* Phong cách → Phong cách hoạt hình
 
 
-# 3. 프롬프트 작성 실습
+# 3. Thực hành Viết Prompt
 
 #
 
-텍스트 AI를 이용한 프롬프트 작성 (번역 포함)
+Viết prompt bằng AI văn bản (có dịch)
 
 ## 🎨 3.1. **Style Keywords (스타일/화풍)**
 
@@ -305,4 +305,4 @@ Thư viện Thông tin Gwangjin | Tháng 7 năm 2025
 > → 동물 + 외형 + 동작 + 배경 + 스타일 + 효과
 
 
-# 4. 영상 제작을 위한 스토리보드 작성
+# 4. Viết Storyboard để tạo video
