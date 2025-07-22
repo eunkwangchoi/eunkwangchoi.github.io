@@ -60,6 +60,8 @@ Thư viện Thông tin Gwangjin | Tháng 7 năm 2025
 
 ## 3.2. Công cụ giọng nói (Text-To-Speech, TTS)
 
+#
+
 - Naver Clova Dubbing  
 - Narrator's Voice  
 - Speech Central  

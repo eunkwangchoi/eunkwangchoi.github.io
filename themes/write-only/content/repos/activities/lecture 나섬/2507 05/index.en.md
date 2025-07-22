@@ -60,6 +60,8 @@ Gwangjin Information Library | July 2025
 
 ## 3.2. Voice Tools (Text-To-Speech, TTS)
 
+#
+
 - Naver Clova Dubbing  
 - Narrator's Voice  
 - Speech Central  
