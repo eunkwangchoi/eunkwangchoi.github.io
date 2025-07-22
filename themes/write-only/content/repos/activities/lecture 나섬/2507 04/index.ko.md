@@ -42,4 +42,4 @@ layout = "single-multilinguial"
 #
 
 - 갤럭시 비디오 편집기
-- Capcut, KineMaster, VivaVideo (안드로이드)
+- Capcut, KineMaster, VivaVideo

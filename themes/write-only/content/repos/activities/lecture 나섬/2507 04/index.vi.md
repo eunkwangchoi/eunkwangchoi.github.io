@@ -4,7 +4,7 @@ toc = true
 math = false
 isCJKLanguage = false
 author = "최은광"
-title = "[Tháng 7 năm 2025] Bài giảng 3 | Sản xuất Hình ảnh và Video bằng AI I"
+title = "[Tháng 7 năm 2025] Bài giảng 3 | Sản xuất Hình ảnh và Video bằng AI Ⅰ"
 date = 2025-07-12
 expiryDate = 2099-12-31
 languages = "Tiếng Việt"
@@ -43,4 +43,4 @@ Thư viện Thông tin Gwangjin | Tháng 7 năm 2025
 #
 
 * Trình chỉnh sửa video Galaxy
-* Capcut, KineMaster, VivaVideo (Android)
+* Capcut, KineMaster, VivaVideo

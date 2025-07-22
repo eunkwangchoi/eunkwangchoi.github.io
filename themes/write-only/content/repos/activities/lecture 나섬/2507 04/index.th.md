@@ -4,7 +4,7 @@ toc = true
 math = false
 isCJKLanguage = false
 author = "최은광"
-title = "[กรกฎาคม 2025] บทเรียนที่ 3 | การสร้างภาพและวิดีโอด้วย AI I"
+title = "[กรกฎาคม 2025] บทเรียนที่ 3 | การสร้างภาพและวิดีโอด้วย AI Ⅰ"
 date = 2025-07-12
 expiryDate = 2099-12-31
 languages = "ภาษาไทย"
@@ -45,4 +45,4 @@ layout = "single-multilinguial"
 #
 
 * Galaxy Video Editor
-* Capcut, KineMaster, VivaVideo (แอนดรอยด์)
+* Capcut, KineMaster, VivaVideo

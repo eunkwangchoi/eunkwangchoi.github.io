@@ -4,7 +4,7 @@ toc = true
 math = false
 isCJKLanguage = false
 author = "Eunkwang Ryan Choi"
-title = "[July 2025] Lesson 3 | AI Image and Video Production I"
+title = "[July 2025] Lesson 3 | AI Image and Video Production Ⅰ"
 date = 2025-07-12
 expiryDate = 2099-12-31
 languages = "English"
@@ -43,4 +43,4 @@ Gwangjin Information Library | July 2025
 #
 
 * Galaxy Video Editor
-* Capcut, KineMaster, VivaVideo (Android)
+* Capcut, KineMaster, VivaVideo

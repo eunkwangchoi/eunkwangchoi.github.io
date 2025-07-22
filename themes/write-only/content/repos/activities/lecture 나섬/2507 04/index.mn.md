@@ -4,7 +4,7 @@ toc = true
 math = false
 isCJKLanguage = false
 author = "최은광"
-title = "[2025 оны 7-р сар] 3 дугаар хичээл | AI дүрс, видео бүтээл I"
+title = "[2025 оны 7-р сар] 3 дугаар хичээл | AI дүрс, видео бүтээл Ⅰ"
 date = 2025-07-12
 expiryDate = 2099-12-31
 languages = "Монгол"
@@ -43,4 +43,4 @@ layout = "single-multilinguial"
 #
 
 * Galaxy видео засварлагч
-* Capcut, KineMaster, VivaVideo (Андройд)
+* Capcut, KineMaster, VivaVideo
