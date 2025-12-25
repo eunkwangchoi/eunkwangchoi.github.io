@@ -12,7 +12,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   description = 'Artist, Writer, and Researcher'
   location = ["Seoul", "South Korea"]
   contact = ["ryan.choi@arteuro.net"]
-  images = ['opengraph_texts.png']
+  images = ["opengraph_texts.png"]
   logo = "favicon.png"
   math = true
 
