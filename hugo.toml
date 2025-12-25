@@ -7,12 +7,8 @@ defaultContentLanguage = 'en'
 ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
-  title = 'the texts'
-  author = 'Eunkwang Ryan Choi'
-  description = 'Artist, Writer, and Researcher'
-  location = ["Seoul", "South Korea"]
   contact = ["ryan.choi@arteuro.net"]
-  images = ["opengraph_texts.png"]
+  images = ['opengraph-texts.png']
   logo = "favicon.png"
   math = true
 
@@ -127,6 +123,10 @@ ignoreLogs = ['warning-goldmark-raw-html']
     languageName = 'English'
     timeZone = 'America/New_York'
     weight = 1
+    [languages.en.params]    
+      author = 'Eunkwang Ryan Choi'
+      description = 'Eunkwang Ryan Choi -- Artist, Writer, and Researcher'
+      location = ["Seoul", "South Korea"]
   [languages.ko]
     disabled = false
     languageCode = 'ko-KR'
