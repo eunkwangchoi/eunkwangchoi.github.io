@@ -53,12 +53,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/posts/Old Articles/0709 Socrates.md",
+                    "file": "themes/write-only/content/docs/scrivener/newsroom/250316.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "0709 Socrates"
+                  "title": "250316"
                 }
               },
               {
@@ -248,13 +248,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/posts/Old Articles/0709 Socrates.md",
+                "file": "themes/write-only/content/docs/scrivener/newsroom/250316.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 0709 Socrates"
+              "title": "Outline of 250316"
             }
           },
           {
@@ -291,42 +291,43 @@
   },
   "active": "a4ef2f036f16a22e",
   "lastOpenFiles": [
-    "themes/write-only/content/posts/Old Articles/0912 탕자의 귀향.md",
+    "themes/write-only/content/docs/scrivener/newsroom/250903.md",
+    "themes/write-only/content/repos/papers/1806 신제도주의의 정치철학적 함의.md",
+    "themes/write-only/content/posts/2025/art 250425.md",
+    "public/repos/articles/기타/2108-고전-독서의-방법/index.html",
+    "public/repos/articles/기타/2108-고전-독서의-방법",
+    "public/docs/scrivener/newsroom/250903/index.html",
+    "public/docs/scrivener/newsroom/250903",
+    "themes/write-only/content/docs/scrivener/newsroom/230620.md",
+    "themes/write-only/content/docs/scrivener/newsroom/230522.md",
+    "themes/write-only/content/docs/scrivener/newsroom/230628.md",
+    "themes/write-only/content/docs/scrivener/newsroom/250316.md",
+    "themes/write-only/content/docs/clipstudio/lecture/lecture 01/index.md",
     "themes/write-only/archetypes/default.md",
-    "themes/write-only/archetypes/template-post.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.vi.md",
-    "themes/write-only/content/about.ko.md",
-    "themes/write-only/content/about.en.md",
-    "themes/write-only/content/about.ja.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.th.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.ko.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.en.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.mn.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 04/index.ko.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 04/index.th.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.ko.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 04/index.vi.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 04/index.mn.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 04/index.en.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 03/index.vi.md",
+    "themes/write-only/content/techs/_index.md",
+    "themes/write-only/content/repos/papers/1906 자연법적 민주주의.md",
+    "themes/write-only/content/repos/papers/1310 분석철학의 종말.md",
+    "themes/write-only/content/repos/papers/_index.md",
+    "themes/write-only/content/repos/designs/_index.md",
+    "themes/write-only/content/repos/artworks/_index.md",
+    "themes/write-only/content/repos/articles/_index.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241023 예술정의론 (3) – 형식론.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/241021 예술정의론 (2) – 표현론.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240930 예술정의론 (1) – 모방론.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240920 미학과는 왜 하나밖에 없을까.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240919 소리를 그리다 – 인상주의 음악의 등장.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240910 예술가의 문장 – 왜 그렇게 어렵게 말해요.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240909 후기 인상주의 – 감정, 상징, 그리고 구조로 나아간 예술의 진화.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240905 점으로 완성해낸 빛의 혁명.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240904 인상주의자, 예술계의 이단아들.md",
+    "themes/write-only/content/repos/articles/한국투데이_최은광칼럼/240903 사실적 모방의 천재들.md",
+    "themes/write-only/content/posts/2024/tech 240604/003.jpg",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 05",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 03/index.mn.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 03/index.th.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 03/index.ko.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 03/index.en.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 04",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.vi.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.en.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.ko.md",
     "public/page/17/index.html",
     "public/page/17",
     "public/vi/repos/activities/lecture-나섬/2507-03/index.html",
     "public/vi/repos/activities/lecture-나섬/2507-03",
-    "public/th/repos/activities/lecture-나섬/2507-03/index.html",
-    "public/th/repos/activities/lecture-나섬/2507-03",
-    "public/mn/repos/activities/lecture-나섬/2507-03/index.html",
-    "public/mn/repos/activities/lecture-나섬/2507-03",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.th.md",
     "public/qr_baaa77a2244bed45.png",
     "public/docs/clipstudio/lecture/lecture-01/004.png",
     "public/docs/clipstudio/lecture/lecture-01/006.png",
@@ -335,7 +336,6 @@
     "public/docs/clipstudio/lecture/lecture-01/002.png",
     "public/docs/clipstudio/lecture/lecture-01/001.png",
     "themes/write-only/content/docs/scrivener/newsroom/240306/img.png",
-    "themes/write-only/content/docs/clipstudio/lecture/lecture 01/006.png",
-    "themes/write-only/content/docs/clipstudio/lecture/lecture 01/005.png"
+    "themes/write-only/content/docs/clipstudio/lecture/lecture 01/006.png"
   ]
 }
