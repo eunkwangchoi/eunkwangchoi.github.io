@@ -53,12 +53,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.vi.md",
+                    "file": "themes/write-only/content/posts/Old Articles/0709 Socrates.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "index.vi"
+                  "title": "0709 Socrates"
                 }
               },
               {
@@ -130,12 +130,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/about.ja.md",
+                    "file": "themes/write-only/content/about.ko.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "about.ja"
+                  "title": "about.ko"
                 }
               }
             ],
@@ -248,13 +248,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.vi.md",
+                "file": "themes/write-only/content/posts/Old Articles/0709 Socrates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index.vi"
+              "title": "Outline of 0709 Socrates"
             }
           },
           {
@@ -280,6 +280,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
@@ -290,11 +291,17 @@
   },
   "active": "a4ef2f036f16a22e",
   "lastOpenFiles": [
+    "themes/write-only/content/posts/Old Articles/0912 탕자의 귀향.md",
+    "themes/write-only/archetypes/default.md",
+    "themes/write-only/archetypes/template-post.md",
+    "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.vi.md",
+    "themes/write-only/content/about.ko.md",
+    "themes/write-only/content/about.en.md",
+    "themes/write-only/content/about.ja.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.th.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.ko.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.en.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.mn.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 05/index.vi.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 04/index.ko.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 04/index.th.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.ko.md",
@@ -308,7 +315,6 @@
     "themes/write-only/content/repos/activities/lecture 나섬/2507 03/index.ko.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 03/index.en.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 04",
-    "themes/write-only/content/about.ja.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.vi.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.en.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.ko.md",
@@ -321,11 +327,6 @@
     "public/mn/repos/activities/lecture-나섬/2507-03/index.html",
     "public/mn/repos/activities/lecture-나섬/2507-03",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.th.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.mn.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.mn.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.th.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.vi.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.en.md",
     "public/qr_baaa77a2244bed45.png",
     "public/docs/clipstudio/lecture/lecture-01/004.png",
     "public/docs/clipstudio/lecture/lecture-01/006.png",
