@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "History"
 description = "최은광 -- 아티스트, 작가, 연구자"
 date = 2025-03-21
 layout = "about"
@@ -9,7 +9,7 @@ translationKey = "about"
 
 ### 아티스트 | 작가 | 연구자
 
-서울대학교에서 미학과 철학을 공부했습니다. 경남대학교에서 잠시 교수로 일했지만, 창작에 매진하기 위해 교편을 내려놓았습니다. 대부분의 작품은 텍스트에 대한 고민에서 출발합니다. 기술의 전환기를 맞아 급격히 변화해 가는 텍스트의 위상을 매체 실험으로 탐구합니다. 뉴 미디어를 중심으로 하지만 전통적인 매체를 포기하지는 않습니다.
+서울대학교에서 미학과 철학을 공부한 뒤 평론가 및 수필가로 활동하고 있습니다. 경남대학교 교양교육연구소와 교양융합대학에서 교수로 일했고, 정부와 민간의 인공지능 관련 프로젝트에 몇 번 참여했습니다. 지금은 예술 스타트업인 아뜰리에 유로의 대표로서 기술과 예술의 융합을 도모하고 있습니다. 멘사 회원이지만 회비는 잘 내지 않습니다.
 
 #
 
@@ -23,16 +23,6 @@ translationKey = "about"
         <td style="border: 0; padding: 0; spacing: 0;">
             <a href="https://instagram.com/eunkwang.ryan.choi" target="_blank" rel="noopener noreferrer">
                 <img src="/imgs/icon_instagram.svg" width=32 height=32 alt="Instagram">
-            </a>
-        </td>
-        <td style="border: 0; padding: 0; spacing: 0;">
-            <a href="https://www.behance.net/0477d466" target="_blank" rel="noopener noreferrer">
-                <img src="/imgs/icon_behance.svg" width=32 height=32 alt="Behance">
-            </a>
-        </td>
-        <td style="border: 0; padding: 0; spacing: 0;">
-            <a href="https://unsplash.com/ko/@ryanchoi" target="_blank" rel="noopener noreferrer">
-                <img src="/imgs/icon_unsplash.svg" width=32 height=32 alt="Unsplash">
             </a>
         </td>
         <td style="border: 0; padding: 0; spacing: 0;">

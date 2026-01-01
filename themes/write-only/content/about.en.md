@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "History"
 description = "Eunkwang Ryan Choi -- Artist, Writer, and Researcher"
 date = 2025-03-21
 layout = "about"
@@ -23,16 +23,6 @@ I studied aesthetics and philosophy at Seoul National University. I spent some t
         <td style="border: 0; padding: 0; spacing: 0;">
             <a href="https://instagram.com/eunkwang.ryan.choi" target="_blank" rel="noopener noreferrer">
                 <img src="/imgs/icon_instagram.svg" width=32 height=32 alt="Instagram">
-            </a>
-        </td>
-        <td style="border: 0; padding: 0; spacing: 0;">
-            <a href="https://www.behance.net/0477d466" target="_blank" rel="noopener noreferrer">
-                <img src="/imgs/icon_behance.svg" width=32 height=32 alt="Behance">
-            </a>
-        </td>
-        <td style="border: 0; padding: 0; spacing: 0;">
-            <a href="https://unsplash.com/@ryanchoi" target="_blank" rel="noopener noreferrer">
-                <img src="/imgs/icon_unsplash.svg" width=32 height=32 alt="Unsplash">
             </a>
         </td>
         <td style="border: 0; padding: 0; spacing: 0;">

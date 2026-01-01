@@ -56,15 +56,15 @@ ignoreLogs = ['warning-goldmark-raw-html']
     url = "/posts"
     weight = 10
   [[menus.main]]
-    name = "Works"
-    url = "/works"
+    name = "Books"
+    url = "/books"
     weight = 20
   [[menus.main]]
     name = "Repos"
     url = "/repos"
     weight = 30
   [[menus.main]]
-    name = "About"
+    name = "History"
     url = "/about"
     weight = 40
   [[menus.buttons]]
