@@ -1,15 +1,64 @@
-{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>\n" | safeHTML -}}
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  {{ range .Pages }}
-    <url>
-      <loc>{{ .Permalink }}</loc>
-      {{ if not .Lastmod.IsZero }}
-        <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</lastmod>
-      {{ end }}
-      {{ with .Sitemap.ChangeFreq }}
-        <changefreq>{{ . }}</changefreq>
-      {{ end }}
-    </url>
-  {{ end }}
+
+  {{- $defaultSite := site.Sites.Default -}}
+
+  {{- $pages := slice -}}
+  {{- $pages = $pages | append $defaultSite.RegularPages -}}
+  {{- $pages = $pages | append $defaultSite.Sections -}}
+
+  {{- /* taxonomy/term pages */ -}}
+  {{- $taxPlural := slice "arts" "techs" "refs" "etcs" -}}
+  {{- range $taxPlural -}}
+    {{- $taxName := . -}}
+
+    {{- /* taxonomy list page: /<plural>/ */ -}}
+    {{- with $defaultSite.GetPage (printf "/%s" $taxName) -}}
+      {{- $pages = $pages | append . -}}
+    {{- end -}}
+
+    {{- /* term pages */ -}}
+    {{- $terms := index $defaultSite.Taxonomies $taxName -}}
+    {{- if $terms -}}
+      {{- range $term, $_ := $terms -}}
+        {{- with $defaultSite.GetPage (printf "/%s/%s" $taxName $term) -}}
+          {{- $pages = $pages | append . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* 필터링 */ -}}
+  {{- $pages = where $pages "Params.excludeFromSitemap" "ne" true -}}
+  {{- $pages = where $pages "Params.noindex" "ne" true -}}
+  {{- /* 선택: excludeFromLists 도 sitemap에서 제외하려면 유지, 포함하려면 주석 처리 */ -}}
+  {{- $pages = where $pages "Params.excludeFromLists" "ne" true -}}
+
+  {{- $pages = uniq $pages -}}
+  {{- $pages = sort $pages "Permalink" -}}
+
+  {{- range $pages -}}
+    {{- $loc := .Permalink -}}
+    {{- if $loc -}}
+      <url>
+        <loc>{{ $loc }}</loc>
+
+        <xhtml:link rel="alternate" hreflang="x-default" href="{{ $loc }}" />
+
+        {{- range .AllTranslations -}}
+          {{- $href := .Permalink -}}
+          {{- $lang := .Language.Lang -}}
+          {{- if and $href $lang -}}
+            <xhtml:link rel="alternate" hreflang="{{ $lang }}" href="{{ $href }}" />
+          {{- end -}}
+        {{- end -}}
+
+        {{- with .Lastmod -}}
+          <lastmod>{{ .Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
+        {{- end -}}
+      </url>
+    {{- end -}}
+  {{- end -}}
 </urlset>

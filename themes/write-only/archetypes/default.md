@@ -28,6 +28,11 @@ etcs = [ "" ]
 languages = ""
 
 locs = [ "" ]
+
+[params]
+  excludeFromLists = true
+  excludeFromSitemap = true
+  noindex = true
 +++
 
 
