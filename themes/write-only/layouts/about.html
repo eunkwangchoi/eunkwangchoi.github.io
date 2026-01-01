@@ -1,0 +1,39 @@
+{{ define "main" }}
+<main class="container py-5 flex-grow-1">
+  <div class="row justify-content-center">
+    <div class="col-12 mw-md mh-100">
+      <div class="py-4">
+        <div class="py-2">
+          <h1 class="display-1 text-center text-uppercase fw-bold text-primary">
+            {{ .Title }}
+          </h1>
+        </div>
+        <div class="text-center py-2 mb-4">
+          {{ .Page.Params.description }}
+        </div>
+        <div class="text-center py-2 mt-5">
+          {{ partial "ints/i18nlist" . }}
+        </div>
+        <div class="markdown-content py-2">
+          {{ .Content }}
+        </div>
+        <div class="markdown-content py-3">
+          {{ if eq .Lang "ko" }}
+            {{ .Date | time.Format ":date_long" }} 최종 수정
+          {{ else if eq .Lang "ja" }}
+            {{ .Date | time.Format ":date_long" }} 最終更新
+          {{ else }}
+            Last Updated on {{ .Date | time.Format ":date_medium" }}
+          {{ end }}
+        </div>
+        <div class="markdown-content py-2">
+          {{ .Site.Params.author }}
+        </div>
+        <div class="markdown-content py-2">
+          {{ partial "shared/comment.html" . }}
+        </div>        
+      </div>
+  </div>
+</div>
+</main>
+{{ end }}
