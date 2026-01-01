@@ -15,8 +15,8 @@
       </div>
 
       <!-- Combine .RegularPages and .Sections -->
-      {{ $allPages := .RegularPages }}
-      {{ range .Sections }}
+      {{ $allPages := where .RegularPages "Params.excludeFromLists" "ne" true }}
+      {{ range where .Sections "Params.excludeFromLists" "ne" true }}
         {{ $allPages = $allPages | append . }}
       {{ end }}
       <!-- Paginate Combined Pages -->

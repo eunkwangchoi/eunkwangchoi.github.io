@@ -1,10 +1,12 @@
 +++
 title = "History"
 description = "チェ・ウンガン -- アーティスト、作家、研究者"
-date = 2025-03-21
+date = 2026-01-01
 layout = "about"
 languageCode = "ja-JP"
 translationKey = "about"
+[params]
+  excludeFromLists = true
 +++
 
 ### アーティスト | 作家 | 研究者

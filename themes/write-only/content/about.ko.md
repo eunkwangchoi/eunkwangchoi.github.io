@@ -1,10 +1,12 @@
 +++
 title = "History"
 description = "최은광 -- 아티스트, 작가, 연구자"
-date = 2025-03-21
+date = 2026-01-01
 layout = "about"
 languageCode = "ko-KR"
 translationKey = "about"
+[params]
+  excludeFromLists = true
 +++
 
 ### 아티스트 | 작가 | 연구자

@@ -1,10 +1,12 @@
 +++
 title = "History"
 description = "Eunkwang Ryan Choi -- Artist, Writer, and Researcher"
-date = 2025-03-21
+date = 2026-01-01
 layout = "about"
 languageCode = "en-US"
 translationKey = "about"
+[params]
+  excludeFromLists = true
 +++
 
 ### Artist | Writer | Researcher
