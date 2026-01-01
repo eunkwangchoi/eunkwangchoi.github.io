@@ -33,8 +33,6 @@
   {{- /* 필터링 */ -}}
   {{- $pages = where $pages "Params.excludeFromSitemap" "ne" true -}}
   {{- $pages = where $pages "Params.noindex" "ne" true -}}
-  {{- /* 선택: excludeFromLists 도 sitemap에서 제외하려면 유지, 포함하려면 주석 처리 */ -}}
-  {{- $pages = where $pages "Params.excludeFromLists" "ne" true -}}
 
   {{- $pages = uniq $pages -}}
   {{- $pages = sort $pages "Permalink" -}}
