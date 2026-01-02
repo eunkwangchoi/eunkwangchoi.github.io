@@ -53,30 +53,15 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/posts/2025/art 250425.md",
+                    "file": "themes/write-only/content/repos/artworks/_index.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "art 250425"
-                }
-              },
-              {
-                "id": "b3873fd1a4bfe510",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "themes/write-only/content/about.ko.md",
-                    "mode": "source",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "about.ko"
+                  "title": "_index"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "676a90df83252203",
@@ -234,13 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/archetypes/default.md",
+                "file": "themes/write-only/content/repos/artworks/_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of default"
+              "title": "Outline of _index"
             }
           },
           {
@@ -275,26 +260,33 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "75eb4af970411403",
+  "active": "64b559542cb9cd7e",
   "lastOpenFiles": [
+    "public/repos/artworks/photos-more/index.xml",
+    "public/repos/artworks/photos-more/index.html",
+    "public/repos/artworks/photos-more",
+    "public/repos/artworks/photos-less/index.xml",
+    "public/repos/artworks/photos-less/index.html",
+    "public/repos/artworks/photos-less",
+    "themes/write-only/content/repos/artworks/photos-more/_index.md",
+    "themes/write-only/content/repos/artworks/photos-less/_index.md",
+    "themes/write-only/archetypes/default.md",
+    "themes/write-only/content/repos/artworks/photos-more",
+    "themes/write-only/content/repos/designs/_index.md",
+    "themes/write-only/content/repos/artworks/_index.md",
+    "themes/write-only/content/repos/_index.md",
+    "themes/write-only/content/techs/_index.md",
+    "public/debug/unsplash.json",
+    "public/debug",
+    "themes/write-only/assets/scss/_gallery.scss",
+    "themes/write-only/layouts/gallery-unsplash.html",
+    "themes/write-only/content/posts/2025/art 250425.md",
     "themes/write-only/content/about.ko.md",
     "themes/write-only/content/etcs/_index.md",
     "themes/write-only/content/books/_index.md",
-    "themes/write-only/archetypes/default.md",
     "themes/write-only/archetypes/template-post.md",
     "themes/write-only/content/about.en.md",
     "themes/write-only/content/about.ja.md",
-    "themes/write-only/content/posts/2025/art 250425.md",
-    "public/books/index.xml",
-    "public/books/scrivener/lecture/index.xml",
-    "public/books/scrivener/newsroom/index.xml",
-    "public/books/scrivener/index.xml",
-    "public/books/scrivener/research/index.xml",
-    "public/books/scrivener/research/page/1/index.html",
-    "public/books/scrivener/lecture/page/5/index.html",
-    "public/books/scrivener/newsroom/page/1/index.html",
-    "public/books/scrivener/lecture/page/4/index.html",
-    "public/books/scrivener/lecture/page/2/index.html",
     "public/books/scrivener/newsroom/240306/img.png",
     "themes/write-only/content/works/scrivener/_index.md",
     "themes/write-only/content/books/scrivener/newsroom/240306/index.md",
@@ -308,13 +300,6 @@
     "themes/write-only/content/books/scrivener/research/_index.md",
     "themes/write-only/content/books/scrivener/lecture/_index.md",
     "themes/write-only/content/books/scrivener/lecture/lecture 50.md",
-    "themes/write-only/content/books/scrivener/lecture/lecture 49.md",
-    "themes/write-only/content/books/scrivener/lecture/lecture 48.md",
-    "themes/write-only/content/books/scrivener/lecture/lecture 47.md",
-    "themes/write-only/content/books/scrivener/lecture/lecture 46.md",
-    "themes/write-only/content/books/scrivener/lecture/lecture 45.md",
-    "themes/write-only/content/books/scrivener/lecture/lecture 44.md",
-    "themes/write-only/content/books/scrivener/lecture/lecture 43.md",
     "public/repos/activities/clipstudio/lecture/lecture-01/006.png",
     "public/repos/activities/clipstudio/lecture/lecture-01/005.png",
     "public/repos/activities/clipstudio/lecture/lecture-01/004.png",

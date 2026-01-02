@@ -1,0 +1,222 @@
+{{ define "main" }}
+<main class="container py-5 flex-grow-1">
+  <div class="row justify-content-center">
+    <div class="col-12 mw-md mh-100">
+      <div class="py-4">
+        <div class="py-2">
+          <h1 class="display-1 text-center text-uppercase fw-bold text-primary">
+            {{ .Title }}
+          </h1>
+        </div>  
+        <div class="text-center py-2">
+          {{ .Description }}
+        </div>
+        <div class="markdown-content py-2">
+            {{ $username := .Params.unsplash_username | default "ryanchoi" }}
+            {{ $access := site.Params.unsplashAccessKey }}
+            {{ $perPage := 30 }}
+            {{ $maxPages := 9 }}
+            {{ $photos := slice }}
+
+            {{ if not $username }}
+            <p>unsplash_username이 설정되지 않았습니다.</p>
+
+            {{ else if not $access }}
+            <p>site.Params.unsplashAccessKey가 설정되지 않았습니다.</p>
+
+            {{ else }}
+
+            {{ range $p := seq 1 $maxPages }}
+                {{ $url := printf "https://api.unsplash.com/users/%s/photos?per_page=%d&page=%d&client_id=%s" $username $perPage $p $access }}
+                {{ $res := resources.GetRemote $url }}
+                {{ if $res }}
+                {{ $pagePhotos := $res.Content | transform.Unmarshal (dict "format" "json") }}
+                {{ range $photo := $pagePhotos }}
+                    {{ $photos = $photos | append $photo }}
+                {{ end }}
+                {{ end }}
+            {{ end }}
+
+            <p class="ug-meta" style="text-align: center">
+                    {{ len $photos }} Photos on 
+                <a href="https://unsplash.com/@{{ $username }}" target="_blank" rel="noopener">
+                    unsplash.com/@{{ $username }}
+                </a>
+            </p>
+
+            <div class="ug-grid" id="ug-grid">
+            {{ range $i, $p := $photos }}
+                {{ $urls := index $p "urls" }}
+                {{ $links := index $p "links" }}
+                <a class="ug-item"
+                href="{{ index $links "html" }}"
+                data-index="{{ $i }}"
+                data-thumb="{{ index $urls "thumb" }}"
+                data-small="{{ index $urls "small" }}"
+                data-regular="{{ index $urls "regular" }}"
+                data-full="{{ index $urls "full" }}"
+                data-page="{{ index $links "html" }}"
+                data-desc="{{ or (index $p "description") (index $p "alt_description") "" }}">
+                <img src="{{ index $urls "small" }}" loading="lazy" decoding="async" alt="">
+                </a>
+            {{ end }}
+            </div>
+
+            {{/* ====== 라이트박스 (main 안에 있어야 $username 접근 가능) ====== */}}
+            <div class="ug-lightbox" id="ug-lb" hidden>
+                <div class="ug-backdrop" data-close></div>
+
+                <div class="ug-modal" role="dialog" aria-modal="true" aria-label="Photo viewer">
+                <button class="ug-close" type="button" data-close aria-label="Close">×</button>
+
+                <button class="ug-nav ug-prev" type="button" data-prev aria-label="Previous">‹</button>
+                <button class="ug-nav ug-next" type="button" data-next aria-label="Next">›</button>
+
+                <div class="ug-topbar">
+                    <div class="ug-counter" id="ug-counter">1 / 1</div>
+                    <div class="ug-links">
+                    <a class="ug-open" href="#" target="_blank" rel="noopener">Unsplash에서 보기</a>
+                    <a class="ug-profile" href="https://unsplash.com/@{{ $username }}" target="_blank" rel="noopener">프로필</a>
+                    </div>
+                </div>
+
+                <div class="ug-stage" id="ug-stage">
+                    <div class="ug-spinner" aria-hidden="true"></div>
+                    <img class="ug-full is-blur" alt="">
+                </div>
+
+                <div class="ug-caption" id="ug-caption" aria-live="polite"></div>
+                </div>
+            </div>
+
+            <script>
+            (() => {
+            const grid = document.getElementById('ug-grid');
+            const lb = document.getElementById('ug-lb');
+            if (!grid || !lb) return;
+
+            const stage = document.getElementById('ug-stage');
+            const img = lb.querySelector('.ug-full');
+            const spinner = lb.querySelector('.ug-spinner');
+            const openBtn = lb.querySelector('.ug-open');
+            const counter = document.getElementById('ug-counter');
+            const caption = document.getElementById('ug-caption');
+
+            const anchors = Array.from(grid.querySelectorAll('.ug-item'));
+            const items = anchors
+                .map(a => ({
+                thumb: a.dataset.thumb,
+                small: a.dataset.small,
+                regular: a.dataset.regular,
+                full: a.dataset.full,
+                page: a.dataset.page || a.getAttribute('href'),
+                desc: a.dataset.desc || ''
+                }))
+                .filter(it => it.small || it.thumb || it.regular || it.full);
+
+            let idx = 0;
+            let loadingToken = 0;
+
+            const lockScroll = (on) => document.documentElement.classList.toggle('ug-noscroll', on);
+
+            const close = () => {
+                lb.hidden = true;
+                lockScroll(false);
+                img.src = '';
+                img.classList.add('is-blur');
+                spinner.classList.remove('is-hide');
+                caption.textContent = '';
+            };
+
+            const renderCaption = (it) => { caption.textContent = it.desc || ''; };
+
+            const show = (newIdx) => {
+                if (!items.length) return;
+                idx = (newIdx + items.length) % items.length;
+                const it = items[idx];
+
+                lb.hidden = false;
+                lockScroll(true);
+
+                counter.textContent = `${idx + 1} / ${items.length}`;
+                openBtn.href = it.page || '#';
+                renderCaption(it);
+
+                img.alt = it.desc || '';
+                img.classList.add('is-blur');
+                spinner.classList.remove('is-hide');
+
+                const token = ++loadingToken;
+
+                img.src = it.small || it.thumb || it.regular || it.full;
+
+                const pre = new Image();
+                pre.decoding = 'async';
+                pre.loading = 'eager';
+                pre.src = it.full || it.regular || it.small || it.thumb;
+
+                pre.onload = () => {
+                if (token !== loadingToken) return;
+                img.src = pre.src;
+                img.classList.remove('is-blur');
+                spinner.classList.add('is-hide');
+                };
+
+                pre.onerror = () => {
+                if (token !== loadingToken) return;
+                img.classList.remove('is-blur');
+                spinner.classList.add('is-hide');
+                };
+            };
+
+            const prev = () => show(idx - 1);
+            const next = () => show(idx + 1);
+
+            // ✅ 핵심: 링크 이동 막고 라이트박스 열기
+            grid.addEventListener('click', (e) => {
+                const a = e.target.closest('.ug-item');
+                if (!a) return;
+                e.preventDefault();
+
+                const key = a.dataset.full || a.dataset.regular || a.dataset.small || a.dataset.thumb;
+                const found = items.findIndex(it => (it.full || it.regular || it.small || it.thumb) === key);
+                show(found >= 0 ? found : Math.max(0, anchors.indexOf(a)));
+            });
+
+            lb.addEventListener('click', (e) => {
+                if (e.target.matches('[data-close]')) close();
+            });
+
+            lb.querySelector('[data-prev]').addEventListener('click', prev);
+            lb.querySelector('[data-next]').addEventListener('click', next);
+
+            window.addEventListener('keydown', (e) => {
+                if (lb.hidden) return;
+                if (e.key === 'Escape') close();
+                if (e.key === 'ArrowLeft') prev();
+                if (e.key === 'ArrowRight') next();
+            });
+            })();
+            </script>
+
+            <script>
+                (() => {
+                const grid = document.getElementById('ug-grid');
+                if (!grid) return;
+
+                const items = Array.from(grid.children);
+                for (let i = items.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    grid.appendChild(items[j]);
+                    items.splice(j, 1);
+                }
+                })();
+            </script>
+
+            {{ end }} {{/* if/else end */}}
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{{ end }} {{/* define "main" end */}}

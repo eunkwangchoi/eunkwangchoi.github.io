@@ -30,8 +30,8 @@ languages = ""
 locs = [ "" ]
 
 [params]
-  excludeFromLists = true
-  excludeFromSitemap = true
+  excludeFromLists = true 
+  excludeFromSitemap = true 
   noindex = true
 +++
 

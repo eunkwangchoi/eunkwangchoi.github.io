@@ -1,9 +1,9 @@
 +++
-title = "Designs"
-description = "Commercial Design Works with Atelier Euro"
+title = "Studio Works"
+description = "Initiated Between the Market and Art"
 weight = 20
 +++
 
-아뜰리에 유로를 중심으로 한 상업 디자인 작업<br>
-アトリエ・ユーロを中心とした商業デザインの仕事<br>
-Commercial Design Works with Atelier Euro
+시장과 예술의 경계에서 시작된 작업<br>
+市場と芸術の境界から始まった作品<br>
+Initiated Between the Market and Art

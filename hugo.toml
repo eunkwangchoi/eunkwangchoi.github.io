@@ -12,6 +12,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
   images = ['opengraph-texts.png']
   logo = "favicon.png"
   math = true
+	unsplashAccessKey = "_4yo7FOnFCJcZKtDsoOZ7GussH6uwr9PzaF7qz8-Hs0"
 
 [services]
   [services.googleAnalytics]

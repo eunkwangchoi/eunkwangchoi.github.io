@@ -30,7 +30,7 @@
     {{- end -}}
   {{- end -}}
 
-  {{- /* 필터링 */ -}}
+  {{- /* Filtering */ -}}
   {{- $pages = where $pages "Params.excludeFromSitemap" "ne" true -}}
   {{- $pages = where $pages "Params.noindex" "ne" true -}}
 
