@@ -2,6 +2,7 @@
 title = "Studio Works"
 description = "Initiated Between the Market and Art"
 weight = 20
+layout = "list-doc"
 +++
 
 시장과 예술의 경계에서 시작된 작업<br>

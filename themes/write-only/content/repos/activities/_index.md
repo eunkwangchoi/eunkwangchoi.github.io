@@ -2,6 +2,7 @@
 title = "Activities"
 description = "Lectures, Volunteering, Hobbies, and Others"
 weight = 50
+layout = "list-doc"
 +++
 
 강의, 봉사, 취미, 겉멋, 그 외 잡다한 활동<br>
