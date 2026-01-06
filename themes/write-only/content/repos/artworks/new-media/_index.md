@@ -1,7 +1,7 @@
 +++
 title = "New Media"
 description = "Screen, Digital, Web, Interactive, and AI"
-weight = 10
+weight = 20
 layout = "gallery-portfolio"
 iframe_url = "https://images.eunkwangchoi.com/new-media"
 +++

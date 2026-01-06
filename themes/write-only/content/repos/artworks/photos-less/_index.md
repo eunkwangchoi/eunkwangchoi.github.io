@@ -1,7 +1,7 @@
 +++
 title = "Pics - Observed"
 description = "Less Experimental, Distance & Restraint"
-weight = 20
+weight = 30
 layout = "gallery-unsplash"
 unsplash_username = "ryanchoi"
 +++

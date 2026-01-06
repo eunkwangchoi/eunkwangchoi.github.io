@@ -1,6 +1,6 @@
 +++
 title = "Experimental"
-description = "Artistic Experiments aft. 2024, exc. Literature"
+description = "Artistic Experiments aft. 2024, exc. Lit."
 weight = 10
 layout = "list-repo"
 +++
