@@ -53,7 +53,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/repos/designs/spatial/_index.md",
+                    "file": "themes/write-only/content/repos/designs/digital/_index.md",
                     "mode": "source",
                     "source": true
                   },
@@ -110,7 +110,8 @@
                   "title": "about.ja"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -219,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/repos/designs/spatial/_index.md",
+                "file": "themes/write-only/content/repos/designs/digital/_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -262,6 +263,10 @@
   },
   "active": "64b559542cb9cd7e",
   "lastOpenFiles": [
+    "themes/write-only/content/repos/designs/spatial/_index.md",
+    "themes/write-only/content/about.ja.md",
+    "themes/write-only/content/about.ko.md",
+    "themes/write-only/content/about.en.md",
     "public/repos/designs/spatial/index.xml",
     "public/repos/designs/spatial/index.html",
     "public/repos/designs/spatial",
@@ -272,9 +277,7 @@
     "public/repos/designs/marketing/index.html",
     "public/repos/designs/marketing",
     "public/repos/designs/illustration/index.xml",
-    "public/repos/designs/illustration/index.html",
     "themes/write-only/content/repos/designs/print/_index.md",
-    "themes/write-only/content/repos/designs/spatial/_index.md",
     "themes/write-only/content/repos/designs/illustration/_index.md",
     "themes/write-only/content/repos/designs/marketing/_index.md",
     "themes/write-only/content/repos/designs/digital/_index.md",
@@ -296,8 +299,6 @@
     "themes/write-only/content/repos/papers/_index.md",
     "themes/write-only/archetypes/default.md",
     "themes/write-only/content/posts/2025/art 250425.md",
-    "themes/write-only/content/about.ko.md",
-    "themes/write-only/content/etcs/_index.md",
     "public/books/scrivener/newsroom/240306/img.png",
     "themes/write-only/content/books/scrivener/newsroom/240306/img.png",
     "public/repos/activities/clipstudio/lecture/lecture-01/006.png",
