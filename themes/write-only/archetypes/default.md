@@ -101,6 +101,8 @@ ref list
 		Ostrom, Elinor
 		Rawls, John
 		Sen, Amartya
+		Wittgenstein, Ludwig
+		Habermas, Jürgen
 	Historians
 		Gombrich, Ernst
 	Clerics
@@ -118,6 +120,7 @@ ref list
 		村上 春樹
 		村上 隆
 		세븐틴
+		김영섭
 
 etc list
 	Activities

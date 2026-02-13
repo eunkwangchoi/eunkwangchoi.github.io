@@ -60,8 +60,37 @@
                   "icon": "lucide-file",
                   "title": "_index"
                 }
+              },
+              {
+                "id": "f6003434c817d831",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "themes/write-only/content/repos/articles/기타/2602 월간사진 인터뷰.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "2602 월간사진 인터뷰"
+                }
+              },
+              {
+                "id": "36796b41234e4bc5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "themes/write-only/content/books/scrivener/newsroom/230628.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "230628"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "676a90df83252203",
@@ -220,13 +249,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/repos/designs/digital/_index.md",
+                "file": "themes/write-only/content/repos/articles/기타/2602 월간사진 인터뷰.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _index"
+              "title": "Outline of 2602 월간사진 인터뷰"
             }
           },
           {
@@ -261,8 +290,22 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "64b559542cb9cd7e",
+  "active": "f6003434c817d831",
   "lastOpenFiles": [
+    "themes/write-only/archetypes/default.md",
+    "themes/write-only/content/repos/articles/기타/2602 월간사진 인터뷰.md",
+    "themes/write-only/content/books/scrivener/newsroom/230628.md",
+    "themes/write-only/content/repos/articles/기타/2108 고전 독서의 방법.md",
+    "themes/write-only/content/repos/designs/digital/_index.md",
+    "themes/write-only/archetypes/template-post.md",
+    "themes/write-only/content/books/scrivener/newsroom/250316.md",
+    "themes/write-only/content/books/scrivener/newsroom/230620.md",
+    "themes/write-only/content/books/scrivener/newsroom/230522.md",
+    "themes/write-only/content/books/scrivener/newsroom/250903.md",
+    "themes/write-only/content/posts/2025/art 250425.md",
+    "themes/write-only/content/posts/2025/art 250313.md",
+    "themes/write-only/content/posts/2024/tech 240617-1.md",
+    "themes/write-only/content/posts/2024/tech 240625.md",
     "themes/write-only/content/repos/designs/spatial/_index.md",
     "themes/write-only/content/about.ja.md",
     "themes/write-only/content/about.ko.md",
@@ -280,25 +323,11 @@
     "themes/write-only/content/repos/designs/print/_index.md",
     "themes/write-only/content/repos/designs/illustration/_index.md",
     "themes/write-only/content/repos/designs/marketing/_index.md",
-    "themes/write-only/content/repos/designs/digital/_index.md",
     "themes/write-only/content/repos/designs/identity/_index.md",
     "themes/write-only/content/repos/designs/_index.md",
     "themes/write-only/content/repos/artworks/photos-more/_index.md",
     "themes/write-only/content/repos/activities/clipstudio/lecture/lecture 01/index.md",
     "themes/write-only/content/repos/activities/clipstudio/_index.md",
-    "themes/write-only/content/repos/activities/_index.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.en.md",
-    "themes/write-only/content/repos/activities/lecture 나섬/_index.md",
-    "themes/write-only/content/repos/articles/_index.md",
-    "themes/write-only/content/techs/_index.md",
-    "themes/write-only/content/repos/artworks/_index.md",
-    "themes/write-only/content/repos/_index.md",
-    "themes/write-only/content/repos/artworks/old-media/_index.md",
-    "themes/write-only/content/repos/artworks/new-media/_index.md",
-    "themes/write-only/content/repos/artworks/photos-less/_index.md",
-    "themes/write-only/content/repos/papers/_index.md",
-    "themes/write-only/archetypes/default.md",
-    "themes/write-only/content/posts/2025/art 250425.md",
     "public/books/scrivener/newsroom/240306/img.png",
     "themes/write-only/content/books/scrivener/newsroom/240306/img.png",
     "public/repos/activities/clipstudio/lecture/lecture-01/006.png",
