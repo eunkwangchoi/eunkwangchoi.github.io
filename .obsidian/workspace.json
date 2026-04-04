@@ -40,7 +40,8 @@
                   "title": "template-post"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "2860216d01f7d184",
@@ -67,12 +68,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/repos/articles/기타/2602 월간사진 인터뷰.md",
+                    "file": "themes/write-only/content/repos/activities/blender/lecture/260404 01/index.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "2602 월간사진 인터뷰"
+                  "title": "index"
                 }
               },
               {
@@ -166,7 +167,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -249,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/repos/articles/기타/2602 월간사진 인터뷰.md",
+                "file": "themes/write-only/content/repos/activities/blender/lecture/260404 01/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2602 월간사진 인터뷰"
+              "title": "index 의 개요"
             }
           },
           {
@@ -281,53 +282,54 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "publish:Publish changes...": false,
-      "workspaces:Manage workspace layouts": false
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "workspaces:작업 공간 레이아웃 관리": false,
+      "publish:변경사항 게재": false,
+      "bases:새 베이스 생성하기": false
     }
   },
   "active": "f6003434c817d831",
   "lastOpenFiles": [
+    "themes/write-only/content/about.ja.md",
+    "themes/write-only/content/repos/activities/blender/lecture/260404 01/index.md",
+    "themes/write-only/archetypes/template-post.md",
+    "themes/write-only/content/books/scrivener/newsroom/230628.md",
+    "themes/write-only/content/books/scrivener/lecture/lecture 04.md",
+    "themes/write-only/content/posts/Instagram Feeds/_index.md",
+    "themes/write-only/content/posts/2025/art 250313.md",
+    "themes/write-only/content/posts/2025/art 250425.md",
+    "themes/write-only/content/posts/2024/tech 240617-2/index.md",
+    "themes/write-only/content/posts/2024/tech 240617-2/002.png",
+    "themes/write-only/content/posts/2024/tech 240617-1.md",
+    "themes/write-only/content/posts/2024/tech 240625.md",
+    "themes/write-only/content/techs/_index.md",
+    "themes/write-only/content/_index.md",
+    "public/techs/blender-foundation/-blender-5/index.xml",
+    "public/techs/blender-foundation/-blender-5/index.html",
+    "public/techs/blender-foundation/-blender-5",
+    "public/techs/blender-foundation/-clip-studio-paint/index.xml",
+    "public/techs/blender-foundation/-clip-studio-paint/index.html",
+    "public/techs/blender-foundation/-clip-studio-paint",
+    "public/techs/blender-foundation",
+    "public/techs/blender-/-clip-studio-paint/index.xml",
+    "public/techs/blender-/-clip-studio-paint/index.html",
+    "public/techs/blender-/-clip-studio-paint",
     "themes/write-only/archetypes/default.md",
     "themes/write-only/content/repos/articles/기타/2602 월간사진 인터뷰.md",
-    "themes/write-only/content/books/scrivener/newsroom/230628.md",
-    "themes/write-only/content/repos/articles/기타/2108 고전 독서의 방법.md",
     "themes/write-only/content/repos/designs/digital/_index.md",
-    "themes/write-only/archetypes/template-post.md",
+    "themes/write-only/content/repos/activities/clipstudio/lecture/lecture 01/index.md",
+    "themes/write-only/content/repos/activities/clipstudio/_index.md",
+    "themes/write-only/content/repos/activities/blender/lecture/_index.md",
+    "themes/write-only/content/repos/articles/기타/2108 고전 독서의 방법.md",
     "themes/write-only/content/books/scrivener/newsroom/250316.md",
     "themes/write-only/content/books/scrivener/newsroom/230620.md",
     "themes/write-only/content/books/scrivener/newsroom/230522.md",
     "themes/write-only/content/books/scrivener/newsroom/250903.md",
-    "themes/write-only/content/posts/2025/art 250425.md",
-    "themes/write-only/content/posts/2025/art 250313.md",
-    "themes/write-only/content/posts/2024/tech 240617-1.md",
-    "themes/write-only/content/posts/2024/tech 240625.md",
     "themes/write-only/content/repos/designs/spatial/_index.md",
-    "themes/write-only/content/about.ja.md",
     "themes/write-only/content/about.ko.md",
-    "themes/write-only/content/about.en.md",
-    "public/repos/designs/spatial/index.xml",
-    "public/repos/designs/spatial/index.html",
-    "public/repos/designs/spatial",
-    "public/repos/designs/print/index.xml",
-    "public/repos/designs/print/index.html",
-    "public/repos/designs/print",
-    "public/repos/designs/marketing/index.xml",
-    "public/repos/designs/marketing/index.html",
-    "public/repos/designs/marketing",
-    "public/repos/designs/illustration/index.xml",
-    "themes/write-only/content/repos/designs/print/_index.md",
-    "themes/write-only/content/repos/designs/illustration/_index.md",
-    "themes/write-only/content/repos/designs/marketing/_index.md",
-    "themes/write-only/content/repos/designs/identity/_index.md",
-    "themes/write-only/content/repos/designs/_index.md",
-    "themes/write-only/content/repos/artworks/photos-more/_index.md",
-    "themes/write-only/content/repos/activities/clipstudio/lecture/lecture 01/index.md",
-    "themes/write-only/content/repos/activities/clipstudio/_index.md",
     "public/books/scrivener/newsroom/240306/img.png",
     "themes/write-only/content/books/scrivener/newsroom/240306/img.png",
     "public/repos/activities/clipstudio/lecture/lecture-01/006.png",
@@ -336,7 +338,6 @@
     "public/repos/activities/clipstudio/lecture/lecture-01/003.png",
     "public/repos/activities/clipstudio/lecture/lecture-01/002.png",
     "public/repos/activities/clipstudio/lecture/lecture-01/001.png",
-    "public/works/scrivener/newsroom/240306/img.png",
-    "public/works/clipstudio/lecture/lecture-01/006.png"
+    "public/works/scrivener/newsroom/240306/img.png"
   ]
 }

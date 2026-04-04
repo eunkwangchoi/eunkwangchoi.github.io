@@ -78,6 +78,8 @@ tech list
 	Adobe
 		Behance
 		Adobe CC
+	Blender Foundation
+		Blender 5
 	Celsys
 		Clip Studio Paint
 	Generative AI
