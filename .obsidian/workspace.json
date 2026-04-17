@@ -68,12 +68,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/repos/activities/blender/lecture/260411 02.md",
+                    "file": "themes/write-only/content/repos/activities/blender/lecture/260418 03.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "260411 02"
+                  "title": "260418 03"
                 }
               },
               {
@@ -250,13 +250,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/repos/activities/blender/lecture/260411 02.md",
+                "file": "themes/write-only/content/repos/activities/blender/lecture/260418 03.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "260411 02 의 개요"
+              "title": "260418 03 의 개요"
             }
           },
           {
@@ -293,9 +293,12 @@
   },
   "active": "f6003434c817d831",
   "lastOpenFiles": [
-    "themes/write-only/archetypes/template-post.md",
-    "themes/write-only/content/repos/activities/blender/lecture/260411 02.md",
     "themes/write-only/content/repos/activities/blender/lecture/260404 01.md",
+    "themes/write-only/content/repos/activities/blender/lecture/260418 03.md",
+    "public/repos/activities/blender/lecture/260418-03/index.html",
+    "public/repos/activities/blender/lecture/260418-03",
+    "themes/write-only/content/repos/activities/blender/lecture/260411 02.md",
+    "themes/write-only/archetypes/template-post.md",
     "themes/write-only/content/books/scrivener/newsroom/230628.md",
     "public/repos/activities/blender/lecture/260411-02/index.html",
     "public/repos/activities/blender/lecture/260411-02",
@@ -305,8 +308,6 @@
     "public/repos/activities/blender/lecture/260404-01-1/index.html",
     "public/repos/activities/blender/lecture/260404-01-1",
     "public/repos/activities/blender/page/1/index.html",
-    "public/repos/activities/blender/page/1",
-    "public/repos/activities/blender/page",
     "themes/write-only/content/repos/activities/blender/_index.md",
     "themes/write-only/content/about.ja.md",
     "themes/write-only/content/books/scrivener/lecture/lecture 04.md",
@@ -328,7 +329,6 @@
     "themes/write-only/content/books/scrivener/newsroom/250316.md",
     "themes/write-only/content/books/scrivener/newsroom/230620.md",
     "themes/write-only/content/books/scrivener/newsroom/230522.md",
-    "themes/write-only/content/books/scrivener/newsroom/250903.md",
     "public/books/scrivener/newsroom/240306/img.png",
     "themes/write-only/content/books/scrivener/newsroom/240306/img.png",
     "public/repos/activities/clipstudio/lecture/lecture-01/006.png",
