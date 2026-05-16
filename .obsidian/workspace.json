@@ -68,12 +68,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/repos/activities/blender/lecture/260425 06.md",
+                    "file": "themes/write-only/content/repos/activities/blender/lecture/260516 07.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "260425 06"
+                  "title": "260516 07"
                 }
               },
               {
@@ -151,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 364.5,
+    "collapsed": true
   },
   "right": {
     "id": "b6f154df0e406df7",
@@ -244,11 +245,20 @@
   },
   "active": "f6003434c817d831",
   "lastOpenFiles": [
+    "public/page/18/index.html",
+    "public/page/18",
+    "public/repos/activities/blender/lecture/260508-06/index.html",
+    "public/repos/activities/blender/lecture/260508-06",
+    "public/repos/activities/blender/lecture/260516-07/index.html",
+    "public/repos/activities/blender/lecture/260516-07",
+    "themes/write-only/content/repos/activities/blender/lecture/260411 02.md",
+    "themes/write-only/content/repos/activities/blender/lecture/260418 03.md",
+    "themes/write-only/content/repos/activities/blender/lecture/260425 04.md",
+    "themes/write-only/content/repos/activities/blender/lecture/260516 07.md",
+    "themes/write-only/content/repos/activities/blender/lecture/260508 06.md",
     "public/repos/activities/blender/lecture/260425-06/index.html",
     "public/repos/activities/blender/lecture/260425-06",
     "themes/write-only/content/repos/activities/blender/lecture/260502 05/index.md",
-    "themes/write-only/content/repos/activities/blender/lecture/260425 06.md",
-    "themes/write-only/content/repos/activities/blender/lecture/260411 02.md",
     "themes/write-only/archetypes/template-post.md",
     "themes/write-only/content/repos/activities/blender/lecture/260404 01.md",
     "public/repos/activities/blender/lecture/260502-05/practice-05-04.png",
@@ -257,19 +267,11 @@
     "public/repos/activities/blender/lecture/260502-05/practice-05-03.stl",
     "public/repos/activities/blender/lecture/260502-05/practice-05-02.png",
     "public/repos/activities/blender/lecture/260502-05/practice-05-01.stl",
-    "public/repos/activities/blender/lecture/260502-05/practice-05-02.stl",
     "public/repos/activities/blender/lecture/260502-05/practice-05-01.png",
-    "public/repos/activities/blender/lecture/260502-05/index.html",
-    "public/repos/activities/blender/lecture/260502-05",
     "themes/write-only/content/repos/activities/blender/lecture/260502 05/practice-05-01.png",
-    "themes/write-only/content/repos/activities/blender/lecture/260502 05/practice-05-01 1.stl",
     "themes/write-only/content/repos/activities/blender/lecture/260502 05/practice-05-02.png",
-    "themes/write-only/content/repos/activities/blender/lecture/260502 05/practice-05-04.stl",
     "themes/write-only/content/repos/activities/blender/lecture/260502 05/practice-05-04.png",
-    "themes/write-only/content/repos/activities/blender/lecture/260502 05/practice-05-03.stl",
     "themes/write-only/content/repos/activities/blender/lecture/260502 05/practice-05-03.png",
-    "themes/write-only/content/repos/activities/blender/lecture/260425 04.md",
-    "themes/write-only/content/repos/activities/blender/lecture/260418 03.md",
     "themes/write-only/content/about.ko.md",
     "themes/write-only/content/about.en.md",
     "themes/write-only/content/about.ja.md",
@@ -288,7 +290,6 @@
     "themes/write-only/archetypes/default.md",
     "themes/write-only/content/repos/articles/기타/2602 월간사진 인터뷰.md",
     "themes/write-only/content/repos/designs/digital/_index.md",
-    "themes/write-only/content/repos/activities/clipstudio/lecture/lecture 01/index.md",
     "public/books/scrivener/newsroom/240306/img.png"
   ]
 }
