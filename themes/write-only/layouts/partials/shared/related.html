@@ -1,27 +1,25 @@
 <div>
-  {{ if eq .Page.Params.Languages "한국어" }}
+  {{ if eq .Lang "ko" }}
     <h3>현재 문서</h3>
-  {{ else if eq .Page.Params.Languages "日本語" }}
+  {{ else if eq .Lang "ja" }}
     <h3>見た記事</h3>
   {{ else }}
     <h3>You See</h3>
   {{ end }}
 
   <nav aria-label="breadcrumb" class="page-location">
-    <ul>
-      <ol class="breadcrumb" style="display: flex; list-style-type: none; padding: 0;">
-        <li class="breadcrumb-item active" aria-current="page">
-          {{ .Title }}
-        </li>
-      </ol>
-    </ul>
+    <ol class="breadcrumb" style="display: flex; list-style-type: none; padding: 0;">
+      <li class="breadcrumb-item active" aria-current="page">
+        {{ .Title }}
+      </li>
+    </ol>
   </nav>
 </div>
 
 <div class="mt-4">
-  {{ if eq .Page.Params.Languages "한국어" }}
+  {{ if eq .Lang "ko" }}
     <h3>관련 문서</h3>
-  {{ else if eq .Page.Params.Languages "日本語" }}
+  {{ else if eq .Lang "ja" }}
     <h3>関連記事</h3>
   {{ else }}
     <h3>See Also</h3>
