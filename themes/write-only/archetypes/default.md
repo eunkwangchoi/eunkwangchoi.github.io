@@ -84,6 +84,7 @@ tech list
 		Clip Studio Paint
 	Generative AI
 		MidJourney
+		Agentic AI
 	Google
 		Google Search
 	Sound Tech
