@@ -28,11 +28,12 @@
 
             {{ range $p := seq 1 $maxPages }}
                 {{ $url := printf "https://api.unsplash.com/users/%s/photos?per_page=%d&page=%d&client_id=%s" $username $perPage $p $access }}
-                {{ $res := resources.GetRemote $url }}
-                {{ if $res }}
-                {{ $pagePhotos := $res.Content | transform.Unmarshal (dict "format" "json") }}
+                {{ with try (resources.GetRemote $url) }}
+                {{ with .Value }}
+                {{ $pagePhotos := .Content | transform.Unmarshal (dict "format" "json") }}
                 {{ range $photo := $pagePhotos }}
                     {{ $photos = $photos | append $photo }}
+                {{ end }}
                 {{ end }}
                 {{ end }}
             {{ end }}
