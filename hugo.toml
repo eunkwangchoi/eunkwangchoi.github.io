@@ -121,8 +121,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [languages]
   [languages.en]
     disabled = false
-    languageCode = 'en-US'
-    languageName = 'English'
+    locale = 'en-US'
+    label = 'English'
     timeZone = 'America/New_York'
     weight = 1
     [languages.en.params]    
@@ -131,8 +131,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
       location = ["Seoul", "South Korea"]
   [languages.ko]
     disabled = false
-    languageCode = 'ko-KR'
-    languageName = '한국어'
+    locale = 'ko-KR'
+    label = '한국어'
     timeZone = 'Asia/Seoul'
     weight = 2
     [languages.ko.params]
@@ -141,8 +141,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
       location = ["서울", "대한민국"]
   [languages.ja]
     disabled = false
-    languageCode = 'ja-JP'
-    languageName = '日本語'
+    locale = 'ja-JP'
+    label = '日本語'
     timeZone = 'Asia/Tokyo'
     weight = 3
     [languages.ja.params]
@@ -151,26 +151,26 @@ ignoreLogs = ['warning-goldmark-raw-html']
       location = ["ソウル", "大韓民国"]
   [languages.zh]
     disabled = false
-    languageCode = 'zh-CN'
-    languageName = '中文'
+    locale = 'zh-CN'
+    label = '中文'
     timeZone = 'Asia/Shanghai'
     weight = 4
   [languages.vi]
     disabled = false
-    languageCode = 'vi-VN'
-    languageName = 'Tiếng Việt'
+    locale = 'vi-VN'
+    label = 'Tiếng Việt'
     timeZone = 'Asia/Ho_Chi_Minh'
     weight = 5
   [languages.th]
     disabled = false
-    languageCode = 'th-TH'
-    languageName = 'ภาษาไทย'
+    locale = 'th-TH'
+    label = 'ภาษาไทย'
     timeZone = 'Asia/Bangkok'
     weight = 6
   [languages.mn]
     disabled = false
-    languageCode = 'mn-MN'
-    languageName = 'Монгол'
+    locale = 'mn-MN'
+    label = 'Монгол'
     timeZone = 'Asia/Ulaanbaatar'
     weight = 7
 

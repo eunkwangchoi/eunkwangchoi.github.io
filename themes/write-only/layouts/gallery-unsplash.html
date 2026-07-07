@@ -57,7 +57,7 @@
                 data-full="{{ index $urls "full" }}"
                 data-page="{{ index $links "html" }}"
                 data-desc="{{ or (index $p "description") (index $p "alt_description") "" }}">
-                <img src="{{ index $urls "small" }}" loading="lazy" decoding="async" alt="">
+                <img src="{{ index $urls "small" }}" loading="lazy" decoding="async" alt="{{ or (index $p "description") (index $p "alt_description") "Photo" }}">
                 </a>
             {{ end }}
             </div>

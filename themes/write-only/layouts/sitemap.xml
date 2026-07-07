@@ -3,7 +3,7 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  {{- $defaultSite := site.Sites.Default -}}
+  {{- $defaultSite := hugo.Sites.Default -}}
 
   {{- $pages := slice -}}
   {{- $pages = $pages | append $defaultSite.RegularPages -}}

@@ -46,15 +46,6 @@ locs = [ "" ]
 </div>
 
 
-<script src="https://cdn.fastcomments.com/js/embed-v2.min.js"></script>
-  <div id="fastcomments-widget"></div>
-  <script>
-	FastCommentsUI(document.getElementById('fastcomments-widget'), {
-	  tenantId: 'kYpW2ra3fpa'
-	});
-</script>
-
-
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2618164900782657"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
