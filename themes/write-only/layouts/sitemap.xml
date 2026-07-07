@@ -47,7 +47,7 @@
 
         {{- range .AllTranslations -}}
           {{- $href := .Permalink -}}
-          {{- $lang := .Language.Lang -}}
+          {{- $lang := .Language.Name -}}
           {{- if and $href $lang -}}
             <xhtml:link rel="alternate" hreflang="{{ $lang }}" href="{{ $href }}" />
           {{- end -}}
