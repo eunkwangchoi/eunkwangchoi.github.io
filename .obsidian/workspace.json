@@ -10,7 +10,7 @@
           {
             "id": "eb7ddc127294a432",
             "type": "tabs",
-            "dimension": 46.18447246184471,
+            "dimension": 42.28723404255319,
             "children": [
               {
                 "id": "75eb4af970411403",
@@ -46,7 +46,7 @@
           {
             "id": "2860216d01f7d184",
             "type": "tabs",
-            "dimension": 53.81552753815529,
+            "dimension": 57.71276595744681,
             "children": [
               {
                 "id": "64b559542cb9cd7e",
@@ -68,12 +68,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/posts/2026/tech 260706.md",
+                    "file": "themes/write-only/content/repos/articles/월간사진/2608 사물은 진동하고 사진은 머문다.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "tech 260706"
+                  "title": "2608 사물은 진동하고 사진은 머문다"
                 }
               },
               {
@@ -90,7 +90,8 @@
                   "title": "260404 01"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -199,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/techs/_index.md",
+                "file": "themes/write-only/content/repos/articles/월간사진/2608 사물은 진동하고 사진은 머문다.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "_index 의 개요"
+              "title": "2608 사물은 진동하고 사진은 머문다 의 개요"
             }
           },
           {
@@ -227,8 +228,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,21 +241,26 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "64b559542cb9cd7e",
+  "active": "f6003434c817d831",
   "lastOpenFiles": [
+    "themes/write-only/content/repos/articles/월간사진/2608 사진은 어디서 시작되는가.md",
+    "themes/write-only/content/repos/articles/월간사진/2608 사물은 진동하고 사진은 머문다.md",
+    "themes/write-only/content/repos/articles/월간사진/2602 김영섭의 초대석.md",
+    "themes/write-only/archetypes/template-post.md",
+    "themes/write-only/archetypes/default.md",
+    "themes/write-only/content/posts/2026/tech 260706.md",
+    "themes/write-only/content/techs/_index.md",
+    "themes/write-only/content/repos/articles/월간사진",
     "themes/write-only/content/_index.md",
     "themes/write-only/content/about.ko.md",
     "themes/write-only/content/repos/designs/digital/_index.md",
     "themes/write-only/content/repos/activities/blender/lecture/260404 01.md",
-    "themes/write-only/content/posts/2026/tech 260706.md",
-    "themes/write-only/archetypes/template-post.md",
     "public/techs/generative-ai/-agentic-ai/index.xml",
     "public/techs/generative-ai/-agentic-ai/index.html",
     "public/techs/generative-ai/-agentic-ai",
     "public/posts/2026/tech-260706/index.html",
     "public/posts/2026/tech-260706",
     "public/posts/2026",
-    "themes/write-only/archetypes/default.md",
     "themes/write-only/content/posts/2024/tech 240625.md",
     "themes/write-only/content/posts/2024/tech 240617-1.md",
     "themes/write-only/content/repos/activities/blender/lecture/260523 08/index.md",
@@ -264,7 +269,6 @@
     "public/repos/activities/blender/lecture/260523-08/practice-08-09.png",
     "public/repos/activities/blender/lecture/260523-08/practice-08-08.stl",
     "public/repos/activities/blender/lecture/260523-08/practice-08-08.png",
-    "public/repos/activities/blender/lecture/260523-08/practice-08-07.stl",
     "public/repos/activities/blender/lecture/260523-08/practice-08-07.png",
     "public/repos/activities/blender/lecture/260523-08/practice-08-06.png",
     "public/repos/activities/blender/lecture/260523-08/practice-08-05.png",
@@ -284,10 +288,6 @@
     "themes/write-only/content/books/scrivener/newsroom/230628.md",
     "themes/write-only/content/repos/activities/blender/_index.md",
     "themes/write-only/content/books/scrivener/lecture/lecture 04.md",
-    "themes/write-only/content/posts/Instagram Feeds/_index.md",
-    "themes/write-only/content/posts/2025/art 250313.md",
-    "themes/write-only/content/posts/2025/art 250425.md",
-    "themes/write-only/content/posts/2024/tech 240617-2/index.md",
-    "themes/write-only/content/techs/_index.md"
+    "themes/write-only/content/posts/Instagram Feeds/_index.md"
   ]
 }
