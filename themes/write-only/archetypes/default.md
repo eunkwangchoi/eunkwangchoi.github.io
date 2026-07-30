@@ -115,6 +115,7 @@ ref list
 		村上 隆
 		세븐틴
 		김영섭
+		구본창
 
 etc list
 	Activities
