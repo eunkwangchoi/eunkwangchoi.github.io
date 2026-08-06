@@ -14,7 +14,7 @@ layout = "single-multilinguial"
 
 <!--more-->
 
-# 1회차 (5일) - Vibe Coding 입문과 앱 따라 만들기
+# 1회차 (7월 31일) - Vibe Coding 입문과 앱 따라 만들기
 
 #   
 
@@ -46,7 +46,7 @@ layout = "single-multilinguial"
 
 #   
 
-# 2회차 (7일) - 앱 기능 추가와 변형
+# 2회차 (8월 7일) - 앱 기능 추가와 변형
 
 #   
 
@@ -102,7 +102,7 @@ layout = "single-multilinguial"
 
 #   
 
-# 3회차 (12일) - 나만의 앱 기획과 제작
+# 3회차 (8월 14일) - 나만의 앱 기획과 제작
 
 #   
 
@@ -210,7 +210,7 @@ layout = "single-multilinguial"
 
 #   
 
-# 4회차 (14일) - 앱 완성 및 프로젝트 발표
+# 4회차 (8월 21일) - 앱 완성 및 프로젝트 발표
 
 #   
 

@@ -68,12 +68,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/repos/activities/lecture 몽골/2508 02/index.ko.md",
+                    "file": "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.mn.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "index.ko"
+                  "title": "index.mn"
                 }
               },
               {
@@ -114,7 +114,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -200,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/repos/activities/lecture 몽골/2508 02/index.ko.md",
+                "file": "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.mn.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index.ko 의 개요"
+              "title": "개요"
             }
           },
           {
@@ -228,7 +230,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,22 +246,25 @@
   },
   "active": "f6003434c817d831",
   "lastOpenFiles": [
-    "themes/write-only/content/repos/activities/lecture 몽골/2508 02/index.mn.md",
+    "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.en.md",
+    "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.ko.md",
+    "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.mn.md",
     "themes/write-only/content/repos/activities/lecture 몽골/2508 02/index.en.md",
     "themes/write-only/content/repos/activities/lecture 몽골/2508 02/index.ko.md",
-    "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.mn.md",
+    "themes/write-only/content/repos/activities/lecture 몽골/2508 02/index.mn.md",
+    "themes/write-only/content/repos/activities/lecture 몽골/2508 03/index.mn.md",
+    "themes/write-only/content/repos/activities/lecture 몽골/2508 03/index.en.md",
+    "themes/write-only/content/repos/activities/lecture 몽골/2508 03/index.ko.md",
+    "themes/write-only/content/repos/activities/lecture 몽골/2508 03",
     "public/repos/activities/lecture-몽골/2508-02/index.html",
     "public/repos/activities/lecture-몽골/2508-02",
-    "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.ko.md",
     "public/repos/activities/lecture-몽골/2508-01/index.html",
     "public/repos/activities/lecture-몽골/2508-01",
-    "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.en.md",
     "public/repos/articles/월간사진/2602-김영섭의-초대석/index.html",
     "public/repos/articles/월간사진/2602-김영섭의-초대석",
     "public/repos/articles/월간사진",
     "public/mn/repos/activities/lecture-몽골/2508-02/index.html",
     "public/mn/repos/activities/lecture-몽골/2508-01/index.html",
-    "public/mn/repos/activities/lecture-몽골/2508-02",
     "public/qr_ba701571f4b0ae5f.png",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.ko.md",
     "themes/write-only/content/repos/activities/lecture 나섬/2507 02/index.en.md",
@@ -277,8 +283,6 @@
     "themes/write-only/content/about.ko.md",
     "themes/write-only/content/repos/designs/digital/_index.md",
     "themes/write-only/content/repos/activities/blender/lecture/260404 01.md",
-    "themes/write-only/content/posts/2024/tech 240625.md",
-    "themes/write-only/content/posts/2024/tech 240617-1.md",
     "public/repos/activities/blender/lecture/260523-08/practice-08-09.png",
     "public/repos/activities/blender/lecture/260523-08/practice-08-08.png",
     "public/repos/activities/blender/lecture/260523-08/practice-08-07.png",
