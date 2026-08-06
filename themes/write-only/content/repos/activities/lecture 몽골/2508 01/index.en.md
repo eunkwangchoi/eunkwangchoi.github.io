@@ -14,7 +14,7 @@ Generative AI Education with Mongolian School | Build Your Own App with AI | Aug
 
 <!--more-->
 
-# Session 1 (August 5) — Introduction to Vibe Coding and Guided App Building
+# Session 1 (July 31) — Introduction to Vibe Coding and Guided App Building
 
 #   
 
@@ -102,7 +102,7 @@ Generative AI Education with Mongolian School | Build Your Own App with AI | Aug
 
 #   
 
-# Session 3 (August 12) — Planning and Building Your Own App
+# Session 3 (August 14) — Planning and Building Your Own App
 
 #   
 
@@ -210,7 +210,7 @@ Generative AI Education with Mongolian School | Build Your Own App with AI | Aug
 
 #   
 
-# Session 4 (August 14) — App Completion and Project Presentation
+# Session 4 (August 21) — App Completion and Project Presentation
 
 #   
 
