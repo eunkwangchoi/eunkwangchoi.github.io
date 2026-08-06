@@ -68,12 +68,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.mn.md",
+                    "file": "themes/write-only/content/repos/articles/월간사진/2608 사물은 진동하고 사진은 머문다.md",
                     "mode": "source",
                     "source": true
                   },
                   "icon": "lucide-file",
-                  "title": "index.mn"
+                  "title": "2608 사물은 진동하고 사진은 머문다"
                 }
               },
               {
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.mn.md",
+                "file": "themes/write-only/content/repos/articles/월간사진/2608 사물은 진동하고 사진은 머문다.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -246,15 +246,18 @@
   },
   "active": "f6003434c817d831",
   "lastOpenFiles": [
+    "themes/write-only/content/repos/articles/월간사진/2608 사진은 어디서 시작되는가.md",
+    "themes/write-only/content/repos/articles/월간사진/2608 사물은 진동하고 사진은 머문다.md",
+    "themes/write-only/content/repos/activities/lecture 몽골/2508 03/index.ko.md",
+    "themes/write-only/archetypes/template-post.md",
+    "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.mn.md",
     "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.en.md",
     "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.ko.md",
-    "themes/write-only/content/repos/activities/lecture 몽골/2508 01/index.mn.md",
     "themes/write-only/content/repos/activities/lecture 몽골/2508 02/index.en.md",
     "themes/write-only/content/repos/activities/lecture 몽골/2508 02/index.ko.md",
     "themes/write-only/content/repos/activities/lecture 몽골/2508 02/index.mn.md",
     "themes/write-only/content/repos/activities/lecture 몽골/2508 03/index.mn.md",
     "themes/write-only/content/repos/activities/lecture 몽골/2508 03/index.en.md",
-    "themes/write-only/content/repos/activities/lecture 몽골/2508 03/index.ko.md",
     "themes/write-only/content/repos/activities/lecture 몽골/2508 03",
     "public/repos/activities/lecture-몽골/2508-02/index.html",
     "public/repos/activities/lecture-몽골/2508-02",
@@ -272,10 +275,7 @@
     "themes/write-only/content/repos/activities/lecture 나섬/2507 01/index.ko.md",
     "themes/write-only/content/repos/activities/lecture 몽골/_index.md",
     "themes/write-only/content/repos/activities/lecture 나섬/_index.md",
-    "themes/write-only/content/repos/articles/월간사진/2608 사물은 진동하고 사진은 머문다.md",
-    "themes/write-only/content/repos/articles/월간사진/2608 사진은 어디서 시작되는가.md",
     "themes/write-only/content/repos/articles/월간사진/2602 김영섭의 초대석.md",
-    "themes/write-only/archetypes/template-post.md",
     "themes/write-only/archetypes/default.md",
     "themes/write-only/content/posts/2026/tech 260706.md",
     "themes/write-only/content/techs/_index.md",
