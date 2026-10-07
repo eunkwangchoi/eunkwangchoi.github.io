@@ -11,6 +11,10 @@ import cv_private as cv
 
 
 class PrivateCV(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        (cv.ROOT / '.build').mkdir(parents=True, exist_ok=True)
+
     def rows(self):
         return {'records': [
             {'definition':'entry','source':'data/cv/entries/a.yaml','web':False,'pdf':True,
