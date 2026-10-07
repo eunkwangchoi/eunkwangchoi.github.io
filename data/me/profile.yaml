@@ -1,0 +1,181 @@
+name:
+  ko: 최은광
+  ko_display: 최 은 광
+  en:
+  - EUNKWANG
+  - CHOI
+  en_suffix: RYAN
+  full_en: Eunkwang Ryan Choi
+tagline: Artist, Writer, and Researcher
+email: ryan.choi@arteuro.net
+url: https://eunkwangchoi.com/about/
+avatar: about/avatar.jpg
+updated: '2026-10-07'
+about:
+  ko: 서울대학교에서 미학과 철학을 공부한 뒤 평론가 및 수필가로 활동하고 있습니다. 경남대학교 교양교육연구소와 교양융합대학에서 교수로 일했고,
+    정부와 민간의 인공지능 관련 프로젝트에 몇 번 참여했습니다. 지금은 예술 스타트업인 아뜰리에 유로의 대표로서 기술과 예술의 융합을 도모하고
+    있습니다. 멘사 회원이지만 회비는 잘 내지 않습니다.
+  en: After studying aesthetics and philosophy at Seoul National University, I have
+    been working as a critic and essayist. I served as a professor at Kyungnam University’s
+    Institute of Liberal Arts Education and College of Liberal Arts and Convergence,
+    and participated in several government and private-sector projects related to
+    artificial intelligence. I now lead Atelier Euro, an arts startup, exploring the
+    convergence of technology and art. I am a Mensa member, though I am not very good
+    at paying the dues.
+  ja: ソウル大学で美学と哲学を学びました。 慶南大学でしばらく教授職に就いていましたが、創作活動に専念するために教壇を降りました。 私の作品の多くは、まずテキストについて考えることから始まります。
+    技術がめざましく進化する転換期のいま、メディア実験を通じて急速に変化するテキストの位相を探求しています。 ニュー・メディアを軸に据えながらも、伝統的なメディアを手放すつもりはありません。
+identity:
+  ko:
+  - 아티스트
+  - 작가
+  - 연구자
+  en:
+  - ARTIST
+  - WRITER
+  - RESEARCHER
+interests:
+- domain: art
+  ko: 인공지능(AI), 미디어 아트, 디지털 아트, 뉴 미디어, 카툰 일러스트, 디자인 일반, 다원 예술, 수퍼 플랫, 텍스트 아트
+  en: Artificial Intelligence (AI), Media Art, Digital Art, New Media, Cartoon Illustration,
+    General Design, Interdisciplinary Art, Superflat, Text Art
+- domain: literature
+  ko: 수필 문학, 에세이, 소설, 인문 교양, 대중
+  en: Literary Essays, Essays, Fiction, Liberal Arts, General Audiences
+- domain: research
+  ko: 현대 영미 철학, 정치 철학, 사회 철학, 미학, 예술사, 동시대 예술
+  en: Contemporary Anglo-American Philosophy, Political Philosophy, Social Philosophy,
+    Aesthetics, Art History, Contemporary Art
+languages:
+- ko: 한국어
+  en: Korean
+  level: 6
+- ko: 영어
+  en: English
+  level: 5
+- ko: 일본어
+  en: Japanese
+  level: 4
+- ko: 독일어
+  en: German
+  level: 3
+- ko: 고전 라틴어
+  en: Ancient Latin
+  level: 2
+- ko: 고전 그리스어
+  en: Ancient Greek
+  level: 2
+badges:
+- id: header-1
+  image: about/badges/header-1.png
+  place: header
+  langs:
+  - ko
+- id: header-2
+  image: about/badges/header-2.png
+  place: header
+  langs:
+  - ko
+- id: header-3
+  image: about/badges/header-3.png
+  place: header
+  langs:
+  - ko
+- id: adobe-1
+  image: about/badges/adobe-1.png
+  place: sidebar-2
+  langs:
+  - ko
+- id: adobe-2
+  image: about/badges/adobe-2.png
+  place: sidebar-2
+  langs:
+  - ko
+- id: adobe-3
+  image: about/badges/adobe-3.png
+  place: sidebar-2
+  langs:
+  - ko
+- id: adobe-4
+  image: about/badges/adobe-4.png
+  place: sidebar-2
+  langs:
+  - ko
+- id: adobe-5
+  image: about/badges/adobe-5.png
+  place: sidebar-2
+  langs:
+  - ko
+- id: adobe-6
+  image: about/badges/adobe-6.png
+  place: sidebar-2
+  langs:
+  - ko
+- id: adobe-7
+  image: about/badges/adobe-7.png
+  place: sidebar-2
+  langs:
+  - ko
+- id: adobe-8
+  image: about/badges/adobe-8.png
+  place: sidebar-2
+  langs:
+  - ko
+- id: adobe-9
+  image: about/badges/adobe-9.png
+  place: sidebar-2
+  langs:
+  - ko
+signatures:
+- id: general
+  labels:
+  - Art
+  - Tec
+  - Ref
+  - Etc
+  title:
+    ko: 아티스트, 작가, 연구자
+    en: Artist, Writer, and Researcher
+pdf:
+  enabled: false
+  variants:
+  - summary
+  - full
+  - Art
+  - Tec
+  - Ref
+  - Etc
+  sidebar:
+    ko:
+      '1':
+      - interests
+      - languages
+      '2':
+      - badges
+    en:
+      '1':
+      - interests
+      - languages
+todo:
+- Book covers and Raindrop export pending.
+- Current status follows source snapshot, not independent verification.
+pdf_about:
+  ko: 서울대학교에서 미학과 철학을 공부한 뒤 평론가 및 수필가로 활동하고 있습니다. 경남대학교 교양교육연구소와 교양융합대학에서 교수로 일했고,
+    정부와 민간의 인공지능 관련 프로젝트에 몇 번 참여했습니다. 지금은 예술 스타트업인 아뜰리에 유로의 대표로서 기술과 예술의 융합을 도모하고
+    있습니다. 멘사 회원이지만 회비는 잘 내지 않습니다.
+  en: After studying aesthetics and philosophy at Seoul National University, I have
+    been working as a critic and essayist. I served as a professor at Kyungnam University’s
+    Institute of Liberal Arts Education and College of Liberal Arts and Convergence,
+    and participated in several government and private-sector projects related to
+    artificial intelligence. I now lead Atelier Euro, an arts startup, exploring the
+    convergence of technology and art. I am a Mensa member, though I am not very good
+    at paying the dues.
+history:
+  title: History
+  heading: Artist | Writer | Researcher
+  date: '2026-01-01T00:00:00-05:00'
+  about_en: I studied aesthetics and philosophy at Seoul National University. I spent
+    some time teaching at Kyungnam University but eventually left academia to devote
+    myself fully to creative work. My projects often begin with a focus on text. During
+    this period of rapid technological change, I explore the evolving status of text
+    through various media experiments. While new media are central to my work, I haven’t
+    turned my back on traditional forms.

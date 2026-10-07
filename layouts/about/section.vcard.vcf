@@ -1,0 +1,7 @@
+BEGIN:VCARD
+VERSION:4.0
+FN:{{ hugo.Data.me.profile.name.full_en }}
+N:Choi;Eunkwang;Ryan;;
+EMAIL:{{ hugo.Data.me.profile.email }}
+URL:{{ hugo.Data.me.profile.url }}
+END:VCARD

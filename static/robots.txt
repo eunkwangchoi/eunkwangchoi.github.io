@@ -8,7 +8,7 @@ Disallow: /etcs/
 Disallow: /posts/
 Disallow: /posts/instagram-feeds/
 Disallow: /repos/
-Disallow: /about/
+Allow: /about/
 Disallow: /ko/about/
 Disallow: /ja/about/
 Allow: /$

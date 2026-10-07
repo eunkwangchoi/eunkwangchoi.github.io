@@ -6,15 +6,15 @@
     <div class="col-12 mh-100">
 
       {{/* Use Scratch to conditionally modify the title */}}
-      {{ .Scratch.Set "displayTitle" .Title }}
+      {{ .Store.Set "displayTitle" .Title }}
       {{ if in .Title "/ " }}
         {{ $parts := split .Title "/ " }}
-        {{ .Scratch.Set "displayTitle" (index $parts 1) }}
+        {{ .Store.Set "displayTitle" (index $parts 1) }}
       {{ end }}
 
       <div>
         <h1 class="display-1 text-center text-uppercase fw-bold text-primary py-4">
-          {{ .Scratch.Get "displayTitle" }}
+          {{ .Store.Get "displayTitle" }}
         </h1>
       </div>
       <div class="text-center mb-5">

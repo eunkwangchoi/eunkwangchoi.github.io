@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale xmlns="http://purl.org/net/xbiblio/csl" version="1.0" xml:lang="ko-KR"><terms><term name="open-quote">「</term><term name="close-quote">」</term><term name="open-inner-quote">‘</term><term name="close-inner-quote">’</term><term name="and">및</term><term name="et-al">외</term><term name="page" form="short"><single>쪽</single><multiple>쪽</multiple></term></terms></locale>

@@ -1,0 +1,368 @@
+- id: book-yaong
+  type: book
+  title:
+    ko: 야옹이랑 사는 건 너무 슬퍼
+    en: Living with a Cat is So Sad
+  date: '2022-12-12'
+  domain: literature
+  role: author
+  weight: 1
+  visibility: public
+  links: []
+  publisher:
+  - org-9b9cb884d2
+  extent: 176쪽
+  ids:
+    isbn: 979-11-388-1480-5
+  extent_en: 176 pages
+  original_language: ko
+- id: conscience-religion
+  type: article
+  title:
+    ko: '양심적 병역거부와 정교분리: 네오프래그머티즘의 관점에서 재해석한 법과 종교의 공존'
+    en: 'Conscientious Objection and the Separation of Religion and State: Reinterpreting
+      the Coexistence of Law and Religion from a Neopragmatist Perspective'
+  date: 2019-02
+  domain: research
+  role: author
+  weight: 2
+  visibility: public
+  links:
+  - url: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002445348
+    rel: original
+  venue: org-2ca437e6ca
+  volume: '42'
+  issue: null
+  pages: 287-307
+  ids:
+    kci: ART002445348
+    doi: 10.35148/ilsilr.2019..42.287
+    issn: 1975-9789
+  original_language: ko
+- id: habermas-idealization
+  type: article
+  title:
+    ko: 하버마스 담론윤리의 이상화 전략
+    en: The Idealization Strategy of Habermas’s Discourse Ethics
+  date: 2016-09
+  domain: research
+  role: author
+  weight: 2
+  visibility: public
+  links:
+  - url: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002148218
+    rel: original
+  venue: org-b4262c9c27
+  volume: '109'
+  issue: null
+  pages: 85-110
+  ids:
+    kci: ART002148218
+    doi: 10.15801/je.1.109.201609.85
+    issn: 2982-5121
+  original_language: ko
+- id: situationism-virtue
+  type: article
+  title:
+    ko: '상황주의의 도전에 대한 덕윤리의 반론: 실제적 덕윤리의 입장에서'
+    en: 'A Virtue-Ethical Response to the Challenge of Situationism: From the Standpoint
+      of Practical Virtue Ethics'
+  date: 2013-10
+  domain: research
+  role: author
+  weight: 2
+  visibility: public
+  links:
+  - url: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002090548
+    rel: original
+  venue: org-ac69399361
+  volume: '5'
+  issue: '2'
+  pages: 195-222
+  ids:
+    kci: ART002090548
+    issn: 2005-873X
+  original_language: ko
+- id: rorty-solidarity
+  type: article
+  title:
+    ko: 로티의 비합리적 연대성 비판
+    en: A Critique of Rorty's Concept of Irrational Solidarity
+  date: 2012-12
+  domain: research
+  role: author
+  weight: 2
+  visibility: public
+  links:
+  - url: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001733942
+    rel: original
+  venue: org-4bea39b4ed
+  volume: '99'
+  issue: null
+  pages: 147-174
+  ids:
+    kci: ART001733942
+    issn: 1229-022X
+  original_language: ko
+- id: rorty-truth
+  type: article
+  title:
+    ko: 로티의 우연적 진리관과 철학관 비판
+    en: A Critique of Rorty’s Contingent Conceptions of Truth and Philosophy
+  date: 2012-05
+  domain: research
+  role: author
+  weight: 2
+  visibility: public
+  links:
+  - url: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001664792
+    rel: original
+  venue: org-287772c242
+  volume: '44'
+  issue: null
+  pages: 287-318
+  ids:
+    kci: ART001664792
+    issn: 1226-7007
+  original_language: ko
+- id: thesis-sen-rawls
+  type: thesis
+  title:
+    ko: '센의 역량이론과 롤스 정의론의 양립가능성: 이상론과 비이상론 논의를 중심으로'
+    en: 'Compatibility of Sen''s Capability Approach and Rawls''s Theory of Justice:
+      Focusing on the Debate of Ideal vs. Non-Ideal Theory'
+  date: '2014'
+  domain: research
+  role: author
+  weight: 2
+  visibility: public
+  links:
+  - url: https://s-space.snu.ac.kr/handle/10371/131802
+    rel: repository
+  degree: ma
+  advisor: 정호근
+  todo: null
+  advisor_en: Jung Ho-geun
+  original_language: ko
+- id: thesis-rorty
+  type: thesis
+  title:
+    ko: 로티의 ‘우연성’ 개념 비판
+    en: A Critical Study of Rorty's 'Contingency’
+  date: '2011'
+  domain: research
+  role: author
+  weight: 2
+  visibility: public
+  links:
+  - url: https://s-space.snu.ac.kr/handle/10371/75647
+    rel: repository
+  degree: ba
+  advisor: 황경식
+  todo: null
+  advisor_en: Hwang Kyung-sik
+  original_language: ko
+- id: thesis-dickie
+  type: thesis
+  title:
+    ko: '예술의 분류적 의미와 평가적 의미: G. Dickie의 관점에서'
+    en: 'The Classificatory and Evaluative Sense of Art: Focusing on G. Dickie''s
+      Theory'
+  date: '2009'
+  domain: research
+  role: author
+  weight: 2
+  visibility: public
+  links: []
+  degree: ba
+  advisor: 김진엽
+  todo: Dickie subtitle differs in education section.
+  advisor_en: Kim Jin-yeop
+  original_language: ko
+- id: talk-2021-10-28-2
+  type: talk
+  title:
+    ko: 디지털시민성 연구단 론칭 심포지엄
+    en: Digital Citizenship Research Group Launch Symposium
+  date: '2021-10-28'
+  domain: research
+  role: moderator
+  weight: 2
+  visibility: public
+  links:
+  - url: https://www.wikitree.co.kr/articles/703718
+    rel: press
+  details:
+  - 사회, 경남대학교 (2021. 10. 28)
+  details_en:
+  - Moderator, Kyungnam University (October 28, 2021)
+  original_language: ko
+- id: talk-2021-05-14-3
+  type: talk
+  title:
+    ko: 이루다의 전사(前史)
+    en: The Prehistory of Iruda
+  date: '2021-05-14'
+  domain: research
+  role: presenter
+  weight: 2
+  visibility: public
+  links: []
+  details:
+  - '『제2차 인공지능 편향성 최적화 학술대회: AI의 편향과 챗봇의 일탈』 (2021. 05. 14)'
+  details_en:
+  - 'The 2nd Conference on AI Bias Optimization: AI Bias and Chatbot Deviance (May
+    14, 2021)'
+  original_language: ko
+- id: talk-2019-11-08-5
+  type: talk
+  title:
+    ko: Prospect of Virtue Ethics under Threat from Psychological Situationism
+    en: Prospect of Virtue Ethics under Threat from Psychological Situationism
+  date: '2019-11-08'
+  domain: research
+  role: presenter
+  weight: 2
+  visibility: public
+  links: []
+  details:
+  - The Asian Conference on the Liberal Arts (2019. 11. 08 ~ 10)
+  details_en:
+  - The Asian Conference on the Liberal Arts (November 8–10, 2019)
+  original_language: en
+- id: talk-2016-12-21-6
+  type: talk
+  title:
+    ko: Idealization of Habermas's Discourse Ethics
+    en: Idealization of Habermas's Discourse Ethics
+  date: '2016-12-21'
+  domain: research
+  role: presenter
+  weight: 2
+  visibility: public
+  links: []
+  details:
+  - '*2016 Korea Global PhD Fellows Annual Conference* (2016. 12. 21)'
+  details_en:
+  - 2016 Korea Global PhD Fellows Annual Conference (December 21, 2016)
+  original_language: en
+- id: talk-2015-12-22-7
+  type: talk
+  title:
+    ko: 'The Ideal of Nonideal Theory: An Ethical Foundation of Political Philosophy'
+    en: 'The Ideal of Nonideal Theory: An Ethical Foundation of Political Philosophy'
+  date: '2015-12-22'
+  domain: research
+  role: presenter
+  weight: 2
+  visibility: public
+  links: []
+  details:
+  - '*2015 Korea Global PhD Fellows Annual Conference* (2015. 12. 22)'
+  details_en:
+  - 2015 Korea Global PhD Fellows Annual Conference (December 22, 2015)
+  original_language: en
+- id: talk-2015-05-31-8
+  type: talk
+  title:
+    ko: '유교 윤리는 서양 도덕철학과 공존 가능한가?: 상황주의의 도전에 대한 덕 윤리의 반론'
+    en: Can Confucian Ethics Coexist with Western Moral Philosophy? A Virtue Ethical
+      Response to the Challenge of Situationism
+  date: '2015-05-31'
+  domain: research
+  role: presenter
+  weight: 2
+  visibility: public
+  links: []
+  details:
+  - '『21세기 인문가치포럼: 차세대 인문학자 한마당』 (2015. 05. 31)'
+  details_en:
+  - '21st Century Humanities Values Forum: Next Generation Humanities Scholars Conference
+    (May 31, 2015)'
+  original_language: ko
+- id: talk-2015-05-07-9
+  type: talk
+  title:
+    ko: '정치철학적 이상론과 비이상론: 해법의 모색'
+    en: 'Ideal and Non-Ideal Theory in Political Philosophy: Seeking a Solution'
+  date: '2015-05-07'
+  domain: research
+  role: presenter
+  weight: 2
+  visibility: public
+  links: []
+  details:
+  - 『제2회 서울대학교 철학과 박사과정 워크숍』 (2015. 05. 07)
+  details_en:
+  - The 2nd Seoul National University Philosophy Department Doctoral Workshop (May
+    7, 2015)
+  original_language: ko
+- id: talk-2015-03-20-10
+  type: talk
+  title:
+    ko: 'The Ideal of Nonideal Theory: Political Philosophy in the Real World'
+    en: 'The Ideal of Nonideal Theory: Political Philosophy in the Real World'
+  date: '2015-03-20'
+  domain: research
+  role: presenter
+  weight: 2
+  visibility: public
+  links: []
+  details:
+  - '*The 3rd Seoul Philosophy Graduate Student Conference* (2015. 03. 20 ~ 22)'
+  details_en:
+  - The 3rd Seoul Philosophy Graduate Student Conference (March 20–22, 2015)
+  original_language: en
+- id: talk-2014-11-02-11
+  type: talk
+  title:
+    ko: '세월호 사태의 근본 문제: 이상론-비이상론 논쟁의 한 해법'
+    en: 'The Fundamental Problem of the Sewol Ferry Disaster: A Solution to the Ideal
+      Theory–Non-Ideal Theory Debate'
+  date: '2014-11-02'
+  domain: research
+  role: presenter
+  weight: 2
+  visibility: public
+  links: []
+  details:
+  - 『제16회 서울대학교 영미철학 대학원생 워크숍』 (2014. 11. 02)
+  details_en:
+  - The 16th Seoul National University Graduate Workshop in Anglo-American Philosophy
+    (November 2, 2014)
+  original_language: ko
+- id: talk-2013-11-01-13
+  type: talk
+  title:
+    ko: '분석철학의 종말: 리처드 로티의 ‘철학적 전회’'
+    en: 'The End of Analytic Philosophy: Richard Rorty’s “Philosophical Turn”'
+  date: '2013-11-01'
+  domain: research
+  role: presenter
+  weight: 2
+  visibility: public
+  links: []
+  details:
+  - 『제8회 서울대학교 영미철학 대학원생 워크숍』 (2013. 11. 01)
+  details_en:
+  - The 8th Seoul National University Graduate Workshop in Anglo-American Philosophy
+    (November 1, 2013)
+  original_language: ko
+- id: talk-2013-01-05-14
+  type: talk
+  title:
+    ko: Rorty on Irrational Belief of Solidarity
+    en: Rorty on Irrational Belief of Solidarity
+  date: '2013-01-05'
+  domain: research
+  role: presenter
+  weight: 2
+  visibility: public
+  links: []
+  details:
+  - '*The 7th BESETO Conference of Philosophy: Philosophy in its Place and Time* (2013.
+    01. 05 ~ 06)'
+  details_en:
+  - 'The 7th BESETO Conference of Philosophy: Philosophy in its Place and Time (January
+    5–6, 2013)'
+  original_language: en

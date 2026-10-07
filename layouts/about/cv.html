@@ -1,0 +1,30 @@
+{{ define "main" }}
+{{ $cv := partialCached "about/merged.html" "about" }}{{ $lang := .Params.cvlang | default "ko" }}
+<article class="about-cv" lang="{{ $lang }}">
+  <header><h1>{{ if eq $lang "ko" }}{{ $cv.profile.name.ko }}{{ else }}{{ $cv.profile.name.full_en }}{{ end }}</h1>
+  <nav class="about-inline"><a href="/about/">{{ if eq $lang "ko" }}소개{{ else }}About{{ end }}</a><a href="{{ if eq $lang "ko" }}/about/cv/en/{{ else }}/about/cv/{{ end }}" lang="{{ if eq $lang "ko" }}en{{ else }}ko{{ end }}">{{ if eq $lang "ko" }}English{{ else }}한국어{{ end }}</a><a href="/about/cv.json">CV JSON</a></nav>
+  {{ if $cv.profile.pdf.enabled }}<nav class="about-inline about-meta" aria-label="PDF">{{ range $cv.profile.pdf.variants }}<a href="/about/cv-{{ . }}-{{ $lang }}.pdf">PDF {{ . }}</a>{{ end }}</nav>{{ end }}
+  <p>{{ index $cv.profile.about $lang }}</p></header>
+  {{ range $cv.vocab.sections.web }}
+    {{ $s := . }}{{ $items := slice }}
+    {{ if eq .source "entries" }}{{ $items = where $cv.entries "kind" "in" .kinds }}
+    {{ else if eq .source "current" }}{{ $items = where $cv.entries "period.ongoing" true }}
+    {{ else if in (slice "works" "writings") .source }}{{ $items = where $cv.works "type" "in" .types }}
+    {{ else if eq .source "media" }}{{ $items = where $cv.media "type" "in" .types }}{{ end }}
+    {{ if or (gt (len $items) 0) (in (slice "writings" "press") .id) }}
+    <section id="{{ .id }}"><h2>{{ index .title $lang }}</h2>
+    {{ if eq .source "writings" }}
+      {{ range $s.types }}{{ $type := . }}{{ $typed := where $items "type" $type }}
+      {{ if $typed }}<h3>{{ index (index $cv.vocab.kind_labels $type) $lang }}</h3>
+      {{ range $cv.series }}{{ $series := . }}{{ $children := where $typed "series" .id }}{{ if $children }}
+        <details><summary>{{ index .title $lang | default .title.ko }} · {{ index (index $cv.orgs .outlet).name $lang | default (index $cv.orgs .outlet).name.ko }} · {{ partial "about/date.html" (dict "period" .period "lang" $lang) }} · {{ len $children }}</summary>
+        <ul>{{ range partial "about/ordered.html" $children }}{{ partial "about/item.html" (dict "item" . "lang" $lang "cv" $cv) }}{{ end }}</ul></details>
+      {{ end }}{{ end }}
+      <ul>{{ range partial "about/ordered.html" $typed }}{{ if not .series }}{{ partial "about/item.html" (dict "item" . "lang" $lang "cv" $cv) }}{{ end }}{{ end }}</ul>
+      {{ end }}{{ end }}
+    {{ else }}<ul>{{ range partial "about/ordered.html" $items }}{{ partial "about/item.html" (dict "item" . "lang" $lang "cv" $cv) }}{{ end }}</ul>{{ end }}
+    </section>{{ end }}
+  {{ end }}
+  <p class="about-meta">Updated {{ $cv.updated }}</p>
+</article>
+{{ end }}

@@ -1,0 +1,23 @@
+{{- $p := .period | default (dict "start" .date) -}}{{- $lang := .lang -}}
+{{- with $p.start -}}
+{{- $start := printf "%v" . -}}{{- $end := printf "%v" ($p.end | default "") -}}
+{{- $first := partial "about/date-value.html" (dict "value" $start "lang" $lang "precision" $p.precision "term" $p.start_term) -}}
+{{- if $p.ongoing -}}
+  {{- if eq (len $start) 4 -}}{{- $first = $start -}}{{- end -}}
+  {{- printf "%s – %s" $first (cond (eq $lang "ko") "현재" "Present") -}}
+{{- else if $end -}}
+  {{- $last := partial "about/date-value.html" (dict "value" $end "lang" $lang "precision" $p.precision "term" $p.end_term) -}}
+  {{- $sameYear := eq (substr $start 0 4) (substr $end 0 4) -}}
+  {{- if and $sameYear (ne $p.precision "semester") (ge (len $start) 7) (ge (len $end) 7) -}}
+    {{- if eq $lang "ko" -}}
+      {{- $last = printf "%s월" (substr $end 5 2) -}}
+      {{- if eq (substr $start 0 7) (substr $end 0 7) -}}{{- $last = "" -}}{{- end -}}
+    {{- else if and (ge (len $start) 10) (ge (len $end) 10) -}}
+      {{- if eq (substr $start 0 7) (substr $end 0 7) -}}
+        {{- $first = printf "%s-%s, %s" (time.Format "January 2" $start) (time.Format "2" $end) (substr $end 0 4) -}}{{- $last = "" -}}
+      {{- else -}}{{- $first = time.Format "January 2" $start -}}{{- end -}}
+    {{- else -}}{{- $first = time.Format "January" (printf "%s-01" (substr $start 0 7)) -}}{{- end -}}
+  {{- end -}}
+  {{- if $last -}}{{- printf "%s%s%s" $first (cond (eq $lang "ko") " ~ " " – ") $last -}}{{- else -}}{{- $first -}}{{- end -}}
+{{- else -}}{{- $first -}}{{- end -}}
+{{- end -}}

@@ -1,0 +1,2 @@
+{{- $images := partialCached "about/images.html" "about" -}}
+{{- dict "name" hugo.Data.me.profile.name "description" hugo.Data.me.profile.tagline "avatar" ($images.avatar | absURL) "url" hugo.Data.me.profile.url "links" hugo.Data.me.links | jsonify -}}

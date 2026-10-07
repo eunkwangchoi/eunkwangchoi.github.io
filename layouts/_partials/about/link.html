@@ -1,0 +1,9 @@
+{{- $url := "" -}}{{- $archived := false -}}
+{{- range .links -}}
+  {{- if not $url -}}
+    {{- if eq .status "dead" -}}{{- with .archive_url -}}{{- $url = . -}}{{- $archived = true -}}{{- end -}}
+    {{- else -}}{{- $url = .moved_url | default .url -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with .archive_url -}}{{- $url = . -}}{{- $archived = false -}}{{- end -}}
+{{- return (dict "url" $url "archived" $archived) -}}

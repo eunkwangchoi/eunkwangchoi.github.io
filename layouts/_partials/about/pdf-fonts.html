@@ -1,0 +1,10 @@
+{{- $rules := slice -}}
+{{- range $role, $font := hugo.Data.me.fonts.roles -}}
+  {{- if in $font.langs $.Params.cvlang -}}
+    {{- if and $font.family (or (eq hugo.Data.me.fonts.mode "local") (eq $font.source "local")) -}}
+    {{- $rules = $rules | append (printf "@font-face{font-family:%q;src:local(%q);font-weight:%v;font-style:%s;font-display:block}" $font.family $font.local_name $font.weight $font.style) -}}
+    {{- end -}}
+    {{- $rules = $rules | append (printf ":root{--font-%s:%q;--weight-%s:%v}" ($role | replaceRE "_" "-") ($font.family | default "serif") ($role | replaceRE "_" "-") $font.weight) -}}
+  {{- end -}}
+{{- end -}}
+{{- return (delimit $rules "\n") -}}

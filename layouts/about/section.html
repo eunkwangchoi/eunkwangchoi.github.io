@@ -1,0 +1,29 @@
+{{ define "main" }}
+{{ $profile := hugo.Data.me.profile }}{{ $cv := partialCached "about/merged.html" "about" }}{{ $images := partialCached "about/images.html" "about" }}
+<article class="about-hub">
+  <header class="h-card about-identity">
+    <img class="u-photo" src="{{ $images.avatar }}" width="80" height="80" alt="{{ $profile.name.full_en }}">
+    <h1><span class="p-name" lang="ko">{{ $profile.name.ko }}</span> <span lang="en">{{ $profile.name.full_en }}</span></h1>
+    <p class="p-job-title" lang="en">{{ $profile.tagline }}</p><a class="u-url visually-hidden" href="{{ $profile.url }}">{{ $profile.name.full_en }}</a>
+  </header>
+  <hr>
+  <nav class="about-featured" aria-label="주요 링크">
+    {{ range sort (where hugo.Data.me.links "type" "featured") "order" }}
+    <a href="{{ .url }}" lang="{{ .lang }}"><strong>{{ .title }}</strong></a>
+    {{ end }}
+  </nav>
+  <hr>
+  <nav class="about-inline about-social" aria-label="SNS">
+    {{ range sort (where hugo.Data.me.links "type" "social") "order" }}<a class="about-social-badge" href="{{ .url }}" lang="{{ .lang }}" aria-label="{{ .title }}: {{ .account }}" title="{{ .title }} · {{ .account }}"{{ if .rel_me }} rel="me"{{ end }}>{{ partial "about/social-icon.html" .id }}<span class="visually-hidden">{{ .title }}</span></a>{{ end }}
+  </nav>
+  {{ with hugo.Data.me.books }}<div class="about-books">
+    {{ range sort . "order" }}{{ $book := . }}{{ $work := index (where $cv.works "id" .id) 0 }}
+      {{ with resources.Get .cover }}{{ $one := .Resize "x160 webp" }}{{ $two := .Resize "x320 webp" }}
+      <a href="{{ $book.url }}" lang="ko"><img src="{{ $one.RelPermalink }}" srcset="{{ $one.RelPermalink }} 1x, {{ $two.RelPermalink }} 2x" height="160" alt="《{{ $work.title.ko }}》, {{ range $work.publisher }}{{ (index $cv.orgs .).name.ko }}{{ end }}, {{ substr $work.date 0 4 }}"></a>
+      {{ end }}
+    {{ end }}
+  </div>{{ end }}
+  <hr>
+  <footer><nav class="about-inline" aria-label="연락처"><a class="u-email" href="mailto:{{ $profile.email }}">Email</a><a href="/about/ryan.vcf">vCard</a><a href="/about/profile.json">JSON</a>{{ range where hugo.Data.me.links "type" "contact" }}<a href="{{ .url }}" lang="{{ .lang }}">{{ .title }}</a>{{ end }}</nav><p class="about-meta" lang="en">Updated {{ $cv.updated }}</p></footer>
+</article>
+{{ end }}

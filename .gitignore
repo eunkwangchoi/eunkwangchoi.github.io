@@ -2,3 +2,11 @@
 .obsidian/
 public/
 resources/
+.build/
+dist-local/
+node_modules/
+__pycache__/
+.hugo_build.lock
+data/generated/
+.env
+.local/

@@ -1,0 +1,14 @@
+{{- $avatar := "/about/avatar/monogram.svg" -}}
+{{- $mono := resources.Get "about/monogram.svg" | resources.Copy "about/avatar/monogram.svg" -}}{{- $unused := $mono.RelPermalink -}}
+{{- $ogSource := resources.Get "about/og.png" | default (resources.Get "about/og.svg") -}}
+{{- $og := $ogSource | resources.Copy (printf "about/og.%s" $ogSource.MediaType.SubType) -}}{{- $unused = $og.RelPermalink -}}
+{{- with hugo.Data.me.profile.avatar -}}{{- with resources.Get . -}}
+  {{- $source := . -}}{{- range slice 80 128 200 512 -}}
+    {{- $size := . -}}{{- range slice "jpg" "webp" -}}
+      {{- $image := $source.Fill (printf "%dx%d %s q85" $size $size .) | resources.Copy (printf "about/avatar/%d.%s" $size .) -}}
+      {{- $unused = $image.RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $avatar = "/about/avatar/200.webp" -}}
+{{- end -}}{{- end -}}
+{{- return (dict "avatar" $avatar "og" $og.RelPermalink) -}}

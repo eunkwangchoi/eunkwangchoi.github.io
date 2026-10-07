@@ -1,6 +1,10 @@
 baseURL = "https://eunkwangchoi.github.io"
-languageCode = 'en-us'
+disableKinds = ['taxonomy', 'term']
 theme = "coming-soon"
+
+[languages.en]
+    locale = 'en-US'
+    label = 'English'
 
 [params]
     title = "Ryan Choi - Coming Soon" 

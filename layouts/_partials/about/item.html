@@ -1,0 +1,12 @@
+{{ $i := .item }}{{ $lang := .lang }}{{ $cv := .cv }}{{ $link := partial "about/link.html" $i }}
+<li class="cv-item" lang="{{ if and (eq $lang "en") $i.title.en }}en{{ else }}ko{{ end }}" data-cv-id="{{ $i.id }}">
+  <div>{{ if $link.url }}<a href="{{ $link.url }}">{{ partial "about/citation.html" (dict "item" $i "lang" $lang) }}</a>{{ else }}{{ partial "about/citation.html" (dict "item" $i "lang" $lang) }}{{ end }}</div>
+  <div class="about-meta">{{ partial "about/date.html" (dict "period" $i.period "date" $i.date "lang" $lang) }}{{ with $i.domain }} · {{ index $cv.vocab.labels . }}{{ end }}{{ range $i.org }} · {{ $org := index $cv.orgs . }}{{ index $org.name $lang | default $org.name.ko }}{{ end }}{{ with $i.outlet }} · {{ $org := index $cv.orgs . }}{{ index $org.name $lang | default $org.name.ko }}{{ end }}{{ if $link.archived }} · {{ if eq $lang "ko" }}보존본{{ else }}Archived{{ end }}{{ end }}</div>
+  {{ $extent := $i.extent }}{{ if eq $lang "en" }}{{ $extent = $i.extent_en | default $i.extent }}{{ end }}{{ with $extent }}<div class="about-meta">{{ . }}</div>{{ end }}
+  {{ with $i.ids }}<div class="about-meta">{{ with .isbn }}ISBN {{ . }}{{ end }}{{ with .doi }} DOI <a href="https://doi.org/{{ . }}">{{ . }}</a>{{ end }}</div>{{ end }}
+  {{ with $i.description }}{{ with index . $lang }}<p class="cv-description" lang="{{ $lang }}">{{ . }}</p>{{ end }}{{ end }}
+  {{ with partial "about/details.html" (dict "item" $i "lang" $lang) }}<ul class="cv-details">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+  {{ with $i.works }}<ul class="cv-details">{{ range . }}{{ $id := . }}{{ range where $cv.works "id" $id }}{{ $target := partial "about/link.html" . }}<li>{{ if $target.url }}<a href="{{ $target.url }}">{{ partial "about/title.html" (dict "item" . "lang" $lang) }}</a>{{ else }}{{ partial "about/title.html" (dict "item" . "lang" $lang) }}{{ end }}</li>{{ end }}{{ end }}</ul>{{ end }}
+  {{ if and (eq $lang "en") $i.amount_display_en }}<div class="about-meta">{{ $i.amount_display_en }}</div>{{ else }}{{ with $i.amount }}<div class="about-meta">{{ lang.FormatNumber 0 .value }} {{ .currency }} · {{ .scope }}</div>{{ end }}{{ end }}
+  {{ with $i.hours }}<div class="about-meta">{{ . }} {{ if eq $lang "ko" }}시간{{ else }}hours{{ end }}</div>{{ end }}
+</li>

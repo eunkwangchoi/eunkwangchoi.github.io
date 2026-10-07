@@ -1,0 +1,9 @@
+{{- $s := printf "%v" .value -}}{{- $result := $s -}}
+{{- if and (eq .precision "semester") .term -}}
+  {{- if eq .lang "ko" -}}{{- $result = printf "%s년 %v학기" (substr $s 0 4) .term -}}
+  {{- else -}}{{- $month := cond (eq (int (.term | default 1)) 1) "March" "September" -}}{{- $result = printf "%s %s" $month (substr $s 0 4) -}}{{- end -}}
+{{- else if eq .lang "ko" -}}
+  {{- if ge (len $s) 7 -}}{{- $result = printf "%s년 %s월" (substr $s 0 4) (substr $s 5 2) -}}{{- else -}}{{- $result = printf "%s년" $s -}}{{- end -}}
+{{- else if ge (len $s) 10 -}}{{- $result = time.Format "January 2, 2006" $s -}}
+{{- else if ge (len $s) 7 -}}{{- $result = time.Format "January 2006" (printf "%s-01" $s) -}}{{- end -}}
+{{- return $result -}}

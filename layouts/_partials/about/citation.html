@@ -1,0 +1,3 @@
+{{- $citations := dict -}}{{- with hugo.Data.generated -}}{{- $citations = .citations -}}{{- end -}}{{- $item := .item -}}
+{{- with index $citations $item.id -}}{{- index . $.lang | safeHTML -}}{{- else -}}{{- partial "about/title.html" $ -}}{{- end -}}
+{{- if and (eq .lang "en") (eq $item.original_language "ko") -}} (in Korean){{- end -}}

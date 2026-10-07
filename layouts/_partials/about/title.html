@@ -1,0 +1,7 @@
+{{- $item := .item -}}{{- $lang := .lang -}}{{- $title := index $item.title $lang | default $item.title.ko | default $item.title.en -}}
+{{- $type := $item.title.type | default $item.type | default "" -}}
+{{- if eq $lang "en" -}}
+  {{- if in (slice "book" "journal") $type -}}<em>{{ $title }}</em>{{- else if in (slice "article" "thesis" "column" "essay" "report") $type -}}“{{ $title }}”{{- else -}}{{ $title }}{{- end -}}
+{{- else -}}
+  {{- $brackets := index hugo.Data.cv.vocab.brackets $type -}}{{- with $brackets -}}{{ index . 0 }}{{ $title }}{{ index . 1 }}{{- else -}}{{ $title }}{{- end -}}
+{{- end -}}

@@ -1,0 +1,36 @@
+<div>
+  {{ if eq .Lang "ko" }}
+    <h3>현재 문서</h3>
+  {{ else if eq .Lang "ja" }}
+    <h3>見た記事</h3>
+  {{ else }}
+    <h3>You See</h3>
+  {{ end }}
+
+  <nav aria-label="breadcrumb" class="page-location">
+    <ol class="breadcrumb" style="display: flex; list-style-type: none; padding: 0;">
+      <li class="breadcrumb-item active" aria-current="page">
+        {{ .Title }}
+      </li>
+    </ol>
+  </nav>
+</div>
+
+<div class="mt-4">
+  {{ if eq .Lang "ko" }}
+    <h3>관련 문서</h3>
+  {{ else if eq .Lang "ja" }}
+    <h3>関連記事</h3>
+  {{ else }}
+    <h3>See Also</h3>
+  {{ end }}
+
+  {{ $related := .Site.RegularPages.Related . | first 5 }}
+  {{ with $related }}
+    <ul style="list-style-type: none;">
+    {{ range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+    </ul>
+  {{ end }}
+</div>

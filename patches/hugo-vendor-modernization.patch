@@ -1,0 +1,30 @@
+--- a/themes/write-only/_vendor/gitlab.com/writeonlyhugo/hugo-module-bootstrap/config.yaml
++++ b/themes/write-only/_vendor/gitlab.com/writeonlyhugo/hugo-module-bootstrap/config.yaml
+@@ -1,6 +1,4 @@
+ module:
+-  hugoVersion:
+-    extended: true
+   mounts:
+     # Workaround for https://github.com/gohugoio/hugo/issues/6945
+     - source: "assets/bootstrap/scss/_vendor"
+--- a/themes/write-only/_vendor/gitlab.com/writeonlyhugo/hugo-module-bootstrap-icons/config.toml
++++ b/themes/write-only/_vendor/gitlab.com/writeonlyhugo/hugo-module-bootstrap-icons/config.toml
+@@ -1,6 +1,4 @@
+ [module]
+-[module.hugoVersion]
+-extended = true
+ [[module.imports]]
+ path="github.com/twbs/icons"
+ [[module.imports.mounts]]
+--- a/themes/write-only/_vendor/gitlab.com/writeonlyhugo/hugo-module-bootstrap-icons/layouts/partials/bs-icon.html
++++ /dev/null
+@@ -1,3 +0,0 @@
+-{{ with resources.Get ( printf "bootstrap-icons/icons/%s.svg" . ) }}
+-  {{ .Content | safeHTML }}
+-{{ end }}
+--- /dev/null
++++ b/themes/write-only/_vendor/gitlab.com/writeonlyhugo/hugo-module-bootstrap-icons/layouts/_partials/bs-icon.html
+@@ -0,0 +1,3 @@
++{{ with resources.Get ( printf "bootstrap-icons/icons/%s.svg" . ) }}
++  {{ .Content | safeHTML }}
++{{ end }}

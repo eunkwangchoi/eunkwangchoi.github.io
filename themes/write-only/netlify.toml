@@ -1,7 +1,9 @@
 [build]
+# Legacy standalone theme example; the main site uses the root Pages workflow.
   publish = "public"
   command = "hugo --gc"
   
 [build.environment]
-  HUGO_VERSION = "0.83.1"
+  HUGO_VERSION = "0.167.0"
+  DART_SASS_VERSION = "1.101.0"
 

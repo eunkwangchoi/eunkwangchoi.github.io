@@ -1,0 +1,13 @@
+{{ if .IsTranslated }}
+<ul style="display: flex; list-style-type: none; padding: 0; font-size: larger; justify-content: center;">
+  {{ if and (eq .TranslationKey "about") (ne .Lang "en") }}
+  <li style="margin-left: 10px; margin-right: 10px;">
+    <a href="/about/">English</a>
+  </li>
+  {{ end }}{{ range .Translations }}
+  <li style="margin-left: 10px; margin-right: 10px;">
+    <a href="{{ .RelPermalink }}">{{ .Language.Label }}{{ if .IsPage }}{{ end }}</a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

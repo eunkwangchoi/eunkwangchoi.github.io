@@ -1,0 +1,1244 @@
+- id: research-education-003
+  kind: education
+  domain: research
+  title:
+    ko: 대구외국어고등학교 졸업
+    en: Graduated from Daegu Foreign Language High School
+  period:
+    start: '2003-02-12'
+    precision: day
+  weight: 1
+  status: active
+  visibility: public
+  links: []
+  details:
+  - 정보통신 동아리 〈시스템보안연구회(SSIL)〉 2기 회장
+  description:
+    ko: 2003년 02월 12일, 대구외국어고등학교 졸업 (영어 전공, 일본어·중국어 부전공)
+    en: 'February 12, 2003; Graduated from Daegu Foreign Language High School; Major:
+      English; Minors: Japanese, Chinese'
+  details_en:
+  - 2nd President of the Information and Communications Club "System Security Research
+    Group (SSIL)"
+- id: research-education-004
+  kind: education
+  domain: research
+  title:
+    ko: 서울대학교 졸업
+    en: 'Graduated from Seoul National University (Major: Aesthetics and Philosophy,
+      summa cum laude)'
+  period:
+    start: '2011-08-29'
+    precision: day
+  weight: 1
+  status: active
+  visibility: public
+  links: []
+  details:
+  - GPA 3.93/4.3 (95.3/100), 미학 전공 3.89, 철학 전공 3.85, 학과 차석
+  - 교육봉사 동아리 〈하늘빛 속삭임〉 1기 회장
+  description:
+    ko: 2011년 08월 29일, 서울대학교 졸업 (미학·철학 전공, 최우등졸업(summa cum laude))
+    en: 'August 29, 2011; Graduated from Seoul National University (Major: Aesthetics
+      and Philosophy, summa cum laude)'
+  works:
+  - thesis-rorty
+  - thesis-dickie
+  details_en:
+  - 'GPA: 3.93/4.3 (95.3/100); Aesthetics Major GPA: 3.89, Philosophy Major GPA: 3.85,
+    Second in the department'
+  - 1st President of the Educational Volunteering Club "Whispers in the Sky"
+- id: research-education-005
+  kind: education
+  domain: research
+  title:
+    ko: 서울대학교 대학원 석사과정 졸업
+    en: 'Graduated with a Master''s Degree from the Graduate School of Seoul National
+      University (Major: Western Philosophy, Social Philosophy)'
+  period:
+    start: '2014-08-28'
+    precision: day
+  weight: 1
+  status: active
+  visibility: public
+  links: []
+  details:
+  - GGPA 3.98/4.3 (95.8/100), 논문학점 A
+  description:
+    ko: 2014년 08월 28일, 서울대학교 대학원 석사과정 졸업 (철학과 서양철학전공 사회철학)
+    en: 'August 28, 2014; Graduated with a Master''s Degree from the Graduate School
+      of Seoul National University (Major: Western Philosophy, Social Philosophy)'
+  works:
+  - thesis-sen-rawls
+  details_en:
+  - 'GGPA: 3.98/4.3 (95.8/100); Thesis Grade: A'
+- id: research-education-006
+  kind: education
+  domain: research
+  title:
+    ko: 서울대학교 대학원 박사과정 수료
+    en: 'Completed PhD coursework at the Graduate School of Seoul National University
+      (Major: Western Philosophy, Social Philosophy)'
+  period:
+    start: '2017-02-24'
+    precision: day
+  weight: 1
+  status: active
+  visibility: public
+  links: []
+  details:
+  - GGPA 3.99/4.3 (95.9/100)
+  - '(지도교수: 정호근)'
+  description:
+    ko: 2017년 02월 24일, 서울대학교 대학원 박사과정 수료 (철학과 서양철학전공 사회철학)
+    en: 'February 24, 2017; Completed PhD coursework at the Graduate School of Seoul
+      National University (Major: Western Philosophy, Social Philosophy)'
+  details_en:
+  - 'GGPA: 3.99/4.3 (95.9/100)'
+  - 'Advisor: Jung Ho-geun'
+- id: art-award-007
+  kind: award
+  domain: art
+  title:
+    ko: 인문대학 50주년 기념 표어 공모전 2위
+    en: 2nd Place in the College of Humanities 50th Anniversary Slogan Contest
+  period:
+    start: 2025-10
+    precision: month
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2025년 10월, 인문대학 50주년 기념 표어 공모전 2위, 서울대학교 인문대학
+    en: October 2025; 2nd Place in the College of Humanities 50th Anniversary Slogan
+      Contest; Seoul National University College of Humanities
+  org:
+  - org-2b9b4c94ea
+- id: art-award-008
+  kind: award
+  domain: art
+  title:
+    ko: 제16회 공유저작물 창작공모전 손글씨 부문 동상
+    en: 3rd Place in the 16th Creative Commons Creation Contest, Handwriting Section
+  period:
+    start: 2024-07
+    precision: month
+  weight: 2
+  status: active
+  visibility: public
+  links:
+  - url: https://grafolio.ogq.me/board/notice/26c2f218f3e740b1bbb61af6658f3125
+    rel: announcement
+  details: []
+  description:
+    ko: 2024년 07월, 제16회 공유저작물 창작공모전 손글씨 부문 동상, 한국저작권위원회
+    en: July 2024; 3rd Place in the 16th Creative Commons Creation Contest, Handwriting
+      Section; Korea Copyright Commission
+- id: art-award-009
+  kind: award
+  domain: art
+  title:
+    ko: 아트코리아랩 예술기술 융합 테스트베드 <수퍼 테스트베드> 수퍼 루키 선정
+    en: Selected as "Super Rookie" in the Super Testbed Project, Art and Technology
+      Convergence Testbed at Art Korea Lab
+  period:
+    start: 2024-06
+    precision: month
+  weight: 2
+  status: active
+  visibility: public
+  links:
+  - url: https://www.gokams.or.kr/01_news/notice_view.aspx?Idx=3877&page=1&txtKeyword=&ddlKeyfield=T
+    rel: announcement
+  details: []
+  description:
+    ko: 2024년 06월, 아트코리아랩 예술기술 융합 테스트베드 <수퍼 테스트베드> 수퍼 루키 선정, 예술경영지원센터
+    en: June 2024; Selected as "Super Rookie" in the Super Testbed Project, Art and
+      Technology Convergence Testbed at Art Korea Lab; Korea Arts Management Service
+- id: art-exhibition-010
+  kind: exhibition
+  domain: art
+  title:
+    ko: 더 확장된 비주얼 작품 제작을 위한 프로젝션 맵핑 실험
+    en: Projection Mapping Experiments for Expanded Visual Art Production
+  period:
+    start: '2025-05-26'
+    precision: day
+    end: '2025-05-30'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2025년 05월 26일 ~ 30일, 더 확장된 비주얼 작품 제작을 위한 프로젝션 맵핑 실험, 아트코리아랩 쇼룸
+    en: May 26, 2025 – May 30, 2025; Projection Mapping Experiments for Expanded Visual
+      Art Production; Art Korea Lab Showroom
+  org:
+  - org-ba51635838
+- id: art-exhibition-011
+  kind: exhibition
+  domain: art
+  title:
+    ko: 호모 엑스 마키나(Homo ex Machina)
+    en: Homo ex Machina
+  period:
+    start: '2024-11-28'
+    precision: day
+    end: '2024-12-02'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2024년 11월 28일 ~ 12월 02일, ⟨호모 엑스 마키나(Homo ex Machina)⟩, 레온갤러리 성수스트릿
+    en: November 28, 2024 – December 2, 2024; Homo ex Machina; Leon Gallery Seongsu
+      Street
+  org:
+  - org-33b2ba77ac
+- id: art-exhibition-012
+  kind: exhibition
+  domain: art
+  title:
+    ko: 숨은 예술가들
+    en: Hidden Artists
+  period:
+    start: '2025-03-20'
+    precision: day
+    end: '2025-03-28'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2025년 03월 20일 ~ 28일, ⟨숨은 예술가들⟩, 한전갤러리
+    en: March 20, 2025 – March 28, 2025; Hidden Artists; KEPCO Gallery
+  org:
+  - org-7f9c58a37f
+- id: art-exhibition-013
+  kind: exhibition
+  domain: art
+  title:
+    ko: 아트코리아랩 페스티벌 수퍼 테스트베트 랩들이
+    en: 'Art Korea Lab Festival: Super Testbed Labdeuri'
+  period:
+    start: '2024-11-18'
+    precision: day
+    end: '2024-11-22'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2024년 11월 18일 ~ 22일, ⟨아트코리아랩 페스티벌 수퍼 테스트베트 랩들이⟩, 아트코리아랩
+    en: 'November 18, 2024 – November 22, 2024; Art Korea Lab Festival: Super Testbed
+      Labdeuri; Art Korea Lab'
+  org:
+  - org-c8333eb95c
+  todo: Exhibition title spelling differs between source documents.
+- id: art-activity-014
+  kind: activity
+  domain: art
+  title:
+    ko: 예술사업지원팀, 월간사진
+    en: Arts Project Support Team, Monthly Photography
+  period:
+    start: 2026-01
+    precision: month
+    ongoing: true
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2026년 01월부터, 예술사업지원팀, 월간사진
+    en: January 2026 – Present; Arts Project Support Team, Monthly Photography
+- id: literature-award-015
+  kind: award
+  domain: literature
+  title:
+    ko: 문학창작실이용지원사업 선정
+    en: Selected for the Literary Creation Support Project
+  period:
+    start: 2024-07
+    precision: month
+  weight: 2
+  status: active
+  visibility: public
+  links:
+  - url: https://www.arko.or.kr/board/view/4014?bid=463&page=&cid=1808269&sf_icon_category=cw00000020
+    rel: announcement
+  details: []
+  description:
+    ko: 2024년 07월, 문학창작실이용지원사업 선정, 한국문화예술위원회
+    en: July 2024; Selected for the Literary Creation Support Project; Korea Arts
+      Council
+- id: literature-award-016
+  kind: award
+  domain: literature
+  title:
+    ko: 문학창작산실 발표지원 선정
+    en: Selected for the Literary Creation Presentation Support
+  period:
+    start: 2024-06
+    precision: month
+  weight: 2
+  status: active
+  visibility: public
+  links:
+  - url: https://www.arko.or.kr/synap/skin/doc.html?fn=MTgwODA3Nl8yMDI0MDUzMDEwMDk0MzMxODA.pdf&rs=/synap/result/76/
+    rel: announcement
+  details: []
+  description:
+    ko: 2024년 06월, 문학창작산실 발표지원 선정, 한국문화예술위원회
+    en: June 2024; Selected for the Literary Creation Presentation Support; Korea
+      Arts Council
+  org:
+  - org-a348ea1b54
+- id: literature-award-017
+  kind: award
+  domain: literature
+  title:
+    ko: 청년예술가생애첫지원사업 문학분야 선정
+    en: Selected for the First-Time Support for Young Artists in the Literature Sector,
+      2nd Regular Call for Arts Promotion Fund
+  period:
+    start: 2022-02
+    precision: month
+  weight: 2
+  status: active
+  visibility: public
+  links:
+  - url: https://www.arko.or.kr/content/popup/2022/pup_2022_220127_1-1.jsp
+    rel: announcement
+  details: []
+  description:
+    ko: 2022년 02월, 청년예술가생애첫지원사업 문학분야 선정, 예술진흥기금 정시공모 2차, 한국문화예술위원회
+    en: February 2022; Selected for the First-Time Support for Young Artists in the
+      Literature Sector, 2nd Regular Call for Arts Promotion Fund; Korea Arts Council
+- id: literature-award-018
+  kind: award
+  domain: literature
+  title:
+    ko: 3월의 수필가상
+    en: Essayist of the Month
+  period:
+    start: '2021-03-01'
+    precision: day
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2021년 03월 01일, 3월의 수필가상, 시사문단사
+    en: March 1, 2021; Essayist of the Month; Sisa Literary Journal
+  org:
+  - org-1e4194a68e
+- id: literature-award-019
+  kind: award
+  domain: literature
+  title:
+    ko: 신인상 수필 부문
+    en: Rookie Award in the Essay Section
+  period:
+    start: '2021-01-01'
+    precision: day
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2021년 01월 01일, 신인상 수필 부문, 시사문단사
+    en: January 1, 2021; Rookie Award in the Essay Section; Sisa Literary Journal
+  org:
+  - org-1e4194a68e
+- id: literature-grant-020
+  kind: grant
+  domain: literature
+  title:
+    ko: 청년예술가생애첫지원사업
+    en: First-Time Support for Young Artists
+  period:
+    start: 2022-04
+    precision: month
+    end: 2022-12
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2022년 04월 ~ 12월, 청년예술가생애첫지원사업, 사업 수행자, ₩8,000,000, 한국예술문화위원회, 『야옹이랑 사는 건 너무
+      슬퍼』
+    en: April 2022 – December 2022; First-Time Support for Young Artists; KRW 8,000,000;
+      Project Performer; Living with a Cat is So Sad; Korea Arts Council
+  amount:
+    value: 8000000
+    currency: KRW
+    scope: personal
+  works:
+  - book-yaong
+- id: research-award-021
+  kind: award
+  domain: research
+  title:
+    ko: 학술연구지원사업 번역부문 선정
+    en: Selected for Academic Research Support Project, Translation Division
+  period:
+    start: '2021-12-12'
+    precision: day
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - <스펜서의 제일원리(Herbert Spencer, First Principles)>
+  - 대우재단 발표 공고
+  - 교수신문
+  description:
+    ko: 2021년 12월 12일, 학술연구지원사업 번역부문 선정, 대우재단
+    en: December 12, 2021; Selected for Academic Research Support Project, Translation
+      Division; Daewoo Foundation
+  org:
+  - org-bca6df3993
+  details_en:
+  - Spencer’s First Principles (Herbert Spencer)
+  - Daewoo Foundation announcement
+  - Professors’ Newspaper
+- id: research-award-022
+  kind: award
+  domain: research
+  title:
+    ko: 차세대 인문학자 한마당 논문 공모전 2위
+    en: 2nd place at the Next Generation Humanities Scholars Essay Contest
+  period:
+    start: '2015-05-31'
+    precision: day
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - '「유교 윤리는 서양 도덕철학과 공존 가능한가?: 상황주의의 도전에 대한 덕윤리의 반론」'
+  description:
+    ko: 2015년 05월 31일, 차세대 인문학자 한마당 논문 공모전 2위, 한국정신문화재단; 21세기 인문가치포럼
+    en: May 31, 2015; 2nd place at the Next Generation Humanities Scholars Essay Contest;
+      Korea Mental Culture Foundation; 21st Century Humanities Values Forum
+  org:
+  - org-de92af785f
+  - org-3b4cb72388
+  works:
+  - situationism-virtue
+  details_en:
+  - Can Confucian Ethics Coexist with Western Moral Philosophy? A Virtue Ethical Response
+    to the Challenge of Situationism
+- id: research-award-023
+  kind: award
+  domain: research
+  title:
+    ko: 대학원 철학과 논문상
+    en: Graduate Thesis Award
+  period:
+    start: '2013-02-26'
+    precision: day
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2013년 02월 26일, 대학원 철학과 논문상, 서울대학교 BK21 철학교육연구사업단; 서울대학교 철학과
+    en: February 26, 2013; Graduate Thesis Award; Seoul National University BK21 Philosophy
+      Education Research Group; Seoul National University Philosophy Department
+  org:
+  - org-bf30e56a72
+  - org-cc9b135a95
+  works:
+  - rorty-solidarity
+- id: research-award-024
+  kind: award
+  domain: research
+  title:
+    ko: 명경 최우수 학사논문상
+    en: Myung-kyung Best Bachelor's Thesis Award
+  period:
+    start: '2011-08-29'
+    precision: day
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2011년 08월 29일, 명경 최우수 학사논문상, 서울대학교 철학과
+    en: August 29, 2011; Myung-kyung Best Bachelor's Thesis Award; Seoul National
+      University Philosophy Department
+  org:
+  - org-cc9b135a95
+  works:
+  - thesis-rorty
+- id: research-award-025
+  kind: award
+  domain: research
+  title:
+    ko: 제8회 서울대학교 우수 리포트 공모전 1위(우수상)
+    en: 1st Place (Excellence Award) at the 8th Seoul National University Outstanding
+      Report Contest
+  period:
+    start: '2008-10-09'
+    precision: day
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - '「고대 희랍 선법체계와 현대 서양 조성체계의 비교: 플라톤의 관점에서」'
+  - 「선비와 대작하기」, 『가르침과 배움』 18호, 61-65쪽, 서울대학교 교수학습개발센터 (2008. 10.)
+  - '「세 개의 장애물: 주제 탐색, 참고문헌 선택, 집필 및 퇴고의 기본 전략」, 『(우수리포트 수상자가 들려주는) 글쓰기 노하우』, 125-138쪽,
+    서울대학교 교수학습개발센터 (2010. 10.)'
+  description:
+    ko: 2008년 10월 09일, 제8회 서울대학교 우수 리포트 공모전 1위(우수상), 서울대학교 교수학습개발센터
+    en: October 9, 2008; 1st Place (Excellence Award) at the 8th Seoul National University
+      Outstanding Report Contest; Center for Teaching and Learning Development, Seoul
+      National University
+  org:
+  - org-361d0150b5
+  details_en:
+  - 'A Comparative Study of Ancient Greek Modal Systems and Modern Western Tonality:
+    From Plato’s Perspective'
+  - '"Debating with the Scholar", Teaching and Learning, Vol. 18, pp. 61–65, Center
+    for Teaching and Learning Development (October 2008)'
+  - '"Three Obstacles: Theme Exploration, Reference Selection, and Basic Strategies
+    for Writing and Revising", Writing Know-how by Award-winning Report Writers, pp.
+    125–138, Center for Teaching and Learning Development (October 2010)'
+- id: research-scholarship-026
+  kind: scholarship
+  domain: research
+  title:
+    ko: 글로벌 박사 펠로우십
+    en: Global PhD Fellowship
+  period:
+    start: '2015'
+    precision: semester
+    end: '2016'
+    start_term: 1
+    end_term: 2
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2015년 1학기 ~ 2016년 2학기, 글로벌 박사 펠로우십, ₩60,000,000, 2015년 09월 17일 취득, 한국연구재단
+    en: 2015, 1st semester – 2016, 2nd semester; Global PhD Fellowship; KRW 60,000,000;
+      Awarded on September 17, 2015; National Research Foundation of Korea
+  amount:
+    value: 60000000
+    currency: KRW
+    scope: personal
+- id: research-scholarship-028
+  kind: scholarship
+  domain: research
+  title:
+    ko: 풀브라이트 장학생 후보 합격
+    en: Fulbright Scholar Candidate
+  period:
+    start: 2014-09
+    precision: month
+    end: '2014-09-23'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2014년 09월, 풀브라이트 장학생 후보 합격, $70,000, 2014년 09월 23일 취득, 한미교육위원단
+    en: September 2014 – September 23, 2014; Fulbright Scholar Candidate; USD 70,000;
+      Awarded on September 23, 2014; Korean-American Educational Commission
+  amount:
+    value: 70000
+    currency: USD
+    scope: personal
+- id: research-scholarship-029
+  kind: scholarship
+  domain: research
+  title:
+    ko: 국비유학장학생 합격
+    en: Selected for Government-Sponsored Overseas Study Scholarship
+  period:
+    start: 2013-07
+    precision: month
+    end: '2013-07-19'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2013년 07월, 국비유학장학생 합격, $62,000, 2013년 07월 19일 취득, 교육부 국립국제교육원
+    en: July 2013 – July 19, 2013; Selected for Government-Sponsored Overseas Study
+      Scholarship; USD 62,000; Awarded on July 19, 2013; Ministry of Education, National
+      Institute for International Education
+  amount:
+    value: 62000
+    currency: USD
+    scope: personal
+- id: research-scholarship-031
+  kind: scholarship
+  domain: research
+  title:
+    ko: 아산장학금
+    en: Asan Scholarship
+  period:
+    start: '2009'
+    precision: year
+    end: '2010'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2009년 ~ 2010년, 아산장학금, ₩10,148,000, 아산사회복지재단
+    en: 2009 – 2010; Asan Scholarship; KRW 10,148,000; Asan Foundation
+  amount:
+    value: 10148000
+    currency: KRW
+    scope: personal
+- id: research-grant-033
+  kind: grant
+  domain: research
+  title:
+    ko: 일반공동연구지원사업
+    en: Joint Research Support Program
+  period:
+    start: '2019-07-01'
+    precision: day
+    end: '2021-03-05'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - <인공지능 기술 활용에서 편향(성) 최적화 방법론 융합연구>
+  description:
+    ko: 2019년 07월 01일 ~ 2021년 03월 05일, 일반공동연구지원사업, 보조연구원, (₩576,000,000), 한국연구재단
+    en: July 1, 2019 – March 5, 2021; Joint Research Support Program; KRW 576,000,000
+      (project total); Assistant Researcher; National Research Foundation of Korea
+  amount:
+    value: 576000000
+    currency: KRW
+    scope: project
+  details_en:
+  - Research on Optimization Methodologies for Bias in the Utilization of Artificial
+    Intelligence Technology
+- id: research-grant-034
+  kind: grant
+  domain: research
+  title:
+    ko: 글로벌박사펠로우십사업
+    en: Global PhD Fellowship Program
+  period:
+    start: 2015-01
+    precision: month
+    end: 2016-12
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - <정치철학적 이상론-비이상론 논쟁의 윤리학적 기반>
+  - 「글로벌박사 펠로우십으로 새로이 비상하다」, 『우수성과 및 활동수기』 (2016. 11)
+  description:
+    ko: 2015년 01월 ~ 2016년 12월, 글로벌박사펠로우십사업, 책임연구원, ₩60,000,000, 한국연구재단
+    en: January 2015 – December 2016; Global PhD Fellowship Program; KRW 60,000,000;
+      Principal Researcher; National Research Foundation of Korea
+  amount:
+    value: 60000000
+    currency: KRW
+    scope: personal
+  details_en:
+  - Ethical Foundations of the Ideal Theory vs. Non-Ideal Theory Debate in Political
+    Philosophy
+  - '"Soaring with the Global PhD Fellowship", Achievements and Activity Essays (November
+    2016)'
+- id: research-grant-035
+  kind: grant
+  domain: research
+  title:
+    ko: BK21 사업
+    en: BK21 Program
+  period:
+    start: 2011-09
+    precision: month
+    end: 2013-02
+  weight: 2
+  status: active
+  visibility: public
+  links:
+  - url: http://phil-bk21.snu.ac.kr/?lang=ko&menu=program_outcome&submenu=2012&submenu2=status&subtab=0
+    rel: announcement
+  details: []
+  description:
+    ko: 2011년 09월 ~ 2013년 02월, BK21 사업, 참여연구원, (₩9,360,000/ 748,353,057), 서울대학교 철학과
+    en: 'September 2011 – February 2013; BK21 Program; KRW 9,360,000; Participating
+      Researcher; Additional amount listed in source: KRW 748,353,057; Seoul National
+      University Philosophy Department'
+  amount:
+    value: 9360000
+    currency: KRW
+    scope: project
+  amount_display_en: KRW 9,360,000 / KRW 748,353,057 (amounts listed in source)
+- id: research-committee-036
+  kind: committee
+  domain: research
+  title:
+    ko: 박물관·미술관 진흥위원회 위원
+    en: Member of the Museum and Art Museum Promotion Committee
+  period:
+    start: '2025-01-01'
+    precision: day
+    end: '2026-12-31'
+    ongoing: true
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2025년 01월 01일 ~ 2026년 12월 31일, 박물관·미술관 진흥위원회 위원, 강원도청
+    en: January 1, 2025 – Present; Member of the Museum and Art Museum Promotion Committee;
+      Gangwon Provincial Government
+  org:
+  - org-3f738ba84d
+  recent: true
+  recent_order: 2
+  recent_label:
+    ko: 박물관·미술관 진흥위원회 위원
+    en: Member of the Museum and Art Museum Promotion Committee
+- id: research-committee-037
+  kind: committee
+  domain: research
+  title:
+    ko: 박물관·미술관 등록 심의위원회 위원
+    en: Member of the Museum and Art Museum Registration Review Committee
+  period:
+    start: '2023-01-01'
+    precision: day
+    end: '2024-12-31'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2023년 01월 01일 ~ 2024년 12월 31일, 박물관·미술관 등록 심의위원회 위원, 강원도청
+    en: January 1, 2023 – December 31, 2024; Member of the Museum and Art Museum Registration
+      Review Committee; Gangwon Provincial Government
+  org:
+  - org-3f738ba84d
+- id: research-committee-038
+  kind: committee
+  domain: research
+  title:
+    ko: 경관위원회 위원
+    en: Member of the Landscape Committee
+  period:
+    start: '2021-11-01'
+    precision: day
+    end: '2025-10-31'
+    ongoing: false
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - 2021년 11월 01일 ~ 2023년 10월 31일
+  - 2023년 11월 01일 ~ 2025년 10월 31일
+  description:
+    ko: 2021년 11월 01일 ~ 2025년 10월 31일, 경관위원회 위원, 밀양시청
+    en: November 1, 2021 – October 31, 2025; Member of the Landscape Committee; Miryang
+      City Government
+  org:
+  - org-a9bc433459
+  details_en:
+  - November 1, 2021 – October 31, 2023
+  - November 1, 2023 – October 31, 2025
+- id: research-committee-039
+  kind: committee
+  domain: research
+  title:
+    ko: 자문위원
+    en: Advisory Committee Member
+  period:
+    start: '2021-09-01'
+    precision: day
+    end: '2021-12-31'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2021년 09월 01일 ~ 12월 31일, 자문위원, 경남대학교 디지털시민성연구단
+    en: September 1, 2021 – December 31, 2021; Advisory Committee Member; Digital
+      Citizenship Research Group, Kyungnam University
+  org:
+  - org-9ebc73a3f5
+- id: research-committee-040
+  kind: committee
+  domain: research
+  title:
+    ko: 자문위원
+    en: Advisory Committee Member
+  period:
+    start: '2021-04-01'
+    precision: day
+    end: '2022-03-31'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2021년 04월 01일 ~ 2022년 03월 31일, 자문위원, 경남대학교 인공지능편향성최적화연구단; 경남대학교 인공지능윤리연구센터
+    en: April 1, 2021 – March 31, 2022; Advisory Committee Member; AI Bias Optimization
+      Research Group, Kyungnam University; AI Ethics Research Center, Kyungnam University
+  org:
+  - org-8557c78e8b
+  - org-0cb9c2ca14
+- id: research-committee-041
+  kind: committee
+  domain: research
+  title:
+    ko: 평가위원회 위원
+    en: Evaluation Committee Member
+  period:
+    start: '2021-12-22'
+    precision: day
+    end: '2021-12-25'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - 동물보호과 「야생동물 생태학습장 전시설계 및 전시물 제작 설치」용역 제안서 평가위원회
+  description:
+    ko: 2021년 12월 22일 ~ 25일, 평가위원회 위원, 경기도청
+    en: December 22, 2021 – December 25, 2021; Evaluation Committee Member; Gyeonggi
+      Provincial Government
+  org:
+  - org-fa7dea818d
+  details_en:
+  - 'Animal Protection Division: Proposal evaluation for exhibition design and exhibit
+    production and installation at the Wildlife Ecological Learning Center'
+- id: research-committee-042
+  kind: committee
+  domain: research
+  title:
+    ko: 평가위원회 위원
+    en: Evaluation Committee Member
+  period:
+    start: '2021-10-08'
+    precision: day
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - 자치행정과 「2021년 금산군 공직자 마인드향상교육 용역」평가위원 선정 알림 및 평가위원회
+  description:
+    ko: 2021년 10월 08일, 평가위원회 위원, 금산군청
+    en: October 8, 2021; Evaluation Committee Member; Geumsan County Government
+  org:
+  - org-d0312b8391
+  details_en:
+  - 'Local Administration Division: Evaluation committee for the 2021 Geumsan County
+    Public Officials’ Mindset Improvement Training Service'
+- id: research-committee-043
+  kind: committee
+  domain: research
+  title:
+    ko: 평가위원회 위원
+    en: Evaluation Committee Member
+  period:
+    start: '2021-10-01'
+    precision: day
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - 「평창군 국제문화예술행사 개최도시 시각이미지 개선사업」 제안서 평가위원회
+  description:
+    ko: 2021년 10월 01일, 평가위원회 위원, 평창군문화예술재단
+    en: October 1, 2021; Evaluation Committee Member; Pyeongchang Cultural Foundation
+  org:
+  - org-6f2bf71586
+  details_en:
+  - Proposal evaluation for the Pyeongchang County Visual Identity Improvement Project
+    as a Host City for International Cultural and Arts Events
+- id: research-committee-044
+  kind: committee
+  domain: research
+  title:
+    ko: 출제위원
+    en: Examination Question Writer
+  period:
+    start: 2015-04
+    precision: month
+    end: 2017-02
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - 2015년 04월 20일 ~ 10월 06일
+  - 2016년 02월 01일 ~ 10월 05일
+  description:
+    ko: 2015년 04월 ~ 2017년 02월, 출제위원, 대학수학능력시험 모의고사 국어영역 인문·예술 부문, ㈜이매진C&E; 상상국어평가연구소
+    en: April 2015 – February 2017; Examination Question Writer; Humanities and Arts
+      Section, Korean Language CSAT Mock Examinations, Imagine C&E; Sangsang Korean
+      Language Assessment Institute
+  org:
+  - org-e08538faae
+  - org-52335334d5
+  details_en:
+  - April 20 – October 6, 2015
+  - February 1 – October 5, 2016
+- id: research-committee-045
+  kind: committee
+  domain: research
+  title:
+    ko: 출제위원
+    en: Examination Question Writer
+  period:
+    start: 2012-01
+    precision: month
+    end: 2012-03
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2012년 01월 ~ 03월, 출제위원, 졸업인증 고전독서 문항 개발, 세종대학교 교수학습개발센터
+    en: January 2012 – March 2012; Examination Question Writer; Graduation Certification
+      Classics Reading Question Development, Center for Teaching and Learning, Sejong
+      University
+  org:
+  - org-860c0b7ebc
+- id: research-activity-046
+  kind: activity
+  domain: research
+  title:
+    ko: 사무국장
+    en: Secretary-General
+  period:
+    start: 2020-09
+    precision: month
+    end: 2021-02
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2020년 09월 ~ 2021년 2월, 사무국장, 한국포스트휴먼학회
+    en: September 2020 – February 2021; Secretary-General; Korean Society of Posthuman
+      Studies
+  org:
+  - org-4c1f39d3ef
+- id: research-activity-047
+  kind: activity
+  domain: research
+  title:
+    ko: 연구원
+    en: Researcher
+  period:
+    start: '2016-07-13'
+    precision: day
+    end: '2016-10-12'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - 편집간사, 포스트휴먼총서 1권 『포스트휴먼 시대의 휴먼』(아카넷), 포스트휴먼연구소
+  description:
+    ko: 2016년 07월 13일 ~ 10월 12일, 연구원, 한국포스트휴먼연구소
+    en: July 13, 2016 – October 12, 2016; Researcher; Institute of Posthuman Studies,
+      Korea
+  org:
+  - org-969edd6dd3
+  details_en:
+  - Editorial Secretary, The Human in the Posthuman Era, Volume 1 of the Posthuman
+    Series (Acanet), Institute of Posthuman Studies
+- id: research-activity-048
+  kind: activity
+  domain: research
+  title:
+    ko: 총무간사
+    en: General Affairs Secretary
+  period:
+    start: 2014-12
+    precision: month
+    end: 2015-12
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2014년 12월 ~ 2015년 12월, 총무간사, 한국윤리학회
+    en: December 2014 – December 2015; General Affairs Secretary; Korean Ethics Association
+  org:
+  - org-0cf7a04d9f
+- id: research-teaching-049
+  kind: teaching
+  domain: research
+  title:
+    ko: 나섬아시아청소년학교와 함께하는 생성형 AI 활용 교육 (AI 예술편) 강사
+    en: Instructor, Generative AI Education with Nasom Asia Youth School (AI Art)
+  period:
+    start: '2025-07-17'
+    precision: day
+    end: '2025-07-23'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2025년 07월 17일 ~ 23일, 나섬아시아청소년학교와 함께하는 생성형 AI 활용 교육 (AI 예술편) 강사, 광진정보도서관
+    en: July 17, 2025 – July 23, 2025; Instructor, Generative AI Education with Nasom
+      Asia Youth School (AI Art); Gwangjin Information Library
+  org:
+  - org-935fdfae8e
+- id: research-teaching-050
+  kind: teaching
+  domain: research
+  title:
+    ko: 고대 그리스 예술 특강
+    en: Special Lecture on Ancient Greek Art
+  period:
+    start: '2025-07-09'
+    precision: day
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2025년 07월 09일, 고대 그리스 예술 특강, 숲나학교
+    en: July 9, 2025; Special Lecture on Ancient Greek Art; Supna School
+  org:
+  - org-7b4d3908e6
+- id: research-teaching-051
+  kind: teaching
+  domain: research
+  title:
+    ko: '몽골학교와 함께하는 다문화 프로그램: 생각을 그림으로! 인공지능(AI)으로 예술하기 강사'
+    en: 'Instructor, Multicultural Program with the Mongolian School: Turning Ideas
+      into Images through AI Art'
+  period:
+    start: '2024-09-14'
+    precision: day
+    end: '2024-10-12'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: '2024년 09월 14일 ~ 10월 12일, 몽골학교와 함께하는 다문화 프로그램: 생각을 그림으로! 인공지능(AI)으로 예술하기 강사
+      , 광진정보도서관'
+    en: 'September 14, 2024 – October 12, 2024; Instructor, Multicultural Program
+      with the Mongolian School: Turning Ideas into Images through AI Art; Gwangjin
+      Information Library'
+  org:
+  - org-935fdfae8e
+- id: research-teaching-052
+  kind: teaching
+  domain: research
+  title:
+    ko: 나섬아시아청소년학교와 함께하는 생성형 AI 활용 교육 (AI 예술편) 강사
+    en: Instructor, Generative AI Education with Nasom Asia Youth School (AI Art)
+  period:
+    start: '2024-07-05'
+    precision: day
+    end: '2024-07-22'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2024년 07월 05일 ~ 22일, 나섬아시아청소년학교와 함께하는 생성형 AI 활용 교육 (AI 예술편) 강사, 광진정보도서관
+    en: July 5, 2024 – July 22, 2024; Instructor, Generative AI Education with Nasom
+      Asia Youth School (AI Art); Gwangjin Information Library
+  org:
+  - org-935fdfae8e
+- id: research-teaching-053
+  kind: teaching
+  domain: research
+  title:
+    ko: 인문·예술 강사
+    en: Humanities and Arts Instructor
+  period:
+    start: '2022'
+    precision: year
+    end: '2023'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2022년 ~ 2023년, 인문·예술 강사, 강남점, 신세계백화점 신세계 아카데미
+    en: 2022 – 2023; Humanities and Arts Instructor; Shinsegae Academy, Gangnam Branch,
+      Shinsegae Department Store
+  org:
+  - org-48c9664e38
+- id: research-teaching-054
+  kind: teaching
+  domain: research
+  title:
+    ko: 인문·예술 강사
+    en: Humanities and Arts Instructor
+  period:
+    start: '2022'
+    precision: year
+    end: '2023'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - 22년 겨울학기
+  description:
+    ko: 2022년 ~ 2023년, 인문·예술 강사, 압구정본점 CH1985, 현대백화점 문화센터
+    en: 2022 – 2023; Humanities and Arts Instructor; CH1985, Hyundai Department Store,
+      Apgujeong Main Store
+  details_en:
+  - Winter semester 2022
+- id: research-teaching-055
+  kind: teaching
+  domain: research
+  title:
+    ko: 인문·예술 강사
+    en: Humanities and Arts Instructor
+  period:
+    start: 2022-04
+    precision: month
+    end: 2022-05
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - 강의안내, 대구일보, 대구신문
+  - 2022년 04월 14일 1 2
+  - 2022년 05월 19일
+  description:
+    ko: 2022년 04월 ~ 05월, 인문·예술 강사, 수성아트피아
+    en: April 2022 – May 2022; Humanities and Arts Instructor; Suseong Artpia
+  org:
+  - org-fc12cedc07
+  details_en:
+  - 'Course announcements: Daegu Ilbo and Daegu Newspaper'
+  - April 14, 2022 (two source links)
+  - May 19, 2022
+- id: research-teaching-056
+  kind: teaching
+  domain: research
+  title:
+    ko: 독서 아카데미> 강사
+    en: Reading Academy Instructor
+  period:
+    start: '2021'
+    precision: year
+    end: '2022'
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details:
+  - 2021년 06월 17일 ~ 07월 01일, 3회, <미학 개론, 예술로 사유하기>
+  - 2022년 06월 22일 ~ 09월 28일, 9회, <철학, 인간을 완성하다>
+  - '2022년 11월 29일 ~ 12월 13일, 3회, <철학자들: 철학을 읽는 자들>'
+  description:
+    ko: 2021년 ~ 2022년, <독서 아카데미> 강사, 중곡문화체육센터도서관
+    en: 2021 – 2022; Reading Academy Instructor; Junggok Culture and Sports Center
+      Library
+  org:
+  - org-1c37042f15
+  details_en:
+  - 'June 17 – July 1, 2021: Introduction to Aesthetics—Thinking through Art (3 sessions)'
+  - 'June 22 – September 28, 2022: Philosophy Completes the Human Being (9 sessions)'
+  - 'November 29 – December 13, 2022: Philosophers—Those Who Read Philosophy (3 sessions)'
+- id: research-teaching-057
+  kind: teaching
+  domain: research
+  title:
+    ko: 교수
+    en: Assistant Professor at Kyungnam University
+  period:
+    start: 2021-04
+    precision: month
+    end: 2022-07
+  weight: 1
+  status: active
+  visibility: public
+  links: []
+  details:
+  - 2021년 04월 01일 ~ 2022년 03월 31일, 교양교육연구소 조교수, 경남대학교
+  - 처음만나는미학과예술(3)
+  - 2022년 04월 01일 ~ 2022년 07월 31일, 교양융합대학 아레테교육부 조교수, 경남대학교
+  - 아레테고전강독(새로운아틀란티스)(3)
+  description:
+    ko: 2021년 04월 ~ 2022년 07월, 교수, 경남대학교
+    en: April 2021 – July 2022; Assistant Professor at Kyungnam University; Kyungnam
+      University
+  org:
+  - org-5779c824a5
+  recent: true
+  recent_order: 3
+  details_en:
+  - Assistant Professor, Institute of Liberal Arts Education, Kyungnam University
+    | April 1, 2021 – March 31, 2022
+  - Introduction to Aesthetics and Art (3 credits)
+  - Assistant Professor, Arete Education Department, College of Liberal Arts and Convergence,
+    Kyungnam University | April 1 – July 31, 2022
+  - 'Arete Classics Reading: New Atlantis (3 credits)'
+  recent_label:
+    ko: 교수
+    en: Assistant Professor at Kyungnam University
+- id: misc-activity-077
+  kind: activity
+  domain: misc
+  title:
+    ko: 한국 멘사 정회원
+    en: Member of Mensa Korea
+  period:
+    start: 2014-08
+    precision: month
+    ongoing: true
+  weight: 2
+  status: active
+  visibility: public
+  links: []
+  details: []
+  description:
+    ko: 2014년 08월부터, 한국 멘사 정회원, 멘사 코리아
+    en: August 2014 – Present; Member of Mensa Korea; Mensa Korea
+  org:
+  - org-ac7f732bf1

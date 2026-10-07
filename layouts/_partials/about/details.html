@@ -1,0 +1,3 @@
+{{- $details := .item.details | default slice -}}
+{{- if and (eq .lang "en") .item.details_en -}}{{- $details = .item.details_en -}}{{- end -}}
+{{- return $details -}}

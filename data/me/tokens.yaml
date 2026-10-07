@@ -1,0 +1,9 @@
+serif: Hahmlet, Georgia, serif
+sans: system-ui, Arial, sans-serif
+body: '#212529'
+muted: '#595c5f'
+accent: '#b02a37'
+dark_body: '#dee2e6'
+dark_muted: '#adb5bd'
+dark_accent: '#ea868f'
+grid: 8

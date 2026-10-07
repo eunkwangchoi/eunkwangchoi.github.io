@@ -1,0 +1,8 @@
+{{- $records := slice -}}
+{{- range . -}}
+  {{- $key := .date | default .period.start | default "0000" -}}
+  {{- $records = $records | append (merge . (dict "sort_date" (printf "%v" $key))) -}}
+{{- end -}}
+{{- $dated := sort $records "sort_date" "desc" -}}
+{{- $manual := sort (where $dated "sort" "ne" nil) "sort" -}}
+{{- return ($manual | collections.Append (where $dated "sort" "eq" nil)) -}}

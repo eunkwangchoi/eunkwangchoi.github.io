@@ -101,11 +101,11 @@ ignoreLogs = ['warning-goldmark-raw-html']
   threshold = 80
   toLower = false
   [[related.indices]]
-    name = 'arts' 
+    name = 'arts'
     type = 'fragments'
     weight = 1
   [[related.indices]]
-    name = 'techs'  
+    name = 'techs'
     type = 'fragments'
     weight = 1
   [[related.indices]]
@@ -125,7 +125,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
     label = 'English'
     timeZone = 'America/New_York'
     weight = 1
-    [languages.en.params]    
+    [languages.en.params]
       author = 'Eunkwang Ryan Choi'
       description = 'Eunkwang Ryan Choi -- Artist, Writer, and Researcher'
       location = ["Seoul", "South Korea"]
@@ -179,3 +179,28 @@ ignoreLogs = ['warning-goldmark-raw-html']
   disable = false
   filename = 'sitemap.xml'
   priority = -1
+# About uses page parameters for CV languages; existing blog languages stay intact.
+[mediaTypes."text/vcard"]
+  suffixes = ["vcf"]
+[outputFormats.PROFILE]
+  mediaType = "application/json"
+  baseName = "profile"
+  isPlainText = true
+[outputFormats.VCARD]
+  mediaType = "text/vcard"
+  baseName = "ryan"
+  isPlainText = true
+[outputFormats.CVJSON]
+  mediaType = "application/json"
+  baseName = "cv"
+  isPlainText = true
+[[module.mounts]]
+  source = "themes/write-only/content"
+  target = "content"
+files = ["! about.en.md"]
+[[module.mounts]]
+  source = "content"
+  target = "content"
+
+[module.hugoVersion]
+  min = "0.167.0"

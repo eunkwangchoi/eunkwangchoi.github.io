@@ -1,0 +1,103 @@
+mode: local
+kit: https://use.typekit.net/zfy4plf.css
+web_pdf_permitted: false
+roles:
+  display:
+    family: CV-display
+    local_name: MrEavesXLModOT-Heavy
+    weight: 800
+    style: normal
+    langs:
+    - ko
+    - en
+    source: local
+  contact:
+    family: CV-contact
+    local_name: MrEavesXLSanOT-Reg
+    weight: 400
+    style: normal
+    langs:
+    - ko
+    - en
+    source: local
+  light:
+    family: CV-light
+    local_name: NewFrank-Light
+    weight: 300
+    style: normal
+    langs:
+    - ko
+    - en
+    source: local
+  label_en:
+    family: CV-label-en
+    local_name: MrEavesXLSanOT-Bold
+    weight: 700
+    style: normal
+    langs:
+    - en
+    source: local
+  body_en:
+    family: CV-body-en
+    local_name: NewFrank-Regular
+    weight: 400
+    style: normal
+    langs:
+    - en
+    source: local
+  italic_en:
+    family: CV-italic-en
+    local_name: NewFrank-RegularItalic
+    weight: 400
+    style: italic
+    langs:
+    - en
+    source: local
+  strong_en:
+    family: CV-strong-en
+    local_name: NewFrank-Medium
+    weight: 500
+    style: normal
+    langs:
+    - en
+    source: local
+  strong_italic_en:
+    family: CV-strong-italic-en
+    local_name: NewFrank-MediumItalic
+    weight: 500
+    style: italic
+    langs:
+    - en
+    source: local
+  date_en:
+    family: CV-date-en
+    local_name: NewFrank-Bold
+    weight: 700
+    style: normal
+    langs:
+    - en
+    source: local
+  body_ko:
+    family: CV-body-ko
+    local_name: KoPubWorldBatangPL
+    weight: 300
+    style: normal
+    langs:
+    - ko
+    source: local
+  strong_ko:
+    family: CV-strong-ko
+    local_name: KoPubWorldBatangPB
+    weight: 700
+    style: normal
+    langs:
+    - ko
+    source: local
+  section_ko:
+    family: CV-section-ko
+    local_name: NanumGothicOTFExtraBold
+    weight: 800
+    style: normal
+    langs:
+    - ko
+    source: local

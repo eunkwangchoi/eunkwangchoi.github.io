@@ -1,0 +1,10 @@
+{
+ "compilerOptions": {
+  "paths": {
+   "*": [
+    "..\\themes\\write-only\\_vendor\\github.com\\twbs\\bootstrap\\js\\*",
+    "..\\themes\\write-only\\assets\\*"
+   ]
+  }
+ }
+}

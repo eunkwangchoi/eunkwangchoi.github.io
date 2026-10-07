@@ -1,0 +1,18 @@
+{
+  "name": "the-texts-about",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check:about": "python scripts/validate_about.py",
+    "build:pdf": "node scripts/build_cv_pdf.mjs",
+    "test:about": "python -m unittest discover -s tests",
+    "build": "python scripts/run_hugo.py",
+    "check:toolchain": "python scripts/run_hugo.py --check",
+    "setup:sass": "python scripts/setup_sass.py"
+  },
+  "dependencies": {
+    "citeproc": "2.4.63",
+    "pagedjs": "0.4.3",
+    "playwright": "1.58.2"
+  }
+}

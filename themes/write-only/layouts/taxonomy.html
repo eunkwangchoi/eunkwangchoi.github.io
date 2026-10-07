@@ -16,7 +16,7 @@
       {{ .Content }}
 
       {{/* Use the top-level Scratch to check for the delimiter */}}
-      {{ $sc := $.Scratch }}
+      {{ $sc := $.Store }}
       {{ $sc.Set "hasDelimiter" false }}
       {{ range .Data.Terms.Alphabetical }}
         {{ if in .Page.LinkTitle "/ " }}

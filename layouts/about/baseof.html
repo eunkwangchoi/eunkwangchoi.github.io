@@ -1,0 +1,39 @@
+{{- if not .Params.aboutProject -}}{{- template "legacy-history" . -}}{{- else -}}
+<!DOCTYPE html>
+<html class="about-project" lang="{{ site.Language.Name }}" data-bs-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} | {{ site.Title }}</title>
+  <meta name="description" content="{{ hugo.Data.me.profile.tagline }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ partial "head/_favicons.html" . }}
+  {{ partial "head/_resources.html" . }}
+  {{ $css := resources.Get "about/about.css" }}<style>{{ $css.Content | safeCSS }}</style>
+  {{ $images := partialCached "about/images.html" "about" }}
+  <meta property="og:url" content="{{ .Permalink }}"><meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:title" content="{{ .Title }}"><meta property="og:description" content="{{ hugo.Data.me.profile.tagline }}">
+  <meta property="og:type" content="profile"><meta property="og:image" content="{{ $images.og | absURL }}">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{{ $images.og | absURL }}">
+  {{ if eq .Layout "cv" }}<link rel="alternate" hreflang="ko" href="{{ "about/cv/" | absURL }}"><link rel="alternate" hreflang="en" href="{{ "about/cv/en/" | absURL }}">{{ end }}
+  {{ $same := slice }}{{ range where hugo.Data.me.links "rel_me" true }}{{ $same = $same | append .url }}{{ end }}
+  {{ $person := dict "@context" "https://schema.org" "@type" "Person" "name" hugo.Data.me.profile.name.full_en "alternateName" hugo.Data.me.profile.name.ko "image" ($images.avatar | absURL) "url" ("about/" | absURL) "jobTitle" hugo.Data.me.profile.tagline "sameAs" $same }}
+  <script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+  {{ partial "shared/header.html" . }}
+  <main class="container flex-grow-1 about-shell" lang="{{ .Params.cvlang | default "ko" }}">{{ block "main" . }}{{ end }}</main>
+  {{ partial "shared/footer.html" . }}
+</body></html>
+{{ end }}
+{{- define "legacy-history" -}}
+<!DOCTYPE html>
+<html lang="{{ site.Language.Name }}" data-bs-theme="light">
+  {{ partial "head/head.html" . }}
+  <body class="d-flex flex-column min-vh-100">
+    {{- partial "shared/header.html" . -}}
+    {{- template "main" . -}}
+    {{- partial "shared/footer.html" . -}}
+    {{- partial "ints/naveranalytics.html" . -}}
+  </body>
+</html>
+{{ end -}}

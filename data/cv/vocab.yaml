@@ -1,0 +1,416 @@
+domains:
+- art
+- literature
+- research
+- misc
+kinds:
+- education
+- award
+- scholarship
+- grant
+- position
+- committee
+- teaching
+- ta
+- exhibition
+- activity
+- certificate
+- training
+- volunteer
+- military
+- language
+work_types:
+- book
+- article
+- thesis
+- column
+- essay
+- report
+- talk
+- artwork
+- webnovel
+media_types:
+- report
+- interview
+- review
+- video
+- listing
+labels:
+  art: Art
+  research: Ref
+  literature: Etc
+  misc: Etc
+brackets:
+  book:
+  - 《
+  - 》
+  journal:
+  - 《
+  - 》
+  article:
+  - 「
+  - 」
+  column:
+  - 「
+  - 」
+  essay:
+  - 「
+  - 」
+  report:
+  - 「
+  - 」
+  artwork:
+  - 〈
+  - 〉
+kind_labels:
+  education:
+    ko: 학력
+    en: EDUCATION
+  award:
+    ko: 수상
+    en: AWARDS
+  scholarship:
+    ko: 장학
+    en: SCHOLARSHIPS
+  grant:
+    ko: 사업
+    en: PROJECTS
+  position:
+    ko: 경력
+    en: POSITIONS
+  committee:
+    ko: 자문
+    en: ADVISORY COMMITTEE
+  teaching:
+    ko: 강의
+    en: LECTURES
+  ta:
+    ko: 조교
+    en: TEACHING ASSISTANT
+  exhibition:
+    ko: 전시
+    en: EXHIBITIONS
+  activity:
+    ko: 활동
+    en: ACTIVITIES
+  certificate:
+    ko: 자격
+    en: CERTIFICATES
+  training:
+    ko: 연수
+    en: TRAINING
+  volunteer:
+    ko: 봉사
+    en: VOLUNTEERING ACTIVITIES
+  military:
+    ko: 병역
+    en: MILITARY
+  language:
+    ko: 언어
+    en: LANGUAGES
+  book:
+    ko: 출간
+    en: PUBLICATIONS (PRINT & ELECTRONIC)
+  article:
+    ko: 논문
+    en: PAPER PUBLISHED
+  thesis:
+    ko: 학위논문
+    en: THESES
+  column:
+    ko: 칼럼
+    en: COLUMNS
+  essay:
+    ko: 수필
+    en: ESSAYS
+  report:
+    ko: 기사
+    en: REPORTS
+  talk:
+    ko: 발표
+    en: CONFERENCES
+  artwork:
+    ko: 작품
+    en: ARTWORKS
+  webnovel:
+    ko: 웹소설
+    en: WEB NOVELS
+domain_labels:
+  art:
+    ko: 경력 | 아티스트
+    en: CAREER/ VISUAL ARTS
+  literature:
+    ko: 경력 | 작가
+    en: CAREER/ LITERATURE
+  research:
+    ko: 경력 | 연구자
+    en: CAREER/ RESEARCH
+  misc:
+    ko: 기타
+    en: OTHER
+  volunteer:
+    ko: 봉사
+    en: VOLUNTEERING ACTIVITIES
+  education:
+    ko: 학력
+    en: EDUCATION
+sections:
+  web:
+  - id: current
+    title:
+      ko: 현직
+      en: Current
+    source: current
+  - id: education
+    title:
+      ko: 학력
+      en: EDUCATION
+    source: entries
+    kinds:
+    - education
+  - id: award
+    title:
+      ko: 수상
+      en: AWARDS
+    source: entries
+    kinds:
+    - award
+  - id: scholarship
+    title:
+      ko: 장학
+      en: SCHOLARSHIPS
+    source: entries
+    kinds:
+    - scholarship
+  - id: grant
+    title:
+      ko: 사업
+      en: PROJECTS
+    source: entries
+    kinds:
+    - grant
+  - id: position
+    title:
+      ko: 경력
+      en: POSITIONS
+    source: entries
+    kinds:
+    - position
+  - id: committee
+    title:
+      ko: 자문
+      en: ADVISORY COMMITTEE
+    source: entries
+    kinds:
+    - committee
+  - id: teaching
+    title:
+      ko: 강의
+      en: LECTURES
+    source: entries
+    kinds:
+    - teaching
+  - id: ta
+    title:
+      ko: 조교
+      en: TEACHING ASSISTANT
+    source: entries
+    kinds:
+    - ta
+  - id: exhibition
+    title:
+      ko: 전시
+      en: EXHIBITIONS
+    source: entries
+    kinds:
+    - exhibition
+  - id: activity
+    title:
+      ko: 활동
+      en: ACTIVITIES
+    source: entries
+    kinds:
+    - activity
+  - id: certificate
+    title:
+      ko: 자격
+      en: CERTIFICATES
+    source: entries
+    kinds:
+    - certificate
+  - id: training
+    title:
+      ko: 연수
+      en: TRAINING
+    source: entries
+    kinds:
+    - training
+  - id: volunteer
+    title:
+      ko: 봉사
+      en: VOLUNTEERING ACTIVITIES
+    source: entries
+    kinds:
+    - volunteer
+  - id: military
+    title:
+      ko: 병역
+      en: MILITARY
+    source: entries
+    kinds:
+    - military
+  - id: language
+    title:
+      ko: 언어
+      en: LANGUAGES
+    source: entries
+    kinds:
+    - language
+  - id: books
+    title:
+      ko: 출간
+      en: Books
+    source: works
+    types:
+    - book
+    - webnovel
+  - id: papers
+    title:
+      ko: 논문·발표
+      en: Research
+    source: works
+    types:
+    - article
+    - thesis
+    - talk
+  - id: writings
+    title:
+      ko: 글
+      en: Writings
+    source: writings
+    types:
+    - column
+    - essay
+    - report
+  - id: press
+    title:
+      ko: Press
+      en: Press
+    source: media
+    types:
+    - report
+    - interview
+  - id: other-media
+    title:
+      ko: 기타 매체
+      en: Other media
+    source: media
+    types:
+    - review
+    - video
+    - listing
+  pdf:
+    ko:
+    - domain: education
+      kinds:
+      - education
+    - domain: art
+      kinds:
+      - award
+      - grant
+      - position
+      - exhibition
+      - artwork
+      - activity
+      - column
+      - report
+    - domain: literature
+      kinds:
+      - award
+      - grant
+      - book
+      - webnovel
+      - column
+      - essay
+      - report
+      - certificate
+    - domain: research
+      kinds:
+      - award
+      - scholarship
+      - grant
+      - activity
+      - article
+      - thesis
+      - talk
+      - teaching
+      - committee
+      - position
+    - domain: misc
+      kinds:
+      - book
+      - award
+      - position
+      - activity
+      - teaching
+      - ta
+      - certificate
+      - training
+      - military
+      - language
+      - essay
+    - domain: volunteer
+      kinds:
+      - volunteer
+    en:
+    - domain: education
+      kinds:
+      - education
+    - domain: art
+      kinds:
+      - award
+      - grant
+      - position
+      - exhibition
+      - artwork
+      - activity
+      - column
+      - report
+    - domain: literature
+      kinds:
+      - award
+      - grant
+      - book
+      - webnovel
+      - column
+      - essay
+      - report
+      - certificate
+    - domain: research
+      kinds:
+      - award
+      - scholarship
+      - grant
+      - activity
+      - article
+      - thesis
+      - talk
+      - teaching
+      - committee
+      - position
+    - domain: misc
+      kinds:
+      - book
+      - award
+      - position
+      - activity
+      - teaching
+      - ta
+      - certificate
+      - training
+      - military
+      - language
+      - essay
+    - domain: volunteer
+      kinds:
+      - volunteer

@@ -1,0 +1,14 @@
+{{ $i := .item }}{{ $lang := .lang }}{{ $cv := .cv }}{{ $link := partial "about/link.html" $i }}
+{{ $cited := false }}{{ with hugo.Data.generated }}{{ with index .citations $i.id }}{{ $cited = true }}{{ end }}{{ end }}
+<li data-cv-id="{{ $i.id }}">
+  {{ with $i.role }}{{ if and (eq $lang "en") (ne . "author") }}{{ . }}, {{ end }}{{ end }}
+  {{ if $link.url }}<a href="{{ $link.url }}">{{ partial "about/citation.html" (dict "item" $i "lang" $lang) }}</a>{{ else }}{{ partial "about/citation.html" (dict "item" $i "lang" $lang) }}{{ end }}
+  {{ range $i.org }}{{ $org := index $cv.orgs . }}, {{ index $org.name $lang | default $org.name.ko }}{{ end }}
+  {{ if not $cited }}{{ range $i.publisher }}{{ $org := index $cv.orgs . }}, {{ index $org.name $lang | default $org.name.ko }}{{ end }}{{ end }}
+  {{ with $i.outlet }}{{ $org := index $cv.orgs . }}, {{ index $org.name $lang | default $org.name.ko }}{{ end }}
+  {{ $extent := $i.extent }}{{ if eq $lang "en" }}{{ $extent = $i.extent_en | default $i.extent }}{{ end }}{{ with $extent }}, {{ . }}{{ end }}{{ if not $cited }}{{ with $i.ids.isbn }}, ISBN {{ . }}{{ end }}{{ with $i.pages }}, {{ . }}{{ end }}{{ end }}
+  {{ if and (eq $lang "en") $i.amount_display_en }}, {{ $i.amount_display_en }}{{ else }}{{ with $i.amount }}, {{ if eq $lang "ko" }}{{ if eq .currency "KRW" }}₩{{ else }}${{ end }}{{ lang.FormatNumber 0 .value }}{{ else }}{{ lang.FormatNumber 0 .value }} {{ .currency }}{{ end }}{{ if eq .scope "project" }} ({{ if eq $lang "ko" }}사업 총액{{ else }}project total{{ end }}){{ end }}{{ end }}{{ end }}
+  <span class="pdf-date"> | {{ partial "about/date.html" (dict "period" $i.period "date" $i.date "lang" $lang) }}</span>
+  {{ if $link.archived }} ({{ if eq $lang "ko" }}보존본{{ else }}archived{{ end }}){{ end }}
+  {{ with partial "about/details.html" (dict "item" $i "lang" $lang) }}<ul class="pdf-sublist">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+</li>

@@ -1,0 +1,24 @@
+{{- $entries := slice -}}{{- $works := slice -}}{{- $media := slice -}}
+{{- range hugo.Data.cv.entries -}}{{- range . -}}
+  {{- if and (ne .visibility "private") (not (in (slice "draft" "cancelled") .status)) -}}{{- $entries = $entries | append . -}}{{- end -}}
+{{- end -}}{{- end -}}
+{{- range hugo.Data.cv.works -}}{{- range . -}}
+  {{- if and (ne .visibility "private") (not (in (slice "draft" "cancelled") .status)) -}}{{- $works = $works | append . -}}{{- end -}}
+{{- end -}}{{- end -}}
+{{- /* Collect from all language sites; an explicit cv id is globally unique. */ -}}
+{{- range hugo.Sites -}}{{- range .Pages -}}
+  {{- $page := . -}}{{- with .Params.cv -}}
+    {{- if and (ne .visibility "private") (not (in (slice "draft" "cancelled") .status)) -}}
+      {{- $id := .id | default (printf "archive-%s" (substr (crypto.SHA256 $page.File.Path) 0 16)) -}}
+      {{- $title := dict "ko" (.title_ko | default $page.Title) -}}{{- with .title_en -}}{{- $title = merge $title (dict "en" .) -}}{{- end -}}
+      {{- $date := $page.Date.Format "2006-01-02" -}}{{- with .year -}}{{- $date = . -}}{{- end -}}
+      {{- $record := merge . (dict "id" $id "title" $title "date" $date "archive_url" $page.RelPermalink "links" (slice (dict "url" $page.RelPermalink "rel" "repository" "status" "live")) "source" $page.File.Path "visibility" "public") -}}
+      {{- $works = $works | append $record -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}{{- end -}}
+{{- range hugo.Data.cv.media -}}
+  {{- if and (ne .visibility "private") (not (in (slice "draft" "cancelled") .status)) -}}{{- $media = $media | append . -}}{{- end -}}
+{{- end -}}
+{{- $orgs := dict -}}{{- range hugo.Data.cv.orgs -}}{{- $orgs = merge $orgs (dict .id .) -}}{{- end -}}
+{{- return (dict "schema_version" 1 "profile" hugo.Data.me.profile "tokens" hugo.Data.me.tokens "vocab" hugo.Data.cv.vocab "orgs" $orgs "series" hugo.Data.cv.series "entries" $entries "works" $works "media" $media "updated" hugo.Data.me.profile.updated) -}}

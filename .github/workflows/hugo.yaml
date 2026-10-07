@@ -31,8 +31,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.164.0
-      DART_SASS_VERSION: 1.101.0
+      HUGO_ENVIRONMENT: production
+      HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
 
     steps:
       - name: Checkout
@@ -44,6 +44,11 @@ jobs:
       - name: Create local bin directory
         run: |
           mkdir -p "${HOME}/.local"
+
+      - name: Read pinned toolchain versions
+        run: |
+          echo "HUGO_VERSION=$(python3 -c 'import json; print(json.load(open("scripts/toolchain.json"))["hugo"])')" >> "$GITHUB_ENV"
+          echo "DART_SASS_VERSION=$(python3 -c 'import json; print(json.load(open("scripts/toolchain.json"))["dart_sass"])')" >> "$GITHUB_ENV"
 
       - name: Install Dart Sass
         run: |
@@ -68,7 +73,21 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: npm ci --ignore-scripts
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-about.txt
+
+      - name: Validate public About data
+        run: |
+          python -m pip install -r requirements-about.txt
+          python scripts/validate_about.py
+          python -m unittest discover -s tests
+          python scripts/run_hugo.py --check
 
       - name: Build with Hugo
         env:
@@ -76,10 +95,32 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: America/Los_Angeles
         run: |
-          hugo \
+          python scripts/run_hugo.py \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Generate shared citation data and rebuild
+        run: |
+          node scripts/build_citations.mjs
+          python scripts/run_hugo.py --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Build approved PDF variants
+        run: |
+          if python -c "import yaml,sys; sys.exit(0 if yaml.safe_load(open('data/me/profile.yaml'))['pdf']['enabled'] else 1)"; then
+            npx playwright install --with-deps chromium
+            node scripts/build_cv_pdf.mjs
+          fi
+
+      - name: Verify About output and blog isolation
+        run: python scripts/check_about.py
+
+      - name: Save Hugo diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hugo-diagnostics
+          path: .build/hugo-logs/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

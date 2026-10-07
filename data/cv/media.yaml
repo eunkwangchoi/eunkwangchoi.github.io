@@ -1,0 +1,43 @@
+- id: monthlyphoto-interview-2026
+  type: interview
+  title:
+    ko: 월간사진 발행인 김영섭의 초대석
+    en: An Invitation from Kim Young-seop, Publisher of Monthly Photography
+  outlet: monthlyphoto
+  date: 2026-02
+  about: []
+  links:
+  - url: https://eunkwangchoi.com/repos/articles/%EC%9B%94%EA%B0%84%EC%82%AC%EC%A7%84/2602-%EA%B9%80%EC%98%81%EC%84%AD%EC%9D%98-%EC%B4%88%EB%8C%80%EC%84%9D/
+    rel: repository
+    status: live
+  page_title: 월간사진 발행인 김영섭의 초대석
+  visibility: public
+  todo: Existing archive preserved. Original third-party URL and preservation copy
+    pending.
+- id: chyes-2023-06
+  type: interview
+  title:
+    ko: '작가를 위한 프로그램 ‘스크리브너’ 사용법: 스크리브너 무작정 따라하기 최은광 저자 인터뷰'
+    en: 'How to Use Scrivener, a Program for Writers: An Interview with Eunkwang Choi,
+      Author of Scrivener: A Follow-Along Guide'
+  outlet: org-03b6e40f2f
+  date: '2023-06-19'
+  about:
+  - book-scrivener
+  links:
+  - url: https://ch.yes24.com/Article/View/54475
+    rel: original
+  visibility: public
+- id: kukak-2022
+  type: report
+  title:
+    ko: 야옹이랑 사는 건 너무 슬퍼 | 국악신문 보도
+    en: Living with a Cat is So Sad | Kukak Newspaper Report
+  outlet: org-14cf9dfaa7
+  about:
+  - book-yaong
+  links:
+  - url: http://www.kukak21.com/bbs/board.php?bo_table=news&wr_id=31662
+    rel: original
+  visibility: public
+  todo: Source lacks article title and publication date; pending reconciliation.
